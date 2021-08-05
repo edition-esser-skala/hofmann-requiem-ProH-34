@@ -95,7 +95,7 @@
         \new FiguredBass { \IntroitusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }
