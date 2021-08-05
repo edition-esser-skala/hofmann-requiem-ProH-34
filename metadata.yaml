@@ -1,0 +1,16 @@
+composer: Hofmann, Leopold
+title: Requiem in c
+id: ProH 34
+genre: requiem
+scoring: S, A, T, B (coro), 2 clno (C), 2 trb, 2 vl, 2 vla, b, org
+sources:
+  1:
+    siglum: A-Wn
+    shelfmark: F.24.St.Peter.A420
+    type: manuscript copy
+    date: unknown
+    rism:
+    url: http://data.onb.ac.at/rec/AC14273847
+github: hofmann-requiem-ProH-34
+imslp:
+notes:
