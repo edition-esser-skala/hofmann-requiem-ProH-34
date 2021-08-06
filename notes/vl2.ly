@@ -82,3 +82,74 @@ IntroitusViolinoII = {
     g\fermata \bar "|."
   }
 }
+
+KyrieViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/2 \tempoKyrie
+      \set Staff.timeSignatureFraction = 2/2
+    g'2.\fE g4 c,2 g'
+    as2. g4 fis2 fis
+    g2. f4 e2 e
+    f es4 es d1
+    c r4 g'8 a \once \stemUp b4 a8 b %5
+    c4 g c b a b a g
+    fis d e fis g d g f
+    e fis g1 fis2
+    g g es1
+    c2 as' a1 %10
+    g1. g2
+    c,4 d es d8 es f4 as! g f
+    es d c2 r1
+    R\breve*3 %16
+    g'2. g4 c,2 g'
+    as2. g4 fis2 fis
+    g2. f4 e2 e
+    f es4 es d1 %20
+    c4 es8 f g4 f8 g as2. g4
+    f4 d8 es f4 es8 f g2. f4
+    es1 r
+    b' es,2 b'
+    c2. b4 a2 a %25
+    b2. as4 g2 g
+    as g4 g f1
+    es2. es4 f b2 a4
+    g1. g2
+    f1 f2 f %30
+    g f4 f g2 f
+    f1 r2 f
+    g g r g
+    as as2. g4 f es
+    d2 es d2. e4 %35
+    f c f1 e2
+    r4 f8 g as4 g8 as b4 f b as
+    g as g f e c d e
+    f c f es d e f2~
+    f e f4 c f2~ %40
+    f es4 d c1
+    R\breve
+    c'1 f,2 g
+    f1 es2 g
+    as2. g4 f2 f %45
+    g2. f4 es2 es
+    f1. es4 f
+    g1 g
+    r g2. g4
+    c,2 g' g1~ %50
+    g2. f4 es2. es4
+    c2 d d r
+    r g as2. g4
+    fis2 fis g2. f4
+    es1 d~ %55
+    d c4 es8 f g4 f8 g
+    as2. g4 f4 d8 es f4 es8 f
+    g2. f4 es c8 d es4 d8 es
+    f2. es4 d2 es4 f
+    g\breve %60
+    g2 e f1
+    g2. f4 e1
+    f2. es4 d2 des~
+    des c c1~
+    c\fermata c\fermata \bar "|." %65 finis
+  }
+}

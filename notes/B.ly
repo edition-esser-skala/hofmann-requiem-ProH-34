@@ -137,6 +137,129 @@ IntroitusBassoLyrics = \lyricmode {
   is. %76 finis
 }
 
+KyrieBassoNotes = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/2 \autoBeamOff \tempoKyrie
+      \set Staff.timeSignatureFraction = 2/2
+    R\breve*8 %8
+    \mvTr g'2.\fE^\tuttiE g4 c,2 g'
+    as2.( g4) fis2 fis %10
+    g2.( f4) e2 e
+    f es4 es d1
+    c r4 g'8[( a] b4 a8[ b])
+    c4 g c b a b a g
+    fis d e fis g d g f %15
+    e fis g1 fis2
+    g g4.( f8) es4.( d8) c2
+    r1 d
+    g,2 g c1
+    f,2 r4 c' f( as) g f %20
+    es4.( d8) c2 r4 f8([ g] as4 g8[ as)]
+    b2.( as4) g es8([ f] g4 f8[ g)]
+    as1 b~
+    b r4 es,8([ f] g4 f8[ g)]
+    as4 es as g f g f es %25
+    d b c d es f es d
+    c d es1 d2
+    es4 g( f es) d( c) b2
+    r1 c'
+    f,2 f b1 %30
+    es,2 b es4( d8[ es] f4 es
+    d c) b2 r b'4( as)
+    g( f) es2 r c'4( b)
+    as( g) f1 f2
+    g\breve %35
+    f1 c
+    R\breve
+    g'1 c,2 r
+    R\breve
+    r1 f %40
+    c2 g' as2.( g4)
+    fis2 fis g2.( f4)
+    e2 e f es4 es
+    d1 c
+    r2 as' b2.( as4) %45
+    g2 g as2.( g4)
+    f2 f g1~
+    g g
+    R\breve
+    r1 g2. g4 %50
+    c,2 g' as2.( g4)
+    fis2 fis g1~
+    g\breve~
+    g~
+    g~ %55
+    g1 c,2 r
+    r4 f8([ g] as4 g8[ as)] b2.( as4)
+    g es8([ f] g4 f8[ g)] as2.( g4)
+    f d8[( es] f4 es8[ f] g2 c,)
+    g\breve %60
+    c~
+    c~
+    c~
+    c2 c c1~
+    c\fermata c\fermata \bar "|." %65 finis
+  }
+}
+
+KyrieBassoLyrics = \lyricmode {
+  Ky -- ri -- e e -- %9
+  lei -- son, e -- %10
+  lei -- son, e --
+  lei -- son, e -- lei --
+  son, e --
+  lei -- _ _ _ _ _ _ _
+  _ _ _ _ _ _ _ _ %15
+  _ _ _ _
+  son, e -- lei -- son.
+  Chri --
+  ste e -- lei --
+  son, e -- lei -- son, e -- %20
+  lei -- son, e --
+  lei -- son, e --
+  lei -- son, __
+  e --
+  lei -- _ _ _ _ _ _ _ %25
+  _ _ _ _ _ _ _ _
+  _ _ _ _
+  son, e -- lei -- son,
+  Chri --
+  ste e -- lei -- %30
+  son, e -- lei --
+  son, e --
+  lei -- son, e --
+  lei -- son, e --
+  lei -- %35
+  _ son,
+
+  Chri -- ste,
+
+  Chri -- %40
+  ste e -- lei --
+  son, e -- lei --
+  son, e -- lei -- son, e --
+  lei -- son,
+  e -- lei -- %45
+  son, e -- lei --
+  son, e -- lei --
+  son.
+
+  Ky -- ri -- %50
+  e e -- lei --
+  son, e -- lei --
+
+  son, %56
+  e -- lei --
+  son, e -- lei --
+  son, e --
+  lei -- %60
+  son, __
+
+  e -- lei -- %64
+  son. %65 finis
+}
+
 % BassoNotes = {
 %   \relative c {
 %     \clef bass

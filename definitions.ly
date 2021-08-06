@@ -687,6 +687,7 @@ tocLabelLong = #(define-music-function
 tempoIntroitus = \tempoMarkup "Adagio"
   tempoTeDecet = \tempoMarkup "Poco andante"
   tempoRequiem = \tempoMarkup "Adagio"
+tempoKyrie = \tempoMarkup "Tempo ordinario"
 
 
 \include "notes/clno1.ly"

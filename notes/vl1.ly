@@ -83,6 +83,72 @@ IntroitusViolinoI = {
   }
 }
 
+KyrieViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/2 \tempoKyrie
+      \set Staff.timeSignatureFraction = 2/2
+    R\breve*4
+    c'2.\fE c4 g2 d' %5
+    es2. d4 cis2 cis
+    d2. c4 h2 h
+    c b4 b a1
+    g r4 c8 d es4 d8 es
+    f4 c f es d es d c %10
+    h g a h c g c b
+    a h c1 h2
+    c c b1
+    g2 es' e1
+    d1. d2 %15
+    g,4 a b! a8 b c4 es! d c
+    b a g2 r1
+    R\breve*3 %20
+    r4 c8 d es4 d8 es f2. es4
+    d4 b8 c d4 c8 d es2. d4
+    c b as1 g2
+    f1 g2 r
+    R\breve*3 %27
+    es'1 b2 f'
+    g2. f4 e2 e
+    f2. es4 d2 d %30
+    es d4 d c1
+    b2 f'4 es d c b2
+    r g'4 f es d c2
+    r as'4 g f es d c
+    h h c1 b2~ %35
+    b as g2. g4
+    as c2 as4 f1
+    r c'
+    f,~ f4 g as! g8 as
+    b1 as %40
+    g r
+    d' g,~
+    g2 g d' c4 c
+    d1 g,2 es'
+    f2. es4 d2 d %45
+    es2. d4 c2 c
+    d2. c4 h2 c
+    c h4 a h1
+    c2. c4 g2 d'
+    es1 d~ %50
+    d2 c4 h c d es2~
+    es d4 c h2 d
+    es2. d4 c2 c
+    d2. c4 h c d2~
+    d c1 h4 a %55
+    h1 c4 c8 d es4 d8 es
+    f2. es4 d b8 c d4 c8 d
+    es2. d4 c as8 b c4 b8 c
+    d2. c4 h2 c~
+    c h4 a h1 %60
+    c2 c des2. c4
+    h2 h c2. b4
+    a2 a b2. as4
+    g2 g1 f4 e
+    f1\fermata e\fermata \bar "|." %65 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

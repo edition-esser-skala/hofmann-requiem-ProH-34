@@ -70,3 +70,65 @@ IntroitusTromboneII = {
     c1\fermata \bar "|." %76 finis
   }
 }
+
+KyrieTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \minor \time 4/2 \tempoKyrie
+      \set Staff.timeSignatureFraction = 2/2
+    R\breve*12 %12
+    c2.\fE c4 g2 d'
+    es2. d4 cis2 cis
+    d2. c4 h2 h %15
+    c b4 b a1
+    g r4 c8 d es4 d8 es
+    f4 c f es d es d c
+    h g a h c g c b
+    a h c1 h2 %20
+    c c f, f'~
+    f b, b1
+    c d2 es~
+    es d es1~
+    es2 es f1~ %25
+    f es~
+    es2 b as b
+    b1 r4 b8 c d4 c8 d
+    es4 b es d c d c b
+    a f g a b c b a %30
+    g a b1 a2
+    b1 r2 d
+    es es r es
+    f f r1
+    R\breve %35
+    r1 c
+    f,2 c' des2. c4
+    h2 h c2. b4
+    a2 a b as4 as
+    g1 f2 r %40
+    r4 c'8 d es4 d8 es f4 c f es
+    d es d c h g a h
+    c g c b a h c2~
+    c h c1
+    r2 c d2. c4 %45
+    b2 b c2. b4
+    as2 f'4 es d2 c4 d
+    es2 d4 c d1
+    R\breve
+    c2. c4 g2 d' %50
+    es2. d4 c2. b4
+    a1 g2 h
+    c2. d4 es d c b
+    a2. h8 c d2 g,
+    g\breve~ %55
+    g1 g2 r
+    r1 f'2. f4
+    b,2 es es1
+    as,2 f'1 es2
+    d\breve %60
+    c2 g as1
+    g2 g g c
+    c c b1
+    b2 b as1~
+    as\fermata g\fermata \bar "|." %65 finis
+  }
+}

@@ -162,6 +162,154 @@ IntroitusBassFigures = \figuremode {
   r1 %76 finis
 }
 
+KyrieOrgano = {
+  \relative c {
+    \clef treble
+    \key c \minor \time 4/2 \tempoKyrie
+      \set Staff.timeSignatureFraction = 2/2
+    \mvTr g''2.\fE-\tuttiE g4 c,2 g'
+    as2. g4 fis2 fis
+    g2. f4 e2 e2
+    f es4 es d1
+    << {
+      c'2. c4 g2 d' %5
+      es2. d4 cis2 cis
+      d2. c4 h2 h
+      c b a1
+    } \\ {
+      c,1 r4 g'8 a b4 a8 b %5
+      c4 g c b a b a g
+      fis d e fis g d g f
+      e fis g1 fis4
+    } >>
+    \clef bass g,2. g4 c,2 g'
+    as2. g4 fis2 fis %10
+    g2. f4 e2 e
+    f es d1
+    c r4 g'8 a b4 a8 b
+    c4 g c b a b a g
+    fis d e fis g d g f %15
+    e fis g1 fis2
+    g g4. f8 es4. d8 c2
+    \clef "treble_8" << { as''2. g4 } \\ { f c f es } >> \clef bass d,1
+    g,2 g c1
+    f,2 r4 c' f as g f %20
+    es4. d8 c2 r4 f8 g as4 g8 as
+    b2. as4 g es8 f g4 f8 g
+    as1 b~
+    b r4 es,8 f g4 f8 g
+    as4 es as g f g f es %25
+    d b c d es f es d
+    c d es1 d2
+    es4 g f es d c b2
+    \clef "treble_8" es'4 b es d \clef bass c1
+    f,2 f b1 %30
+    es,2 b es4 d8 es f4 es
+    d c b2 r b'4 as
+    g f es2 r c'4 b
+    as g f1 f2
+    g\breve %35
+    f1 c
+    \clef "treble_8" f2 c' des2. c4
+    \clef bass g1 c,2 \clef "treble_8" c'4 b!
+    a2 a b as
+    g1 \clef bass f %40
+    c2 g' as2. g4
+    fis2 fis g2. f4
+    e2 e f es4 es
+    d1 c
+    r2 as' b2. as4 %45
+    g2 g as2. g4
+    f2 f g1~
+    g g
+    \clef treble << { c'2. c4 g2 d' } \\ { r1 g,2. g4 } >>
+    \clef "treble_8" c,1 \clef bass g2. g4 %50
+    c,2 g' as2. g4
+    fis2 fis g1~
+    g\breve~
+    g~
+    g~ %55
+    g1 c,2 r
+    r4 f8 g as4 g8 as b2. as4
+    g es8 f g4 f8 g as2. g4
+    f d8 es f4 es8 f g2 c,
+    g\breve %60
+    c~-\tasto
+    c~
+    c~
+    c2 c c1~
+    c\fermata c\fermata \bar "|." %65 finis
+  }
+}
+
+KyrieBassFigures = \figuremode {
+  r\breve
+  r
+  r
+  r
+  r %5
+  r
+  r
+  r
+  r1. <6>2
+  q2. q4 <6 [_!]>1 %10
+  <_!>2. <\t>4 <6>1
+  <_!>4 <[4!]> <6>2 <7> <6!>
+  r1 r4 <_->2.
+  r1 <[5!] _+>
+  <[6 _!]> <_!> %15
+  <6>4 \bo <[6 _!]> \bc <[_- \l]>2 <2!> <[6 _!]>
+  r1 <6>
+  r <[5!] _+>
+  <_!> q
+  <_!>2. <_->4 <6 5>2 <_!> %20
+  <6>\breve
+  r1 <[6]>
+  r <7 3>2 <6 4>
+  <4> <3> r1
+  r <_!> %25
+  <[6]> r
+  \bo <[6]>2 \bc <[3]> <2> <[6]>
+  r1 <6>
+  r <_!>
+  q r %30
+  r <6 5>2 <_!>
+  \bo <[6 \l]>\breve
+  <6>
+  <6>1. <8 6>4 \bc <[7 5]>
+  <[5] _!>2 <6 4> <5 \t> <6! _-> %35
+  <4> <3> <4> <_!>
+  r <6> q2. <6 [4]>4
+  <[5!] _!>1 <_!>
+  <6> <3>4 <4!> <6>2
+  <7> <6!> r1 %40
+  <4>2 <6-> <6>1
+  <6 [_!]> <_!>
+  <[6]> <6 [_!]>2 <6>
+  <7> <6!> r1
+  r2 <6>1. %45
+  <6>1 r
+  <6> <[7] _!>2 <6 4>
+  <\t \t> \bo <[5 _!]>4 \bc <[4 2!]> <[5] _!>1
+  r\breve
+  r %50
+  <9>2 \bo <[6] 4>4 <5 _!>1 \bc <[6]>4
+  \bo <7 [_!]>2 \bc <6 [\t]> <_!>1
+  r\breve
+  r
+  r %55
+  <_!>
+  r
+  <[6]>
+  <6>1 <[7] _!>
+  <4>2 \bo <[_!]>4 \bc <[2]> <_!>1 %60
+  <_!>\breve
+  r
+  r
+  r2 \bo <[7 _!]> <6 5> \bassFigureExtendersOn <6 4>4 \bc <[6 _!]> \bassFigureExtendersOff
+  <6 4>1 <[5] _!> %65 finis
+}
+
 % Organo = {
 %   \relative c {
 %     \clef bass

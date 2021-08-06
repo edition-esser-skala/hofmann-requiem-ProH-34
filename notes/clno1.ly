@@ -23,3 +23,29 @@ IntroitusClarinoI = {
     g1\fermata \bar "|." %76 finis
   }
 }
+
+KyrieClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/2 \tempoKyrie
+      \set Staff.timeSignatureFraction = 2/2
+    R\breve*16 %16
+    g''2.\fE g4 g2 r
+    R\breve*29 %46
+    r1 g2 \once \tieDashed g~
+    g2. g4 g1
+    R\breve*3 %51
+    r1 d2 r
+    R\breve
+    r1 g~
+    g2 g g1~ %55
+    g2 g g r
+    R\breve*2
+    r1 g2 g
+    g1. g2 %60
+    g r r1
+    R\breve*2
+    r1 c,
+    c2.\fermata c4 c1\fermata \bar "|." %65 finis
+  }
+}
