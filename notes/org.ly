@@ -310,6 +310,156 @@ KyrieBassFigures = \figuremode {
   <6 4>1 <[5] _!> %65 finis
 }
 
+DiesIraeOrgano = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 3/2 \tempoDiesIrae
+    \mvTr c2\fE-\tuttiE-! c'-\colOrg c
+    c c, r
+    as-! as'-\colOrg as
+    as as, r
+    f-! f' f %5
+    g2. g4 g g
+    as2 as r
+    as, as' as
+    as g4 f es2
+    f g g %10
+    c, \mvTr c\p-\solo-\senzaOrg c
+    c c'\f c
+    f, f\p f
+    f f\f f
+    g-! g\p g %15
+    g-!\f g\p g
+    h,-!\f h\p h
+    c4. f8 g2 g,
+    c \mvTr c'\f-\tutti c
+    b!2. b4 b b %20
+    as2 as as-!
+    as-! as-\colOrg as
+    as2. as4 as as
+    g2 g h-\solo
+    c e,-\tutti e %25
+    f f a-\solo
+    b d,-\tutti d
+    es! es es
+    as, b b
+    es \mvTr es\p-\solo-\senzaOrg es %30
+    es es\f es
+    as as\p as
+    as as,\f as
+    b-! b\p b
+    b-!\f b\p b %35
+    d-!\f d\p d
+    es b' b,
+    es \mvTr es\f-\tutti es
+    d2. d4 d d
+    es2 es \mvTr es\p-\solo %40
+    es \mvTr es\f-\tutti es
+    f f f4 fis
+    g2 g, \mvTr g\p-\solo
+    g \mvTr g'\f-\tutti g
+    c2. b!4 a2 %45
+    g d d
+    g, \mvTr g'\p-\soloE-\senzaOrg g
+    g g\f g
+    c, c\p c
+    c c\f c %50
+    d-! d\p d
+    d-!\f d\p d
+    fis-!\f fis\p fis
+    g4. c,8 d2 d
+    g, \mvTr g'\f-\tutti g %55
+    f!2. f4 es d
+    c2 c c
+    f2. f4 d b!
+    es2 es es
+    f g as %60
+    f g g,
+    c \mvTr c\p-\soloE-\senzaOrg c
+    c c'\f c
+    f, f\p f
+    f f\f f %65
+    g-! g\p g
+    g-!\f g\p g
+    h,-!\f h\p h
+    c4. f8 g2 g,
+    c r r\fermata \bar "||" %70 finis
+  }
+}
+
+DiesIraeBassFigures = \figuremode {
+  r1.
+  r
+  r
+  r
+  r2 <6->1 %5
+  <6! [5-]>1.
+  <6>
+  q
+  <4! 2!>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff <6>2
+  <[6 5]> \bo <[6] 4> \bc <[5] _!> %10
+  r1.
+  r
+  r
+  r
+  r %15
+  r
+  r
+  r
+  r
+  <4! _-> %20
+  \bo <6 [4-]>2 \bc <\t [3]>1
+  r1.
+  <6\\>
+  <6 4>2 <[5] _!> <[6 5]>
+  <[_!]> <5->1 %25
+  <4>2 <_!> <[6 5-]>
+  r <5->1
+  <9 4>2 <8 3>1
+  \bo <[7 5]>4 \bc <[8 6]> <6 4>2 <5 3>
+  r1. %30
+  r
+  r
+  r
+  r
+  r %35
+  r
+  r
+  r
+  <6>2. \bo <[7]>4 \bc <[6]> <5>
+  <9 4>2 <8 3>1 %40
+  r1.
+  <7>2 <6> <8 6>4 <7 5 [_!]>
+  <6 4>2 <[5] _!>1
+  r2 <[_!]>1
+  r2. <[6]>4 <6\\>2 %45
+  r <6 4> <[5!] _+>
+  r1.
+  r
+  r
+  r %50
+  r
+  r
+  r
+  r
+  r %55
+  <4! _->1 \bo <[6]>4 \bc <[6!]>
+  r1.
+  r1 <[6 5]>2
+  <9 4> <8 3>1
+  r2 \bo <[8 6] _!>4 \bc <[7 5] \t> r2 %60
+  \bo <[7 5]>4 \bc <[8 6]> <6 4>2 <[5] _!>
+  r1.
+  r
+  r
+  r %65
+  r
+  r
+  r
+  r
+  r %70 finis
+}
+
 % Organo = {
 %   \relative c {
 %     \clef bass

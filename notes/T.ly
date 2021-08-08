@@ -266,6 +266,106 @@ KyrieTenoreLyrics = \lyricmode {
   son. %65 finis
 }
 
+DiesIraeTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \minor \time 3/2 \autoBeamOff \tempoDiesIrae
+    r2 \mvTr es\fE^\tuttiE es
+    es es r
+    r es es
+    es es r
+    r des des %5
+    des2. des4 des des
+    c2 c r
+    r c c
+    d!2. d4 es2
+    d es( d) %10
+    c r r
+    R1.*7 %18
+    r2 es es
+    e2. e4 e e %20
+    f2 f r
+    r c c
+    c2. c4 d! es
+    es( d) d2 r
+    r c c %25
+    c c r
+    r b b
+    b b b
+    c b1
+    b2 r r %30
+    R1.*7 %37
+    r2 b b
+    b2. f4 b b
+    b2 b r %40
+    r b b
+    as2. as4 as a
+    g2 g r
+    r h^\critnote h
+    c2. d4 c2 %45
+    d d1
+    d2 r r
+    R1.*7 %54
+    r2 d d %55
+    d2. d4 c h
+    c2 c c4 c
+    c2. c4 b! b
+    b2 b b4 g'
+    f2 es4( d) c2 %60
+    as g1
+    g2 r r
+    R1.*7 %69
+    R1.\fermata \bar "||" %70 finis
+  }
+}
+
+DiesIraeTenoreLyrics = \lyricmode {
+  Di -- es
+  ir -- ae,
+  di -- es
+  il -- la
+  sol -- vet %5
+  sae -- clum in fa --
+  vil -- la:
+  Te -- ste
+  Da -- vid cum
+  Si -- byl -- %10
+  la.
+
+  Quan -- tus %19
+  tre -- mor est fu -- %20
+  tu -- rus,
+  quan -- do
+  iu -- dex est ven --
+  tu -- rus,
+  cun -- cta %25
+  stri -- cte,
+  cun -- cta
+  stri -- cte dis --
+  cus -- su --
+  rus. %30
+
+  Tu -- ba %38
+  mi -- rum spar -- gens
+  so -- num %40
+  per se --
+  pul -- cra re -- gi --
+  o -- num
+  co -- get
+  o -- mnes an -- %45
+  te thro --
+  num.
+
+  Mors stu -- %55
+  pe -- bit et na --
+  tu -- ra, cum re --
+  sur -- get cre -- a --
+  tu -- ra, iu -- di --
+  can -- ti __ re -- %60
+  spon -- su --
+  ra. %62 finis
+}
+
 % TenoreNotes = {
 %   \relative c' {
 %     \clef "treble_8"

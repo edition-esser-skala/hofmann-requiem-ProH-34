@@ -132,3 +132,80 @@ KyrieTromboneII = {
     as\fermata g\fermata \bar "|." %65 finis
   }
 }
+
+DiesIraeTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \minor \time 3/2 \tempoDiesIrae
+    r2 \mvTr es\fE-\tuttiE es
+    es es r
+    r es es
+    es es r
+    r des des %5
+    des2. des4 des des
+    c2 c r
+    r c c
+    d!2. d4 es2
+    d es d %10
+    c c-\solo c
+    es4. d8 c2 r
+    r as as
+    c4. b8 as2 r
+    r4 d2 c h4 %15
+    r es2 d c4
+    r f2 es d4
+    c4. d8 c2 h\trill
+    c es-\tutti es
+    e2. e4 e e %20
+    f2 f r
+    r c c
+    c2. c4 d! es
+    es d d2 r
+    r c c %25
+    c c r
+    r b b
+    b b b
+    c b1
+    b2 g-\solo g %30
+    b4. as8 g2 r
+    r c c
+    es4. d8 c2 r
+    r4 as2 g f4
+    r b2 as g4 %35
+    r c2 b as4
+    g4. as8 g2 f\trill
+    es b'-\tutti b
+    b2. f4 b b
+    b2 g-\solo g %40
+    b4. as8 g2 b-\tutti
+    as2. as4 as a
+    g2 h-\solo h
+    d4. c8 h2 h-\tutti^\critnote
+    c2. d4^\critnote c2 %45
+    d d1
+    d2 b-\solo b
+    d4. c8 b2 r
+    r c c
+    es4. d8 c2 r %50
+    r4 c2 b a4
+    r d2 c b4
+    r es2 d c4
+    b4. c8 b2 a\trillE
+    g d'-\tutti d %55
+    d2. d4 c h
+    c2 c c4 c
+    c2. c4 b! b
+    b2 b b4 g'
+    f2 es4 d c2 %60
+    as g1
+    g2 c-\solo c
+    es4. d8 c2 r
+    r as as
+    c4. b8 as2 r %65
+    r4 d2 c h4
+    r es2 d c4
+    r f2 es d4
+    c4. d8 c2 h\trill
+    c r r\fermata \bar "||" %70 finis
+  }
+}

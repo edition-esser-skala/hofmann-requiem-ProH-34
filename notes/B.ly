@@ -260,6 +260,106 @@ KyrieBassoLyrics = \lyricmode {
   son. %65 finis
 }
 
+DiesIraeBassoNotes = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 3/2 \autoBeamOff \tempoDiesIrae
+    r2 \mvTr c'\fE^\tuttiE c
+    c c, r
+    r as' as
+    as as, r
+    r f' f %5
+    g2. g4 g g
+    as2 as r
+    r as as
+    as g4( f) es2
+    f g1 %10
+    c,2 r r
+    R1.*7 %18
+    r2 c' c
+    b!2. b4 b b %20
+    as2 as r
+    r as as
+    as2. as4 as as
+    g2 g r
+    r e e %25
+    f f r
+    r d d
+    es! es es
+    as, b1
+    es2 r r %30
+    R1.*7 %37
+    r2 es es
+    d2. d4 d d
+    es2 es r %40
+    r es es
+    f2. f4 f fis
+    g2 g, r
+    r g' g
+    c2. b!4 a2 %45
+    g d1
+    g,2 r r
+    R1.*7 %54
+    r2 g' g %55
+    f!2. f4 es d
+    c2 c c4 c
+    f2. f4 d b!
+    es2 es es4 es
+    f2 g as %60
+    f g( g,)
+    c r r
+    R1.*7 %69
+    R1.\fermata \bar "||" %70 finis
+  }
+}
+
+DiesIraeBassoLyrics = \lyricmode {
+  Di -- es
+  ir -- ae,
+  di -- es
+  il -- la
+  sol -- vet %5
+  sae -- clum in fa --
+  vil -- la:
+  Te -- ste
+  Da -- vid __ cum
+  Si -- byl -- %10
+  la.
+
+  Quan -- tus %19
+  tre -- mor est fu -- %20
+  tu -- rus,
+  quan -- do
+  iu -- dex est ven --
+  tu -- rus,
+  cun -- cta %25
+  stri -- cte,
+  cun -- cta
+  stri -- cte dis --
+  cus -- su --
+  rus. %30
+
+  Tu -- ba %38
+  mi -- rum spar -- gens
+  so -- num %40
+  per se --
+  pul -- cra re -- gi --
+  o -- num
+  co -- get
+  o -- mnes an -- %45
+  te thro --
+  num.
+
+  Mors stu -- %55
+  pe -- bit et na --
+  tu -- ra, cum re --
+  sur -- get cre -- a --
+  tu -- ra, iu -- di --
+  can -- ti re -- %60
+  spon -- su --
+  ra. %62 finis
+}
+
 % BassoNotes = {
 %   \relative c {
 %     \clef bass

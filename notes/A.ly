@@ -285,6 +285,106 @@ KyrieAltoLyrics = \lyricmode {
   son. %65 finis
 }
 
+DiesIraeAltoNotes = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/2 \autoBeamOff \tempoDiesIrae
+    r2 \mvTr g'\fE^\tuttiE g
+    g g r
+    r as as
+    as as r
+    r as as %5
+    b2. b4 b b
+    as2 as r
+    r as as4( g)
+    f2. f4 g2
+    as g1 %10
+    g2 r r
+    R1.*7 %18
+    r2 g g
+    g2. g4 g g %20
+    f2 f r
+    r f f
+    fis?2. fis4 fis fis
+    g2 g r
+    r g g %25
+    f f r
+    r f f
+    f es4( d) es2~
+    es4 f es2( d)
+    es r r %30
+    R1.*7 %37
+    r2 g g
+    f2. f4 f f
+    f( es) es2 r %40
+    r g g
+    as2. as8([ g)] f4 es
+    es2 d r
+    r g g
+    g2. g4 fis2 %45
+    g g( fis)
+    g r r
+    R1.*7 %54
+    r2 g g %55
+    as!2. as4 g g
+    g2 g g4 g
+    f2. f4 f f
+    f2 es es4 b'
+    as2 g4( f) es2~ %60
+    es4 f es2( d)
+    c r r
+    R1.*7 %69
+    R1.\fermata \bar "||" %70 finis
+  }
+}
+
+DiesIraeAltoLyrics = \lyricmode {
+  Di -- es
+  ir -- ae,
+  di -- es
+  il -- la
+  sol -- vet %5
+  sae -- clum in fa --
+  vil -- la:
+  Te -- ste __
+  Da -- vid cum
+  Si -- byl -- %10
+  la.
+
+  Quan -- tus %19
+  tre -- mor est fu -- %20
+  tu -- rus,
+  quan -- do
+  iu -- dex est ven --
+  tu -- rus,
+  cun -- cta %25
+  stri -- cte,
+  cun -- cta
+  stri -- cte __ dis --
+  cus -- su --
+  rus. %30
+
+  Tu -- ba %38
+  mi -- rum spar -- gens
+  so -- num %40
+  per se --
+  pul -- cra re -- gi --
+  o -- num
+  co -- get
+  o -- mnes an -- %45
+  te thro --
+  num.
+
+  Mors stu -- %55
+  pe -- bit et na --
+  tu -- ra, cum re --
+  sur -- get cre -- a --
+  tu -- ra, iu -- di --
+  can -- ti __ re -- %60
+  spon -- su --
+  ra. %62 finis
+}
+
 % AltoNotes = {
 %   \relative c' {
 %     \clef treble

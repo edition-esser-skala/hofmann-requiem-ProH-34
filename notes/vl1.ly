@@ -149,6 +149,83 @@ KyrieViolinoI = {
   }
 }
 
+DiesIraeViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/2 \tempoDiesIrae
+    c2\fE r r
+    r g''8( es) es( c) c( g) g( es)
+    c2 r r
+    r c''8( as) as( es) es( c) c( as)
+    as2 r r %5
+    r des'8( b) b( g) g( e) e( f)
+    f2 c'8( as) as( f) f( c) c( as)
+    f2 f'8( as) as( f) f( c) c( h)
+    h( d'!) d( h) h( d,) d( es) es( h) h( c)
+    c( as) as( c) c( es,) es( c') g,4 h' %10
+    c,2 r r
+    r g''8( es) es( c) c( g) g( as)
+    as2 r r
+    r as'8( f) f( d) d( c) c( h)
+    h4 r r2 r %15
+    c4 r r2 r
+    d4 r r2 r
+    R1.
+    r2 c'8( g) g( es) es( c) c( c')
+    des( b!) b( g) g( e) e( des) des( b) b( g) %20
+    f( as) as( c) c( f) f( as) as( c) c( as)
+    f( c) c( as) f( as) as( c) c( f) f( as)
+    c( es,) es( c') c( es,) es( c') c( es,) es( c')
+    c( es,) d( h') d( h) h( d) d( f,) f( e)
+    e( g) g( b) b( g) g( e) e( g) g( b,) %25
+    b( g) a( c) f( a) a( c) c( es,) es( d)
+    d( f) f( as) as( f) f( d) d( f) f( as,)
+    as( f) f( g) g( b) es( g) b( g) g( es)
+    es( c) c( as) g( b) b( es) b,4 d'
+    es,2 r r %30
+    r g'8( es) es( b) b( h) h( c)
+    c2 r r
+    r c'8( as) as( f) f( es) es( d)
+    d4 r r2 r
+    es4 r r2 r %35
+    f4 r r2 r
+    R1.
+    r2 es,8( g) g( b) b( es) es( g)
+    f( b) b( f) f( d) d( b) b( f') f( as,)
+    as( f) f( g) g2 r %40
+    r es'8( b) b( g) g( es) es( es')
+    es( f,) f( es') es( d) f( es) d( f,) es( c')
+    g,( c') c( h) h2 r
+    r d'8( h) h( d) d( f,) f( es)
+    es( c') c( es,) es( d) d( c) c( fis) fis( g) %45
+    g( b,!) b( d) d( g) g( b) a,4 fis'
+    g,2 r r
+    r d''8( b) b( g) g( d) d( es)
+    es2 r r
+    r g8( es) es( c) c( b) b( a) %50
+    a4 r r2 r
+    b4 r r2 r
+    c4 r r2 r
+    R1.
+    r2 g8( b) b( d) b( d) d( g) %55
+    as!( f) f( d) d( h) h( c) c( d) d( es)
+    es( c) c( g) g( es) es( c) c-! es'( d c)
+    b( as g as) f'( g) g( as) as( f d as)
+    as( f) f( g) g( b) b( es) g( es) es( b)
+    as'( f) f( d) d( h) h( c) c( es) es( c') %60
+    c( as) as( f) es( g) g( c) d,4 h'
+    c,2 r r
+    r g'8( es) es( c) c( g) g( as)
+    as2 r r
+    r as'8( f) f( d) d( c) c( h) %65
+    h4 r r2 r
+    c4 r r2 r
+    d4 r r2 r
+    R1.
+    R\fermata \bar "||" %70 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble
