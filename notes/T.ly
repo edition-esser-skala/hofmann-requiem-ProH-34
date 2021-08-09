@@ -366,6 +366,182 @@ DiesIraeTenoreLyrics = \lyricmode {
   ra. %62 finis
 }
 
+LiberTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \minor \time 4/4 \autoBeamOff \tempoLiber
+      \set Score.currentBarNumber = #71
+    \mvTr d4\fE^\tuttiE es es8 d c d
+    d d r4 r2
+    R1
+    r4 a8 a g h16([ c)] \appoggiatura es d8 c16([ h)]
+    c8 c c b a8. b16 \appoggiatura d c8 b16([ a)] %75
+    b8 b d d es c b b
+    b4( a) b r
+    R1*2
+    f4 f es8 es f f %80
+    f f r4 f b
+    b8 d es d d c c d
+    d g, g as g2
+    g4 r r2
+    r4 c8 c c4. c8 %85
+    c4. b8 b a! r4
+    r b8 b b4. b8
+    b4. as8 as g! r4
+    r f8 c' b8. b16 b8 c
+    b2 b4 r %90
+    R1*2
+    g4 g g8 g g g
+    as4 as c4. c8
+    d! d d d es4 es %95
+    g,4.\p g8 c4. d8
+    es4\cresc e d2\f
+    d4 d8 d es es es e
+    d2 d4 r
+    R1*2 %101
+    R1\fermata \bar "||" %102 finis
+  }
+}
+
+LiberTenoreLyrics = \lyricmode {
+  Li -- ber scri -- ptus pro -- fe -- %71
+  re -- tur,
+
+  li -- ber scri -- ptus pro -- fe --
+  re -- tur, in quo to -- tum con -- ti -- %75
+  ne -- tur, un -- de mun -- dus iu -- di --
+  ce -- tur.
+
+  Iu -- dex er -- go cum se -- %80
+  de -- bit, quid -- quid
+  la -- tet ap -- pa -- re -- bit: Nil in --
+  ul -- tum re -- ma -- ne --
+  bit.
+  Quid sum mi -- ser %85
+  tunc di -- ctu -- rus?
+  Quem pa -- tro -- num
+  ro -- ga -- tu -- rus,
+  cum vix iu -- stus sit se --
+  cu -- rus? %90
+
+  Rex tre -- men -- dae ma -- ie -- %93
+  sta -- tis, qui sal --
+  van -- dos sal -- vas gra -- tis: %95
+  Sal -- va me, fons
+  pi -- e -- ta --
+  tis, sal -- va me, fons pi -- e --
+  ta -- tis. %99 finis
+}
+
+RecordareTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \key es \major \time 4/4 \autoBeamOff \tempoRecordare
+      \set Score.currentBarNumber = #103
+    r2 \mvTr as4\p^\tuttiE as
+    as g r2
+    r4 b2 c4 %105
+    b b b4. b8
+    as as b b b4 b
+    r2 r4 c8\f as
+    f b b c b2
+    b4 r r2 %110
+    R1*3
+    g4. g8 f8. g16 g8 g
+    g g r4 g4. g8 %115
+    as8. g16 f8 b b b r4
+    r b8. b16 a8 a b a
+    g4( fis) g r
+    R1*2 %120
+    b4 b b8 b b b
+    b4 b r8 des4 des8
+    c c c c c4 c
+    r8 es4 es8 es d d d
+    d4 d r c8 c %125
+    c c b b b4( a)
+    b r r2
+    R1*3 %130
+    r8 b4\p b8 c c c c
+    c4 c b4. b8
+    b b b b as!4 as
+    r8 c4 c8 b4 b
+    as4. as8 g2 %135
+    f4 r r2
+    R1
+    r2 c'4.\f c8
+    c c c c c4 c
+    c4. b16([ as)] g8 c c c %140
+    c4 c c d!
+    es8 es d d d4( c)
+    h r c4. es8
+    d d d d c4 c
+    es4. es8 c c as a %145
+    g4 g r c8 c
+    c8. d16 es8 es d2
+    c4 r r2
+    R1
+    r2 c4. c8 %150
+    f, b! b b b b r4
+    r b8 as g g c c
+    c c r4 c4. c8
+    b b b c b2
+    b4 r r2 %155
+    R1*3
+    R1\fermata \bar "||" %159 finis
+  }
+}
+
+RecordareTenoreLyrics = \lyricmode {
+  Re -- cor -- %103
+  da -- re
+  Ie -- su %105
+  pi -- e, quod sum
+  cau -- sa tu -- ae vi -- ae:
+  Ne me
+  per -- das il -- la di --
+  e. %110
+
+  Quae -- rens me, se -- di -- sti %114
+  las -- sus: Re -- de -- %115
+  mi -- sti cru -- cem pas -- sus:
+  Tan -- tus la -- bor non sit
+  cas -- sus.
+
+  Iu -- ste iu -- dex ul -- ti -- %121
+  o -- nis, do -- num
+  fac re -- mis -- si -- o -- nis,
+  an -- te di -- em ra -- ti --
+  o -- nis, an -- te %125
+  di -- em ra -- ti -- o --
+  nis.
+
+  In -- ge -- mi -- sco, tam -- quam %131
+  re -- us: Cul -- pa
+  ru -- bet vul -- tus me -- us:
+  Sup -- pli -- can -- ti
+  par -- ce De -- %135
+  us.
+
+  Qui Ma --
+  ri -- am ab -- sol -- vi -- sti,
+  et la -- tro -- nem ex -- au -- %140
+  di -- sti, mi -- hi
+  quo -- que spem de -- di --
+  sti. Pre -- ces
+  me -- ae non sunt di -- gnae:
+  Sed tu bo -- nus fac be -- %145
+  ni -- gne, ne per --
+  en -- ni cre -- mer i --
+  gne.
+
+  In -- ter %150
+  o -- ves lo -- cum prae -- sta,
+  et ab hae -- dis me se --
+  que -- stra, sta -- tu --
+  ens in par -- te dex --
+  tra. %155 finis
+}
+
 % TenoreNotes = {
 %   \relative c' {
 %     \clef "treble_8"

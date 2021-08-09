@@ -374,6 +374,181 @@ DiesIraeSopranoLyrics = \lyricmode {
   ra. %62 finis
 }
 
+LiberSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \autoBeamOff \tempoLiber
+      \set Score.currentBarNumber = #71
+    \mvTr d'4\fE^\tuttiE g, a8. b16 \appoggiatura d c8 b16([ a)] %71
+    b([ a)] g8 r4 r2
+    R1
+    r4 d'8 d d8. es16 \appoggiatura g f8 es16([ d)]
+    es([ d)] c8 c c c8. d16 \appoggiatura f es8 d16([ c)] %75
+    d([ c)] b8 f' f g a, b es
+    d4( c) b r
+    R1*2
+    b4 f g8 g f es %80
+    es d r4 b' f
+    d'8 d c b b a c f16([ d)]
+    \appoggiatura c8 h8. h16 c8 as16([ f)] es4( d)
+    c r r2
+    r4 es'8 es es4. d16([ c)] %85
+    b!4( as8) g g fis r4
+    r d'8 d des4. c16([ b)]
+    as4( ges8) f f e r4
+    r f8 f' \appoggiatura es!8 d8. d16 es8 as,
+    g4( f) es r %90
+    R1*2
+    es'4 es, e8 e e e
+    f4 f f'4. c8
+    h h h h c4 g %95
+    es'4.\p d8 c4. b8
+    a!4\cresc b b(\f a)
+    g d'8 d es16([ d)] c([ d)] c([ b)] a([ b)]
+    b4( a) g r
+    R1*2 %101
+    R1\fermata \bar "||" %102 finis
+  }
+}
+
+LiberSopranoLyrics = \lyricmode {
+  Li -- ber scri -- ptus pro -- fe -- %71
+  re -- tur,
+
+  li -- ber scri -- ptus pro -- fe --
+  re -- tur, in quo to -- tum con -- ti -- %75
+  ne -- tur, un -- de mun -- dus iu -- di --
+  ce -- tur.
+
+  Iu -- dex er -- go cum se -- %80
+  de -- bit, quid -- quid
+  la -- tet ap -- pa -- re -- bit: Nil in --
+  ul -- tum re -- ma -- ne --
+  bit.
+  Quid sum mi -- ser %85
+  tunc __ di -- ctu -- rus?
+  Quem pa -- tro -- num
+  ro -- ga -- tu -- rus,
+  cum vix iu -- stus sit se --
+  cu -- rus? %90
+
+  Rex tre -- men -- dae ma -- ie -- %93
+  sta -- tis, qui sal --
+  van -- dos sal -- vas gra -- tis: %95
+  Sal -- va me, fons
+  pi -- e -- ta --
+  tis, sal -- va me, fons pi -- e --
+  ta -- tis. %99 finis
+}
+
+RecordareSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \autoBeamOff \tempoRecordare
+      \set Score.currentBarNumber = #103
+    R1
+    r2 \mvTr as'4\p^\tuttiE as
+    as g es'4. g,8 %105
+    g4 f f4. g8
+    as as as as as4 g
+    r b8\f g c2~
+    c8 b16([ as)] g8 as g4( f)
+    es r r2 %110
+    R1*3
+    b'4. b8 h8. c16 d8 f,
+    f es r4 c'4. c8 %115
+    d8. es16 f8 as, as g r4
+    g' g, fis8 fis g c
+    b4( a) g r
+    R1*2 %120
+    g4 g g8 g g g
+    g4 g r8 b4 b8
+    as as as g g([ fis)] fis4
+    r8 c'4 c8 c d16([ es)] d8 c
+    b8.([ a16)] g4 es'4. es8 %125
+    es d16([ c)] d8 es d4( c)
+    b r r2
+    R1*3 %130
+    r8 f4\p f8 fis fis fis g
+    a4 d, d4. d8
+    es!8 es e e f4 f
+    r8 ges4 ges8 ges4 f
+    f4. f8 f4( e) %135
+    f r r2
+    R1
+    r2 f4.\f g8
+    as g16([ as)] b8 as as4 g
+    g4. as8 b as16([ b)] c8 b %140
+    b4 as f' h,
+    c8 g g' f f4( es)
+    d r g,4. g8
+    as as as as as4 g
+    c4. g8 es' es d c %145
+    c4 h c4. c8
+    c c c c c4( h)
+    c r r2
+    R1
+    r2 es4. d16([ c)] %150
+    c8 b! f' as, as g r4
+    b8 c des4. des8 c b
+    b as r4 as4. as8
+    as as g c16([ as)] g4( f)
+    es r r2 %155
+    R1*3
+    R1\fermata \bar "||" %159 finis
+  }
+}
+
+RecordareSopranoLyrics = \lyricmode {
+  Re -- cor -- %104
+  da -- re Ie -- su %105
+  pi -- e, quod sum
+  cau -- sa tu -- ae vi -- ae:
+  Ne me per --
+  das il -- la di --
+  e. %110
+
+  Quae -- rens me, se -- di -- sti %114
+  las -- sus: Re -- de -- %115
+  mi -- sti cru -- cem pas -- sus:
+  Tan -- tus la -- bor non sit
+  cas -- sus.
+
+  Iu -- ste iu -- dex ul -- ti -- %121
+  o -- nis, do -- num
+  fac re -- mis -- si -- o -- nis,
+  an -- te di -- em ra -- ti --
+  o -- nis, an -- te %125
+  di -- em ra -- ti -- o --
+  nis.
+
+  In -- ge -- mi -- sco, tam -- quam %131
+  re -- us: Cul -- pa
+  ru -- bet vul -- tus me -- us:
+  Sup -- pli -- can -- ti
+  par -- ce De -- %135
+  us.
+
+  Qui Ma --
+  ri -- am ab -- sol -- vi -- sti,
+  et la -- tro -- nem ex -- au -- %140
+  di -- sti, mi -- hi
+  quo -- que spem de -- di --
+  sti. Pre -- ces
+  me -- ae non sunt di -- gnae:
+  Sed tu bo -- nus fac be -- %145
+  ni -- gne, ne per --
+  en -- ni cre -- mer i --
+  gne.
+
+  In -- ter %150
+  o -- ves lo -- cum prae -- sta,
+  et ab hae -- dis me se --
+  que -- stra, sta -- tu --
+  ens in par -- te dex --
+  tra. %155 finis
+}
+
 % SopranoNotes = {
 %   \relative c' {
 %     \clef treble
@@ -386,51 +561,6 @@ DiesIraeSopranoLyrics = \lyricmode {
 % }
 
 
-
-% Liber scri -- ptus pro -- fe -- re -- tur,
-% in quo to -- tum con -- ti -- ne -- tur,
-% un -- de mun -- dus iu -- di -- ce -- tur.
-%
-% Iu -- dex er -- go cum se -- de -- bit,
-% quid -- quid la -- tet ap -- pa -- re -- bit:
-% Nil in -- ul -- tum re -- ma -- ne -- bit.
-%
-% Quid sum mi -- ser tunc di -- ctu -- rus?
-% Quem pa -- tro -- num ro -- ga -- tu -- rus,
-% cum vix iu -- stus sit se -- cu -- rus?
-%
-% Rex tre -- men -- dae ma -- ie -- sta -- tis,
-% qui sal -- van -- dos sal -- vas gra -- tis:
-% Sal -- va me, fons pi -- e -- ta -- tis.
-%
-% Re -- cor -- da -- re Ie -- su pi -- e,
-% quod sum cau -- sa tu -- ae vi -- ae:
-% Ne me per -- das il -- la di -- e.
-%
-% Quae -- rens me, se -- di -- sti las -- sus:
-% Re -- de -- mi -- sti cru -- cem pas -- sus:
-% Tan -- tus la -- bor non sit cas -- sus.
-%
-% Iu -- ste iu -- dex ul -- ti -- o -- nis,
-% do -- num fac re -- mis -- si -- o -- nis,
-% an -- te di -- em ra -- ti -- o -- nis.
-%
-% In -- ge -- mi -- sco, tam -- quam re -- us:
-% Cul -- pa ru -- bet vul -- tus me -- us:
-% Sup -- pli -- can -- ti par -- ce De -- us.
-%
-% Qui Ma -- ri -- am ab -- sol -- vi -- sti,
-% et la -- tro -- nem ex -- au -- di -- sti,
-% mi -- hi quo -- que spem de -- di -- sti.
-%
-% Pre -- ces me -- ae non sunt di -- gnae:
-% Sed tu bo -- nus fac be -- ni -- gne,
-% ne per -- en -- ni cre -- mer i -- gne.
-%
-% In -- ter o -- ves lo -- cum prae -- sta,
-% et ab hae -- dis me se -- que -- stra,
-% sta -- tu -- ens in par -- te dex -- tra.
-%
 % Con -- fu -- ta -- tis ma -- le -- di -- ctis,
 % flam -- mis a -- cri -- bus ad -- di -- ctis,
 % vo -- ca me cum be -- ne -- di -- ctis.

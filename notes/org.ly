@@ -460,6 +460,206 @@ DiesIraeBassFigures = \figuremode {
   r %70 finis
 }
 
+LiberOrgano = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \tempoLiber
+      \set Score.currentBarNumber = #71
+    \mvTr g8\fE-\tutti g'16. f32 es8 d c b a d
+    g \mvTr g\p-\solo g,4 r8 d' d4
+    r8 g g,4 r8 c c cis
+    d d, \mvTr d'\f-\tutti d16 c h8 g g g
+    c c c d16 es f8 f f f %75
+    b b, b' b es, f g es
+    f f f f b, \mvTr b'\p-\solo b,4
+    r8 f' f4 r8 b b,4
+    r8 es es e f b16. es,32 f8 f,
+    \mvTr b\f-\tutti b'16. a32 b8 b, a a a a %80
+    b b b'16. f32 d16. f32 b,8 b'16. a32 b8 b,
+    b b' es, e f f f f
+    g g c, f g g g, g
+    c \mvTr c'\p-\solo c,4 r8 g' g,4
+    r8 c' \mvTr c,\f-\tutti c c c c c %85
+    c c c c c c c-\solo c
+    b b b-\tutti b b b b b
+    b b b b b b b-\solo b
+    as as as-\tutti as as as g as
+    b b b b es \mvTr es\p-\solo es,4 %90
+    r8 b' b4 r8 es es4
+    r8 as as a b es,16. as32 b8 b,
+    \mvTr es\f-\tutti es es es des des c b
+    as as as as as as as as'
+    as as g f es es es es %95
+    c\p c c d es es es d
+    c\cresc c cis cis d\f d d d
+    g g g g c, c c cis
+    d d d d g, \mvTr g'\p-\solo g,4
+    r8 d' d4 r8 g g,4 %100
+    r8 c c cis d g,16. c32 d8 d,
+    g4 r r2\fermata \bar "||" %102 finis
+  }
+}
+
+LiberBassFigures = \figuremode {
+  r4 \bo <[5 3]>8 \bc <[\t \t]> <6 [5]> <[6]> <7> <_+> %71
+  r2 r8 <[_+]>4.
+  r2 r8 <6>4 <5 [_!]>8
+  <6 4> <5 _+>4. \bo <[6]>8 \bc <[_!]>4.
+  r1 %75
+  r2 <3>8 q q <[3]>
+  <6 4>4 <[5] 3>2.
+  r1
+  r8 <6>4 \bo <[5 \l]> r16. <6>32 <6 4>8 \bc <[5 3]>
+  r2 <7 5>4 <6 4>8 <5 3> %80
+  <9 4> <8 3> r2.
+  r4 <8 6>8 <7 5> <6 4> <[5] 3>4 <[6] _->8
+  <9- _!> <8 \t>4 <_->8 <6 4>4 <[5] _!>
+  r2 r8 <_!>4.
+  r1 %85
+  \bo <7- [3]>4 \bassFigureExtendersOn <6- 3>8 <5 3> <\t 3> \bc <4+ [3]>4. \bassFigureExtendersOff
+  <6>2 <[6 4!] _->
+  \bo <7- [_-]>4 \bassFigureExtendersOn <6- _->8 <5 _-> <\t _-> \bc <4! [_-]>4. \bassFigureExtendersOff
+  <[6]>2 <4 [2]>4 <6>8 <[6]>
+  <6 4>4 <5 3>2. %90
+  r1
+  r8 \bo <[6 \l]>4 <5> r16. <6>32 <6 4>8 \bc <[5 3]>
+  r2 <4 2!>4 \bo <[_! \l]>8 \bc <[4! _-]>
+  <6>1
+  <2!>4 \bo <[_! \l]>8 \bc <[4! _-]> <6>2 %95
+  r4. <[6!]>8 <6>4. <[6- 4]>8
+  <6! 5>4 <7 5 [_!]> <6 4> <[5 _+]>
+  r2. <6>8 <7 5 [_!]>
+  <6 4>4 <[5] _+>2.
+  r8 \bo <[_+ \l]>2.. %100
+  r8 <6>4 <5 _!>8 <_+> r16. <6>32 <6 4>8 \bc <[5 _+]>
+  r1 %102 finis
+}
+
+RecordareOrgano = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \tempoRecordare
+      \set Score.currentBarNumber = #103
+    \mvTr es4-!\p-\tuttiE es-! << { as as } \\ { es d } >>
+    es4. es8 f4 b,
+    r es2 a,4 %105
+    b b b8 b b b
+    c c d d es es es es
+    es4 r r as8\f f
+    d d es as, b b b b
+    es \mvTr es(\p-\senzaOrg f g) f b, b' b, %110
+    es4 g8 f e e e e
+    f f f f b, b b b
+    es\cresc es es es es\f as b b,
+    es-\tutti es es es d8. c16 h8 h
+    c c c'16. g32 es16. g32 c,8 c c c %115
+    b! b b b es es es'16. b32 g16. b32
+    es,8 es es es es d16 c b8 c
+    d d d d g, \mvTr g'(\p-\senzaOrg a b)
+    a d, d, d' g4 g,
+    c4.\cresc cis8 d\f g, d' d, %120
+    g-\tutti g' g g es es es es
+    e e e e e e e e
+    f f f g as as as as
+    as as as g fis fis fis fis
+    g4 g, r c'8 b %125
+    a a b es, f f f f
+    b, \mvTr b'(\p-\senzaOrg c d) c f, f, f'
+    b, b' d c h h h h
+    c c c c f, f f f
+    b\cresc b b b b\f es, f f %130
+    b, \mvTr b\p-\tutti b b a a a g
+    fis fis fis fis g g g g
+    g g g g as! as as as
+    a a a a b b b b
+    h h h h c c c c %135
+    f, \mvTr f'(\p-\senzaOrg g as) g c, c, c'
+    f4 f, b4.\cresc h8
+    c\f f, c' c f,-\tutti f'16. e32 f8 c
+    f, f' e f c c'16. h32 c16. g32 e16. g32
+    c,8 c c c c c c c %140
+    f f f f f f f f
+    es! es h h c c'16. h32 c8 c,
+    g' g, g'16. f32 es16. d32 c8 c es c
+    h h h h c c c c'16. h32
+    c8 c, c c c c f fis %145
+    g g g, g'16. f32 e8 e e e
+    f f fis fis g g g g
+    c, \mvTr c(\p-\senzaOrg d es) d g, g' g,
+    c4 c f4.\cresc fis8
+    g\f c, g' g, c-\tutti c c c %150
+    d d d d es es es'16. b32 g16. b32
+    es,4 g8 f e e e e
+    f f16. e32 f16. c32 as16. c32 f,8 f'16. g32 as16. g32 f16. es?32
+    d8 d es as, b b b b
+    es \mvTr es(\p-\senzaOrg f g) f b, b' b, %155
+    es4 g8 f e e e e
+    f f f f b, b b b
+    es\cresc es es es es\f as b b,
+    es4 r r2\fermata \bar "||" %159 finis
+  }
+}
+
+RecordareBassFigures = \figuremode {
+  r1 %103
+  <4>4 <3> \bo <[7 \l]> <7>
+  <4> <3>2 <7>4 %105
+  <6 4> <5 3> r4. <6>8
+  q4 <6 5> <9 4> \bc <[8 3]>
+  r1
+  \bo <7 [5]>8 <6 4>16 \bc <5 [3]> r8 <6> <6 4>4 <5 3>
+  r1 %110
+  r
+  r
+  r
+  r2 <6!>4 <[6 5]>
+  <9 4>8 <8 3>2.. %115
+  <7>2 <9 4>8 <8 3>4.
+  r2 \bo <[4!] 2+>8. \bassFigureExtendersOn \bc q16 \bassFigureExtendersOff <6>8 <6!>
+  <6 4>4 <[5!] _+>2.
+  r1
+  r %120
+  r
+  <7->
+  <_->4. <6 4>8 <[7]> <6\\>4.
+  \bo <[\t \l]>4. <6 4>8 <7 _!> \bassFigureExtendersOn <6 _!>4 <5 _!>8 \bassFigureExtendersOff
+  r2.. <\t>8 %125
+  <6 5>4. q8 <6 4>4 \bc <[5 _!]>
+  r1
+  r
+  r
+  r %130
+  r2 \bo <[6\\ 5 \l]>4. <6 4>8
+  <6 5 _!>2 <5>
+  <6->4 <6! 5-> <6>2
+  <7-> <6- 4>4 <5 _->
+  <7 _!>2 <4>4 \bc <[_! \l \l]> %135
+  r1
+  r
+  r2.. <[_!]>8
+  r4 <[6 5]> <6 4> <[5] _!>
+  <[5] _!>4. \bo <[6 4]>8 <7 5>4 <8 6>8 \bc <[7 5]> %140
+  <9 4>4 <8 3>2 <4! 3>4
+  <6> \bo <[6]>8 \bc <[5]> <9 4>4 <8 3>
+  <_!>1
+  <7>2 <6 4>4 <5 [3]>
+  r2. <8 6>8 <7 5 [_!]> %145
+  <6 4>4 <[5] _!> <6>2
+  <_->4 <7 5 [_!]> <4> <_!>
+  r1
+  r
+  r %150
+  <7>8 <6-> <5>4 <9 4>8 <8 3>4.
+  r4 <5->4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6> <5>
+  <9 4> <8 3>2..
+  <[6 5]>2 <6 4>4 <5 3>
+  r1 %155
+  r
+  r
+  r
+  r %159 finis
+}
+
 % Organo = {
 %   \relative c {
 %     \clef bass

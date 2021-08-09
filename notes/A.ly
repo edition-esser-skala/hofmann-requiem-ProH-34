@@ -385,6 +385,181 @@ DiesIraeAltoLyrics = \lyricmode {
   ra. %62 finis
 }
 
+LiberAltoNotes = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \autoBeamOff \tempoLiber
+      \set Score.currentBarNumber = #71
+    \mvTr g'4\fE^\tuttiE g g8 g g fis
+    g g r4 r2
+    R1
+    r4 fis8 fis g8. g16 g8 g
+    g g g g f8. f16 f8 f %75
+    f f f b b es, d g
+    f2 f4 r
+    R1*2
+    d4 d es8 es d c %80
+    c b r4 f' f
+    f8 f g g f f a as
+    as g16([ f)] es8 f16([ d)] c4( h)
+    c r r2
+    r4 g'8 g g4. f16([ es)] %85
+    es4. es8 es es r4
+    r g8 g g4. g8
+    des4. des8 des des r4
+    r c8 as' \appoggiatura g8 f8. f16 g8 f
+    es4( d) es r %90
+    R1*2
+    b4 b b8 b c des
+    c4 c as'4. as8
+    f f g as g4 g %95
+    g4.\p g8 g4. g8
+    g4\cresc g g(\f fis)
+    g b8 b c16([ b)] a([ b)] a([ g)] fis([ g)]
+    g4( fis) g r
+    R1*2 %101
+    R1\fermata \bar "||" %102 finis
+  }
+}
+
+LiberAltoLyrics = \lyricmode {
+  Li -- ber scri -- ptus pro -- fe -- %71
+  re -- tur,
+
+  li -- ber scri -- ptus pro -- fe --
+  re -- tur, in quo to -- tum con -- ti -- %75
+  ne -- tur, un -- de mun -- dus iu -- di --
+  ce -- tur.
+
+  Iu -- dex er -- go cum se -- %80
+  de -- bit, quid -- quid
+  la -- tet ap -- pa -- re -- bit: Nil in --
+  ul -- tum re -- ma -- ne --
+  bit.
+  Quid sum mi -- ser %85
+  tunc di -- ctu -- rus?
+  Quem pa -- tro -- num
+  ro -- ga -- tu -- rus,
+  cum vix iu -- stus sit se --
+  cu -- rus? %90
+
+  Rex tre -- men -- dae ma -- ie -- %93
+  sta -- tis, qui sal --
+  van -- dos sal -- vas gra -- tis: %95
+  Sal -- va me, fons
+  pi -- e -- ta --
+  tis, sal -- va me, fons pi -- e --
+  ta -- tis. %99 finis
+}
+
+RecordareAltoNotes = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \autoBeamOff \tempoRecordare
+      \set Score.currentBarNumber = #103
+    R1
+    \mvTr es4\p^\tuttiE es es d
+    r g2 es4 %105
+    es d d4. d8
+    es es d f f4 es
+    r g8\f es as2~
+    as8 g16([ f)] es8 f es4( d)
+    es r r2 %110
+    R1*3
+    es4. es8 f8. es16 d8 d
+    d c r4 es4. es8 %115
+    f8. es16 d8 f f es r4
+    r es8. es16 c8 c d es
+    d2 d4 r
+    R1*2 %120
+    d4 d es8 es es es
+    des4 des r8 g4 g8
+    f f f es es4 es
+    r8 fis4 g8 a a a a
+    g4 g r g8 g %125
+    f! f f g f2
+    f4 r r2
+    R1*3 %130
+    r8 d4\p d8 es es es es
+    d4 d d4. d8
+    b b16([ c)] des8 des c4 c
+    r8 es4 es8 es4 des
+    d4. d8 c2 %135
+    c4 r r2
+    R1
+    r2 f4.\f e8
+    f e16[( f)] g8 f f4 e
+    e4. f8 g f16([ g)] as8 g %140
+    g4 f as as
+    g8 g g g g2
+    g4 r es4. es8
+    f f f f f4 es
+    g4. g8 g g f es %145
+    es4 d g4. g8
+    as as a a g2
+    g4 r r2
+    R1
+    r2 g4. f16([ es)] %150
+    f8 f16([ g)] as8 f f es r4
+    g8 as b4. b8 as g
+    g f r4 f4. f8
+    f f es es es4( d)
+    es r r2 %155
+    R1*3
+    R1\fermata \bar "||" %159 finis
+  }
+}
+
+RecordareAltoLyrics = \lyricmode {
+  Re -- cor -- da -- re %104
+  Ie -- su %105
+  pi -- e, quod sum
+  cau -- sa tu -- ae vi -- ae:
+  Ne me per --
+  das il -- la di --
+  e. %110
+
+  Quae -- rens me, se -- di -- sti %114
+  las -- sus: Re -- de -- %115
+  mi -- sti cru -- cem pas -- sus:
+  Tan -- tus la -- bor non sit
+  cas -- sus.
+
+  Iu -- ste iu -- dex ul -- ti -- %121
+  o -- nis, do -- num
+  fac re -- mis -- si -- o -- nis,
+  an -- te di -- em ra -- ti --
+  o -- nis, an -- te %125
+  di -- em ra -- ti -- o --
+  nis.
+
+  In -- ge -- mi -- sco, tam -- quam %131
+  re -- us: Cul -- pa
+  ru -- bet vul -- tus me -- us:
+  Sup -- pli -- can -- ti
+  par -- ce De -- %135
+  us.
+
+  Qui Ma --
+  ri -- am ab -- sol -- vi -- sti,
+  et la -- tro -- nem ex -- au -- %140
+  di -- sti, mi -- hi
+  quo -- que spem de -- di --
+  sti. Pre -- ces
+  me -- ae non sunt di -- gnae:
+  Sed tu bo -- nus fac be -- %145
+  ni -- gne, ne per --
+  en -- ni cre -- mer i --
+  gne.
+
+  In -- ter %150
+  o -- ves lo -- cum prae -- sta,
+  et ab hae -- dis me se --
+  que -- stra, sta -- tu --
+  ens in par -- te dex --
+  tra. %155 finis
+}
+
 % AltoNotes = {
 %   \relative c' {
 %     \clef treble

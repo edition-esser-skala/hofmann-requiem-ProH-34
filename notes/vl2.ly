@@ -230,3 +230,105 @@ DiesIraeViolinoII = {
     R\fermata \bar "||" %70 finis
   }
 }
+
+LiberViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \tempoLiber
+      \set Score.currentBarNumber = #71
+    g'4\fE g g8 g g fis
+    g g r4 r2
+    R1
+    r4 fis8 fis g8. g16 g8 g
+    g g g g f8. f16 f8 f %75
+    f f f b b es, d g
+    \tuplet 6/4 4 { f16( b d f d b) } c8 a' b,4 r
+    R1*2
+    d,4 d es8 es d c %80
+    c b r4 f' f
+    f8 f g g f f a as
+    as g16 f es8 f16 d \tuplet 6/4 4 { es( g c g es c) } d8 h'
+    c,4 r r2
+    r4 g'8 g g4. f16 es %85
+    es4. es8 es es es'16( fis,) fis( g)
+    g( b) b( d) g,8 g g4. g8
+    des4. des8 des des des'16( e,) e( f)
+    f( c as c) f( as c as) \appoggiatura g8 f8. f16 g8 f
+    \tuplet 6/4 4 { g16( b es b g es) } f8 d' es,4 r %90
+    R1*2
+    b4 b b8 b c des
+    c4 c as'4. as8
+    f f g as g4 g %95
+    g4.\p g8 g4. g8
+    g16\cresc g g g g b b b b\f b b b a a a a
+    g8 b'16( g) g( d) d( b) c( b) a( b) a( g) fis( g)
+    g b b b a a a a g4 r
+    R1*2 %101
+    R1\fermata \bar "||" %102 finis
+  }
+}
+
+RecordareViolinoII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoRecordare
+      \set Score.currentBarNumber = #103
+    R1
+    es4\p es es d
+    r g2 es4 %105
+    es d d4. d8
+    es es d f f4 es
+    r g8\f es as2~
+    as8 g16 f es8 f es g16. es'32 f,8 d'
+    es,2~\p es8( d) d4 %110
+    r8 es b'8. des,16 \appoggiatura es32 des16( c) c4.
+    r8 f c'8. es,!16 \appoggiatura f32 es16( d) d4.
+    es16\cresc g8 b16 g b8 es16 g16.\f g,32 as16. f32 es8 d\trill
+    es4. es8 f8. es16 d8 d
+    d c r4 es4. es8 %115
+    f8. es16 d8 f f es r4
+    r es8. es16 c8 c d es
+    d b'16. g'32 a,8 fis' g,2~\p
+    g8( fis) fis4 r8 g d' f,~
+    f\cresc es4 g8~ g16.\f fis32 g16. b,32 b8 a\trill %120
+    <g d'>4 d' es8 es es es
+    des4 des r8 g4 g8
+    f f f es es4 es
+    r8 fis4 g8 a a a a
+    g4 g r g8 g %125
+    f! f f g f d'16. b'32 c,8 a'
+    b,2~\p b8( a) a4
+    r8 b f'8. as,16 \appoggiatura b32 as16( g) g4.
+    r8 c g'8. b,!16 \appoggiatura c32 b16( a) a4.
+    b16\cresc d8 f b d,16~ d16.\f d32 es16. c32 b8 a\trill %130
+    b8 d,4\p d8 es es es es
+    d4 d d4. d8
+    b b16 c des8 des c4 c
+    r8 es4 es8 es4 des
+    d4. d8 c2 %135
+    f~ f8( e) e4
+    r8 f c' es,~ es\cresc des4 f8~
+    f16.\f^\critnote e32 f16. as,32 as8 g\trill as4 f'8 e
+    f e16 f g8 f f4 e
+    e4. f8 g f16 g as8 g %140
+    g4 f as as
+    g8 g g g g2
+    g4 r es4. es8
+    f f f f f4 es
+    g4. g8 g g f es %145
+    es4 d g4. g8
+    as as a a g es'16. c'32 d,8 h'
+    c,4 r f,2~\p
+    \once \slurDashed f8( es) es4 r8 f\cresc c' es,~
+    es16.\f^\critnote d32 es16. c32 c8 h\trill c g'4 f16( es) %150
+    f8 f16 g as8 f f es r4
+    g8 as b4. b8 as g
+    g f r4 f4. f8
+    f f es es es g16. es'32 f,8 d'
+    es,2~\p \once \slurDashed es8( d) d4 %155
+    r8 es b'8. des,16 \appoggiatura es32 des16( c) c4.
+    r8 f c'8. es,!16 \appoggiatura f32 es16( d) d4.
+    es16\cresc g8 b16 g b8 es16 g16.\f g,32 as16. f32 es8 d\trill
+    es4 r r2\fermata \bar "||" %159 finis
+  }
+}

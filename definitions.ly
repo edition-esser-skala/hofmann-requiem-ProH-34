@@ -689,6 +689,8 @@ tempoIntroitus = \tempoMarkup "Adagio"
   tempoRequiem = \tempoMarkup "Adagio"
 tempoKyrie = \tempoMarkup "Tempo ordinario"
 tempoDiesIrae = \tempoMarkup "Adagio non molto"
+  tempoLiber = \tempoMarkup "Andante"
+  tempoRecordare = \tempoMarkup "Adagio un poco andante"
 
 
 \include "notes/clno1.ly"

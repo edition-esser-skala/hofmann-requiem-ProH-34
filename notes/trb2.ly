@@ -209,3 +209,98 @@ DiesIraeTromboneII = {
     c r r\fermata \bar "||" %70 finis
   }
 }
+
+LiberTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key g \minor \time 4/4 \tempoLiber
+      \set Score.currentBarNumber = #71
+    d4\fE es es8 d c d
+    d d r4 r2
+    R1
+    r4 a8 a g h16 c \appoggiatura es d8 c16 h
+    c8 c c b a8. b16 \appoggiatura d c8 b16 a %75
+    b8 b d d es c b b
+    b4 a b r
+    R1*2
+    f4 f es8 es f f %80
+    f f r4 f b
+    b8 d es d d c c d
+    d g, g as g2
+    g4 r r2
+    r4 c8 c c4. c8 %85
+    c4. b8 b a! r4
+    r b8 b b4. b8
+    b4. as8 as g! r4
+    r f8 c' b8. b16 b8 c
+    b2 b4 r %90
+    R1*2
+    g4 g g8 g g g
+    as4 as c4. c8
+    d! d d d es4 es %95
+    g,4.\p g8 c4. d8
+    es4\cresc e d2\f
+    d4 d8 d es es es e
+    d2 d4 r
+    R1*2 %101
+    R1\fermata \bar "||" %102 finis
+  }
+}
+
+RecordareTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key es \major \time 4/4 \tempoRecordare
+      \set Score.currentBarNumber = #103
+    r2 as4\p as
+    as g r2
+    r4 b2 c4 %105
+    b b b4. b8
+    as as b b b4 b
+    r2 r4 c8\f as
+    f b b c b2
+    b4 r r2 %110
+    R1*3
+    g4. g8 f8. g16 g8 g
+    g g r4 g4. g8 %115
+    as8. g16 f8 b b b r4
+    r b8. b16 a8 a b a
+    g4 fis g r
+    R1*2 %120
+    b4 b b8 b b b
+    b4 b r8 des4 des8
+    c c c c c4 c
+    r8 es4 es8 es d d d
+    d4 d r c8 c %125
+    c c b b b4 a
+    b r r2
+    R1*3 %130
+    r8 b4\p b8 c c c c
+    c4 c b4. b8
+    b b b b as!4 as
+    r8 c4 c8 b4 b
+    as4. as8 g2 %135
+    f4 r r2
+    R1
+    r2 c'4.\f c8
+    c c c c c4 c
+    c4. b16 as g8 c c c %140
+    c4 c c d!
+    es8 es d d d4 c
+    h r c4. es8
+    d d d d c4 c
+    es4. es8 c c as a %145
+    g4 g r c8 c
+    c8. d16 es8 es d2
+    c4 r r2
+    R1
+    r2 c4. c8 %150
+    f, b! b b b b r4
+    r b8 as g g c c
+    c c r4 c4. c8
+    b b b c b2
+    b4 r r2 %155
+    R1*3
+    R1\fermata \bar "||" %159 finis
+  }
+}

@@ -360,6 +360,182 @@ DiesIraeBassoLyrics = \lyricmode {
   ra. %62 finis
 }
 
+LiberBassoNotes = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \autoBeamOff \tempoLiber
+      \set Score.currentBarNumber = #71
+    \mvTr g'4\fE^\tuttiE es8([ d)] c b a d
+    g g, r4 r2
+    R1
+    r4 d'8 d16([ c)] h8 g g g
+    c c c d16([ es)] f8. f16 f8 f %75
+    b b, b' b es, f g es
+    f2 b,4 r
+    R1*2
+    b4 b a8 a a a %80
+    b b r4 b b
+    b'8 b es, e f f f f
+    g g c, f g4( g,)
+    c r r2
+    r4 c8 c c4. c8 %85
+    c4. c8 c c r4
+    r b8 b b4. b8
+    b4. b8 b b r4
+    r as8 as as8. as16 g8 as
+    b2 es4 r %90
+    R1*2
+    es4 es des8 des c b
+    as4 as as4. as'8
+    as as g f es4 es %95
+    c4.\p d8 es4. d8
+    c4\cresc cis d2\f
+    g4 g8 g c, c c cis
+    d2 g,4 r
+    R1*2 %101
+    R1\fermata \bar "||" %102 finis
+  }
+}
+
+LiberBassoLyrics = \lyricmode {
+  Li -- ber scri -- ptus pro -- fe -- %71
+  re -- tur,
+
+  li -- ber scri -- ptus pro -- fe --
+  re -- tur, in quo to -- tum con -- ti -- %75
+  ne -- tur, un -- de mun -- dus iu -- di --
+  ce -- tur.
+
+  Iu -- dex er -- go cum se -- %80
+  de -- bit, quid -- quid
+  la -- tet ap -- pa -- re -- bit: Nil in --
+  ul -- tum re -- ma -- ne --
+  bit.
+  Quid sum mi -- ser %85
+  tunc di -- ctu -- rus?
+  Quem pa -- tro -- num
+  ro -- ga -- tu -- rus,
+  cum vix iu -- stus sit se --
+  cu -- rus? %90
+
+  Rex tre -- men -- dae ma -- ie -- %93
+  sta -- tis, qui sal --
+  van -- dos sal -- vas gra -- tis: %95
+  Sal -- va me, fons
+  pi -- e -- ta --
+  tis, sal -- va me, fons pi -- e --
+  ta -- tis. %99 finis
+}
+
+RecordareBassoNotes = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \autoBeamOff \tempoRecordare
+      \set Score.currentBarNumber = #103
+    \mvTr es4\p^\tuttiE es es d
+    es4. es8 f4 b,
+    r es2 a,4 %105
+    b b b4. b8
+    c c d d es4 es
+    r2 r4 as8\f f
+    d d es as, b2
+    es4 r r2 %110
+    R1*3
+    es4. es8 d8. c16 h8 h
+    c c r4 c4. c8 %115
+    b!8. b16 b8 b es es r4
+    r es8. es16 es8 d16([ c)] b8 c
+    d2 g,4 r
+    R1*2 %120
+    g'4 g es8 es es es
+    e4 e r8 e4 e8
+    f f f g as4 as
+    r8 as4 g8 fis fis fis fis
+    g4 g r c8 b %125
+    a a b es, f2
+    b,4 r r2
+    R1*3 %130
+    r8 b4\p b8 a a a g
+    fis4 fis g4. g8
+    g g g g as!4 as
+    r8 a4 a8 b4 b
+    h4. h8 c2 %135
+    f,4 r r2
+    R1
+    r2 f'4.\f c8
+    f f e f c4 c
+    c4. c8 c c c c %140
+    f4 f f4. f8
+    es!8 es h h c2
+    g4 r c4. c8
+    h h h h c4 c
+    c4. c8 c c f fis %145
+    g4 g, e'4. e8
+    f f fis fis g2
+    c,4 r r2
+    R1
+    r2 c4. c8 %150
+    d d d d es es r4
+    r g8 f e e e e
+    f f r4 f4. f8
+    d d es as, b2
+    es4 r r2 %155
+    R1*3
+    R1\fermata \bar "||" %159 finis
+  }
+}
+
+RecordareBassoLyrics = \lyricmode {
+  Re -- cor -- da -- re %103
+  Ie -- su pi -- e,
+  Ie -- su %105
+  pi -- e, quod sum
+  cau -- sa tu -- ae vi -- ae:
+  Ne me
+  per -- das il -- la di --
+  e. %110
+
+  Quae -- rens me, se -- di -- sti %114
+  las -- sus: Re -- de -- %115
+  mi -- sti cru -- cem pas -- sus:
+  Tan -- tus la -- bor non sit
+  cas -- sus.
+
+  Iu -- ste iu -- dex ul -- ti -- %121
+  o -- nis, do -- num
+  fac re -- mis -- si -- o -- nis,
+  an -- te di -- em ra -- ti --
+  o -- nis, an -- te %125
+  di -- em ra -- ti -- o --
+  nis.
+
+  In -- ge -- mi -- sco, tam -- quam %131
+  re -- us: Cul -- pa
+  ru -- bet vul -- tus me -- us:
+  Sup -- pli -- can -- ti
+  par -- ce De -- %135
+  us.
+
+  Qui Ma --
+  ri -- am ab -- sol -- vi -- sti,
+  et la -- tro -- nem ex -- au -- %140
+  di -- sti, mi -- hi
+  quo -- que spem de -- di --
+  sti. Pre -- ces
+  me -- ae non sunt di -- gnae:
+  Sed tu bo -- nus fac be -- %145
+  ni -- gne, ne per --
+  en -- ni cre -- mer i --
+  gne.
+
+  In -- ter %150
+  o -- ves lo -- cum prae -- sta,
+  et ab hae -- dis me se --
+  que -- stra, sta -- tu --
+  ens in par -- te dex --
+  tra. %155 finis
+}
+
 % BassoNotes = {
 %   \relative c {
 %     \clef bass

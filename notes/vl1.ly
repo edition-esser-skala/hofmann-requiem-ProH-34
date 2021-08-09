@@ -226,6 +226,108 @@ DiesIraeViolinoI = {
   }
 }
 
+LiberViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \tempoLiber
+      \set Score.currentBarNumber = #71
+    d'4\fE g, a8. b16 \appoggiatura d c8 b16 a %71
+    b a g8 r4 r2
+    R1
+    r4 d'8 d d8. es16 \appoggiatura g f8 es16 d
+    es d c8 c c c8. d16 \appoggiatura f es8 d16 c %75
+    d c b8 f' f g a, b es
+    \tuplet 6/4 4 { d16( f b f d b) } c8 a' b,4 r
+    R1*2
+    b4 f g8 g f es %80
+    es d r4 b' f
+    d'8 d c b b a c f16 d
+    \appoggiatura c8 h8. h16 c8 as16 f \tuplet 6/4 4 { es( g c g es c) } d8 h'
+    c,4 r r2
+    r4 es'8 es es4. d16 c %85
+    b!4( as8) g g fis es'16( fis,) fis( g)
+    g( b) b( d) d8 d des4. c16 b
+    as4( ges8) f f e des'16( e,) e( f)
+    f( c as c) f( as c f) \appoggiatura es8 d8. d16 es8 as,
+    \tuplet 6/4 4 { g16( b es b g es) } f8 d' es,4 r %90
+    R1*2
+    es'4 es, e8 e e e
+    f4 f f'4. c8
+    h h h h c4 g %95
+    es'4.\p d8 c4. b8
+    a!16\cresc a a a b g' g g g\f g g g fis fis fis fis
+    g8 d'16( b) b( g) g( d) es( d) c( d) c( b) a( b)
+    <b g'> g' g g fis fis fis fis g4 r
+    R1*2 %101
+    R1\fermata \bar "||" %102 finis
+  }
+}
+
+RecordareViolinoI = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoRecordare
+      \set Score.currentBarNumber = #103
+    R1
+    r2 as'4\p as
+    as g es'4. g,8 %105
+    g4 f f4. g8
+    as as as as as4 g
+    r b8\f g c2~
+    c8 b16 as g8 as g b16. es32 f,8 d'
+    es,4 r as2~\p %110
+    as8( g) g4 r8 c g'8. b,16
+    \appoggiatura c32 b16( a) a4. r8 b f'8. as,16
+    g\cresc b8 es16 b es8 g16 b16.\f b,32 c16. as32 g8 f\trill
+    es b'4 b8 h8. c16 d8 f,
+    f es r4 c'4. c8 %115
+    d8. es16 f8 as, as g r4
+    g' g, fis8 fis g c
+    b d16. g32 a,8 fis' g,4 r
+    c2~\p \once \slurDashed c8( b) b4
+    r8 c\cresc g' b,~ b16.\f^\critnote a32 b16. g32 g8 fis\trill %120
+    g4 g g8 g g g
+    g4 g r8 b4 b8
+    as as as g g fis fis4
+    r8 c'4 c8 c d16 es d8 c
+    b8. a16 g4 es'4. es8 %125
+    es d16 c d8 es d f16. b32 c,8 a'
+    b,4 r es2~\p
+    es8( d) d4 r8 g d'8. f,16
+    \appoggiatura g32 f16( e) e4. r8 f c'8. es,16
+    d\cresc f8 b d b16~ b16.\f f32 g16. es32 d8 c\trill %130
+    b f4\p f8 fis fis fis g
+    a4 d, d4. d8
+    es! es e e f4 f
+    r8 ges4 ges8 ges4 f
+    f4. f8 f4 e %135
+    f r b2~
+    b8( as) as4 r8 b\cresc f' as,~
+    as16.\f^\critnote g32 as16. f32 f8 e\trill f4. g8
+    as g16 as b8 as as4 g
+    g4. as8 b as16 b c8 b %140
+    b4 as f' h,
+    c8 g g' f f4 es
+    d r g,4. g8
+    as as as as as4 g
+    c4. g8 es' es d c %145
+    c4 h c4. c8
+    c c c c c es16. c'32 d,8 h'
+    c,2~\p c8( h) h4
+    r8 c g' b,~ b\cresc as4 c8~
+    c16.\f^\critnote h32 c16. es,32 es8 d\trill c es'4 d16( c) %150
+    c8 b! f' as, as g r4
+    b8 c des4. des8 c b
+    b as r4 as4. as8
+    as as g c16 as g8 b16. es32 f,8 d'
+    es,4 r as2~\p %155
+    as8( g) g4 r8 c g'8. b,16
+    \appoggiatura c32 b16( a) a4. r8 b f'8. as,16
+    g\cresc b8 es16 b es8 g16 b16.\f b,32 c16. as32 g8 f\trill
+    es4 r r2\fermata \bar "||" %159 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble
