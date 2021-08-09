@@ -542,6 +542,41 @@ RecordareTenoreLyrics = \lyricmode {
   tra. %155 finis
 }
 
+ConfutatisTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \minor \time 4/4 \autoBeamOff \tempoConfutatis
+      \set Score.currentBarNumber = #156
+    r4 \mvTr es8\fE^\tuttiE es es4 es
+    e4. f8 g4 f
+    r c8 c c8. c16 c8 c
+    c4 h r2
+    d8([ c)] h([ c)] d d d d %160
+    d4 c r g8 g
+    f4 g r g8 g
+    f4 g des'4. des8
+    des4 des des4. des8
+    des4 c r8 des4 des8 %165
+    d d d d c2
+    c1\fermata \bar "||" %167 finis
+  }
+}
+
+ConfutatisTenoreLyrics = \lyricmode {
+  Con -- fu -- ta -- tis %156
+  ma -- le -- di -- ctis,
+  flam -- mis a -- cri -- bus ad --
+  di -- ctis,
+  vo -- ca me cum be -- ne -- %160
+  di -- ctis. O -- ro
+  sup -- plex et ac --
+  cli -- nis, cor con --
+  tri -- tum qua -- si
+  ci -- nis: Ge -- re %165
+  cu -- ram me -- i fi --
+  nis. %167 finis
+}
+
 % TenoreNotes = {
 %   \relative c' {
 %     \clef "treble_8"

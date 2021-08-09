@@ -332,3 +332,23 @@ RecordareViolinoII = {
     es4 r r2\fermata \bar "||" %159 finis
   }
 }
+
+ConfutatisViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoConfutatis
+      \set Score.currentBarNumber = #156
+    r4 as'8\fE as as4 as
+    b4. b8 b4 as
+    r c,8 d! es8. es16 es8 es
+    es4 d r2
+    g4 f8 g g g g g %160
+    g4 g r g8 g
+    as4 g r g8 g
+    as4 g g4. f8
+    e4 e e4. e8
+    f4 f r8 f4 f8 %165
+    f f f f f4 e
+    f1\fermata \bar "||" %167 finis
+  }
+}

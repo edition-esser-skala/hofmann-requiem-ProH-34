@@ -536,6 +536,41 @@ RecordareBassoLyrics = \lyricmode {
   tra. %155 finis
 }
 
+ConfutatisBassoNotes = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \autoBeamOff \tempoConfutatis
+      \set Score.currentBarNumber = #156
+    r4 \mvTr as'8\fE^\tuttiE as as4 as
+    g4. f8 e4 f
+    r as8 as, as8. as16 as8 as
+    g4 g r2
+    g'8([ es)] d([ c)] h h h h %160
+    c4 c r es8 es
+    f4 es r es8 es
+    f4 es e4. f8
+    g4 g ges4. ges8
+    f4 f r8 b,4 b8 %165
+    h h h h c2
+    f,1\fermata \bar "||" %167 finis
+  }
+}
+
+ConfutatisBassoLyrics = \lyricmode {
+  Con -- fu -- ta -- tis %156
+  ma -- le -- di -- ctis,
+  flam -- mis a -- cri -- bus ad --
+  di -- ctis,
+  vo -- ca me cum be -- ne -- %160
+  di -- ctis. O -- ro
+  sup -- plex et ac --
+  cli -- nis, cor con --
+  tri -- tum qua -- si
+  ci -- nis: Ge -- re %165
+  cu -- ram me -- i fi --
+  nis. %167 finis
+}
+
 % BassoNotes = {
 %   \relative c {
 %     \clef bass

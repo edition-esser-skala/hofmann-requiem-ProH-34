@@ -304,3 +304,23 @@ RecordareTromboneII = {
     R1\fermata \bar "||" %159 finis
   }
 }
+
+ConfutatisTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \minor \time 4/4 \tempoConfutatis
+      \set Score.currentBarNumber = #156
+    r4 es8\fE es es4 es
+    e4. f8 g4 f
+    r c8 c c8. c16 c8 c
+    c4 h r2
+    d8 c h c d d d d %160
+    d4 c r g8 g
+    f4 g r g8 g
+    f4 g des'4. des8
+    des4 des des4. des8
+    des4 c r8 des4 des8 %165
+    d d d d c2
+    c1\fermata \bar "||" %167 finis
+  }
+}

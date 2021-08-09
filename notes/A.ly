@@ -560,6 +560,41 @@ RecordareAltoLyrics = \lyricmode {
   tra. %155 finis
 }
 
+ConfutatisAltoNotes = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoConfutatis
+      \set Score.currentBarNumber = #156
+    r4 \mvTr as'8\fE^\tuttiE as as4 as
+    b4. b8 b4 as
+    r c,8 d! es8. es16 es8 es
+    es4 d r2
+    g4 f8([ g)] g g g g %160
+    g4 g r g8 g
+    as4 g r g8 g
+    as4 g g4. f8
+    e4 e e4. e8
+    f4 f r8 f4 f8 %165
+    f f f f f4( e)
+    f1\fermata \bar "||" %167 finis
+  }
+}
+
+ConfutatisAltoLyrics = \lyricmode {
+  Con -- fu -- ta -- tis %156
+  ma -- le -- di -- ctis,
+  flam -- mis a -- cri -- bus ad --
+  di -- ctis,
+  vo -- ca me cum be -- ne -- %160
+  di -- ctis. O -- ro
+  sup -- plex et ac --
+  cli -- nis, cor con --
+  tri -- tum qua -- si
+  ci -- nis: Ge -- re %165
+  cu -- ram me -- i fi --
+  nis. %167 finis
+}
+
 % AltoNotes = {
 %   \relative c' {
 %     \clef treble

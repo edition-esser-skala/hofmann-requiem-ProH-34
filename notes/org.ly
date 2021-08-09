@@ -660,6 +660,41 @@ RecordareBassFigures = \figuremode {
   r %159 finis
 }
 
+ConfutatisOrgano = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \tempoConfutatis
+      \set Score.currentBarNumber = #156
+    r4 \mvTr as'8\fE-\tutti as as4 as
+    g4. f8 e4 f
+    r as8 as, as8. as16 as8 as
+    g4 g r2
+    g'8 es d c h h h h %160
+    c4 c r es8 es
+    f4 es r es8 es
+    f4 es e4. f8
+    g4 g ges4. ges8
+    f4 f r8 b,4 b8 %165
+    h8 h h h c2
+    f,1\fermata \bar "||" %167 finis
+  }
+}
+
+ConfutatisBassFigures = \figuremode {
+  r1 %156
+  <6! [5-]>4. <[6- 4]>8 <7- 5>2
+  r4 <6> <6\\>2
+  <6 2+>4 <_!>2.
+  q8 <6> <6!>4 <6 5>2 %160
+  <9 4>4 <8 3>2 <6>4
+  <6-> <6>2.
+  <6->4 <6> <7->4. <[6- 4]>8
+  <6! 5->2 <\t \t>
+  <6- 4>4 <[5] _!> r8 <_->4. %165
+  <7- [_!]>2 <6 4>4 <[5] _!>
+  r1 %167 finis
+}
+
 % Organo = {
 %   \relative c {
 %     \clef bass

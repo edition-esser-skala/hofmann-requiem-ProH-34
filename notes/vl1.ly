@@ -328,6 +328,26 @@ RecordareViolinoI = {
   }
 }
 
+ConfutatisViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoConfutatis
+      \set Score.currentBarNumber = #156
+    r4 c'8\fE c c4 c
+    des4. des8 des4 c
+    f f, fis8. fis16 fis8 fis
+    g4 g g'8 es d c
+    h c d es f4. f8 %160
+    f4 es r c8 c
+    des4 c r g'8 c,
+    des4 c b!4. b8
+    b4 b b4. b8
+    b4 a r8 b4 b8 %165
+    as as as as as4 g
+    f1\fermata \bar "||" %167 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

@@ -93,3 +93,20 @@ DiesIraeClarinoI = {
     R1.\fermata \bar "||" %70 finis
   }
 }
+
+ConfutatisClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoConfutatis
+      \set Score.currentBarNumber = #156
+    r4 c'8\fE c c4 c
+    R1*2
+    g'2 r
+    r d4. d8 %160
+    d4 c c8. c16 c4
+    r2 c8. c16 c4
+    R1*3 %165
+    r2 c4 c8. c16
+    c1\fermata \bar "||" %167 finis
+  }
+}

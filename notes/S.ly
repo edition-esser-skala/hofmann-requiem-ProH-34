@@ -549,6 +549,41 @@ RecordareSopranoLyrics = \lyricmode {
   tra. %155 finis
 }
 
+ConfutatisSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoConfutatis
+      \set Score.currentBarNumber = #156
+    r4 \mvTr c'8\fE^\tuttiE c c4 c
+    des4. des8 des4 c
+    f f, fis8. fis16 fis8 fis
+    g4 g g'8([ es)] d([ c)]
+    h([ c)] d([ es)] f4. f8 %160
+    f4 es r c8 c
+    des4 c r g'8 c,
+    des4 c b!4. b8
+    b4 b b4. b8
+    b4 a r8 b4 b8 %165
+    as as as as as4( g)
+    f1\fermata \bar "||" %167 finis
+  }
+}
+
+ConfutatisSopranoLyrics = \lyricmode {
+  Con -- fu -- ta -- tis %156
+  ma -- le -- di -- ctis,
+  flam -- mis a -- cri -- bus ad --
+  di -- ctis, vo -- ca
+  me cum be -- ne -- %160
+  di -- ctis. O -- ro
+  sup -- plex et ac --
+  cli -- nis, cor con --
+  tri -- tum qua -- si
+  ci -- nis: Ge -- re %165
+  cu -- ram me -- i fi --
+  nis. %167 finis
+}
+
 % SopranoNotes = {
 %   \relative c' {
 %     \clef treble
@@ -561,14 +596,6 @@ RecordareSopranoLyrics = \lyricmode {
 % }
 
 
-% Con -- fu -- ta -- tis ma -- le -- di -- ctis,
-% flam -- mis a -- cri -- bus ad -- di -- ctis,
-% vo -- ca me cum be -- ne -- di -- ctis.
-%
-% O -- ro sup -- plex et ac -- cli -- nis,
-% cor con -- tri -- tum qua -- si ci -- nis:
-% Ge -- re cu -- ram me -- i fi -- nis.
-%
 % La -- cri -- mo -- sa di -- es il -- la,
 % qua re -- sur -- get ex fa -- vil -- la
 % iu -- di -- can -- dus ho -- mo re -- us:

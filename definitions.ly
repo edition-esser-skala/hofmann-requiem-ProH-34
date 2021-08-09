@@ -691,6 +691,7 @@ tempoKyrie = \tempoMarkup "Tempo ordinario"
 tempoDiesIrae = \tempoMarkup "Adagio non molto"
   tempoLiber = \tempoMarkup "Andante"
   tempoRecordare = \tempoMarkup "Adagio un poco andante"
+  tempoConfutatis = \tempoMarkup "Adagio"
 
 
 \include "notes/clno1.ly"
