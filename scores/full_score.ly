@@ -403,27 +403,102 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     subtitle = "C O N F U T A T I S"
+  %   }
+  %   \tocSubsection "3.4" "Confutatis"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff \with { \smallStaffDistance } <<
+  %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+  %           \partCombine \ConfutatisClarinoI \ConfutatisClarinoII
+  %         >>
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "trb"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \ConfutatisTromboneI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \ConfutatisTromboneII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \ConfutatisViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \ConfutatisViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \ConfutatisSopranoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \ConfutatisSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \ConfutatisAltoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Alto \ConfutatisAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \ConfutatisTenoreNotes }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \ConfutatisTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \ConfutatisBassoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Basso \ConfutatisBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \ConfutatisOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \ConfutatisBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
     \header {
-      subtitle = "C O N F U T A T I S"
+      subtitle = "L A C R Y M O S A"
     }
-    \tocSubsection "3.4" "Confutatis"
+    \tocSubsection "3.5" "Lacrymosa"
     \score {
       <<
         \new StaffGroup <<
           \new Staff \with { \smallStaffDistance } <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \partCombine \ConfutatisClarinoI \ConfutatisClarinoII
+            \partCombine \LacrymosaClarinoI \LacrymosaClarinoII
           >>
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "trb"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \ConfutatisTromboneI
+              \LacrymosaTromboneI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \ConfutatisTromboneII
+              \LacrymosaTromboneII
             }
           >>
         >>
@@ -432,50 +507,50 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \ConfutatisViolinoI
+              \LacrymosaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \ConfutatisViolinoII
+              \LacrymosaViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \ConfutatisSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \LacrymosaSopranoNotes }
           }
-          \new Lyrics \lyricsto Soprano \ConfutatisSopranoLyrics
+          \new Lyrics \lyricsto Soprano \LacrymosaSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \ConfutatisAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \LacrymosaAltoNotes }
           }
-          \new Lyrics \lyricsto Alto \ConfutatisAltoLyrics
+          \new Lyrics \lyricsto Alto \LacrymosaAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \ConfutatisTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \LacrymosaTenoreNotes }
           }
-          \new Lyrics \lyricsto Tenore \ConfutatisTenoreLyrics
+          \new Lyrics \lyricsto Tenore \LacrymosaTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \ConfutatisBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \LacrymosaBassoNotes }
           }
-          \new Lyrics \lyricsto Basso \ConfutatisBassoLyrics
+          \new Lyrics \lyricsto Basso \LacrymosaBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \ConfutatisOrgano
+            \LacrymosaOrgano
           }
         >>
-        \new FiguredBass { \ConfutatisBassFigures }
+        \new FiguredBass { \LacrymosaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 2 = 90 }
     }
   }
 }

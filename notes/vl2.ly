@@ -352,3 +352,48 @@ ConfutatisViolinoII = {
     f1\fermata \bar "||" %167 finis
   }
 }
+
+LacrymosaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/2 \tempoLacrymosa
+      \set Score.currentBarNumber = #168
+    r2 \mvTr es\fE^\tuttiE es
+    f f r
+    r f f %170
+    f es r
+    r g g
+    g2. g4 g as
+    b2 b1
+    r2 as as %175
+    b2. as4 g2
+    f f( e)
+    f r r
+    R1.*4 %182
+    r2 e e
+    f f1
+    r2 g g %185
+    g f1
+    r2 f f
+    f es4 d es2~
+    es4 f es2 d4-\critnote d
+    es2 r r %190
+    R1.*4
+    r2 f f %195
+    f1 d2
+    d2. c4 c2
+    r f f
+    d1 es2~
+    es es d4 c %200
+    d2 h4 d g f
+    es2 g1
+    as as2
+    g1.
+    as2 g2. g4 %205
+    g2 r r
+    R1.*6 %212
+    r2 e e
+    f1.
+    e\fermata \bar "|." %215 finis
+  }
+}

@@ -110,3 +110,21 @@ ConfutatisClarinoI = {
     c1\fermata \bar "||" %167 finis
   }
 }
+
+LacrymosaClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/2 \tempoLacrymosa
+      \set Score.currentBarNumber = #168
+    R1.*33 %200
+    g''2\fE r r
+    g r r
+    R1.*2
+    r2 g2. g4 %205
+    g2 r r
+    R1.*6 %212
+    r2 c, c4. c8
+    c1.
+    c\fermata \bar "|." %215 finis
+  }
+}

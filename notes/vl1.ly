@@ -348,6 +348,51 @@ ConfutatisViolinoI = {
   }
 }
 
+LacrymosaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/2 \tempoLacrymosa
+      \set Score.currentBarNumber = #168
+    r2 c'\fE c
+    c h r
+    r d d %170
+    d c r
+    r es es
+    e2. e4 e f
+    g( c,) c1
+    r2 c c %175
+    des2. c4 b2
+    as as( g)
+    f r r
+    R1.*4 %182
+    r2 c' c
+    c h1
+    r2 b b %185
+    b a1
+    r2 as as
+    as g4 f g2~
+    g4 as g2 f4 f
+    es2 r r %190
+    R1.*4
+    r2 d' d %195
+    d1 f,2
+    f2. es4 es2
+    r as as
+    as1 g2~
+    g g f4. f8 %200
+    g2 d'1~
+    d2 c es
+    f1.~
+    f2 es4 d es2
+    d es d4 d %205
+    c2 r r
+    R1.*6 %212
+    r2 g g
+    as1.
+    g\fermata \bar "|." %215 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

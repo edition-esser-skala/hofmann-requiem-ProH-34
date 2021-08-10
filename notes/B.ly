@@ -571,6 +571,90 @@ ConfutatisBassoLyrics = \lyricmode {
   nis. %167 finis
 }
 
+LacrymosaBassoNotes = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 3/2 \autoBeamOff \tempoLacrymosa
+      \set Score.currentBarNumber = #168
+    r2 \mvTr c\fE^\tuttiE c
+    d d r
+    r h h %170
+    c c r
+    r c' c
+    b!2. b4 g f
+    e2 e1
+    r2 f f %175
+    b,2. b4 b2
+    h c1
+    f,2 r r
+    R1.*4 %182
+    r2 c' c
+    d! d1
+    r2 e e %185
+    f f1
+    r2 d d
+    es!1.
+    as,2 b2. b4
+    es2 r r %190
+    R1.*4
+    r2 b b %195
+    h1 h2
+    c2. c4 c2
+    r f f
+    f1 es2(
+    c) as2. as4 %200
+    g2 g g'
+    g1.~
+    g~
+    g1 c,2
+    f g2. g4 %205
+    c,2 r r
+    R1.*6 %212
+    r2 c c
+    f,1.
+    c'\fermata \bar "|." %215 finis
+  }
+}
+
+LacrymosaBassoLyrics = \lyricmode {
+  La -- cry -- %168
+  mo -- sa
+  di -- es %170
+  il -- la,
+  qua re --
+  sur -- get ex fa --
+  vil -- la
+  iu -- di -- %175
+  can -- dus ho --
+  mo re --
+  us:
+
+  Hu -- ic %183
+  er -- go
+  par -- ce %185
+  De -- us,
+  pi -- e
+  Ie --
+  su Do -- mi --
+  ne. %190
+
+  Pi -- e %195
+  Ie -- su
+  Do -- mi -- ne,
+  do -- na
+  e -- is __
+  re -- qui -- %200
+  em, do -- na
+  e --
+
+  _ is re -- qui -- %205
+  em.
+
+  A -- men, %213
+  a --
+  men. %215 finis
+}
+
 % BassoNotes = {
 %   \relative c {
 %     \clef bass

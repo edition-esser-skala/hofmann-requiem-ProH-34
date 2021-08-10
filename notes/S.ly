@@ -584,6 +584,91 @@ ConfutatisSopranoLyrics = \lyricmode {
   nis. %167 finis
 }
 
+LacrymosaSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/2 \autoBeamOff \tempoLacrymosa
+      \set Score.currentBarNumber = #168
+    r2 \mvTr c'\fE^\tuttiE c
+    c h r
+    r d d %170
+    d c r
+    r es es
+    e2. e4 e f
+    g( c,) c1
+    r2 c c %175
+    des2. c4 b2
+    as as( g)
+    f r r
+    R1.*4 %182
+    r2 c' c
+    c h1
+    r2 b b %185
+    b a1
+    r2 as as
+    as g4 f g2~
+    g4 as g2( f4) f
+    es2 r r %190
+    R1.*4
+    r2 d' d %195
+    d1 f,2
+    f2. es4 es2
+    r as as
+    as1 g2~
+    g g( f4.) f8 %200
+    g2 d'1~
+    d2 c es
+    f1.~
+    f2 es4 d es2
+    d es( d4) d %205
+    c2 r r
+    R1.*6 %212
+    r2 g g
+    as1.
+    g\fermata \bar "|." %215 finis
+  }
+}
+
+LacrymosaSopranoLyrics = \lyricmode {
+  La -- cry -- %168
+  mo -- sa
+  di -- es %170
+  il -- la,
+  qua re --
+  sur -- get ex fa --
+  vil -- la
+  iu -- di -- %175
+  can -- dus ho --
+  mo re --
+  us:
+
+  Hu -- ic %183
+  er -- go
+  par -- ce %185
+  De -- us,
+  pi -- e
+  Ie -- _ _ _
+  su Do -- mi --
+  ne. %190
+
+  Pi -- e %195
+  Ie -- su
+  Do -- mi -- ne,
+  do -- na
+  e -- is __
+  re -- qui -- %200
+  em, do --
+  _ na
+  e --
+  _ _ _
+  is re -- qui -- %205
+  em.
+
+  A -- men, %213
+  a --
+  men. %215 finis
+}
+
 % SopranoNotes = {
 %   \relative c' {
 %     \clef treble
@@ -594,11 +679,3 @@ ConfutatisSopranoLyrics = \lyricmode {
 % SopranoLyrics = \lyricmode {
 %
 % }
-
-
-% La -- cri -- mo -- sa di -- es il -- la,
-% qua re -- sur -- get ex fa -- vil -- la
-% iu -- di -- can -- dus ho -- mo re -- us:
-% Hu -- ic er -- go par -- ce De -- us.
-% Pi -- e Ie -- su Do -- mi -- ne,
-% do -- na e -- is re -- qui -- em. A -- men.

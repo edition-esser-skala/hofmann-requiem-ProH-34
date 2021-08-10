@@ -577,6 +577,91 @@ ConfutatisTenoreLyrics = \lyricmode {
   nis. %167 finis
 }
 
+LacrymosaTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \minor \time 3/2 \autoBeamOff \tempoLacrymosa
+      \set Score.currentBarNumber = #168
+    r2 \mvTr g\fE^\tuttiE g
+    as as r
+    r as as %170
+    g g r
+    r c c
+    des2. des4 des des
+    c2 c1
+    r2 c c %175
+    b2. c4 des2
+    d c1
+    c2 r r
+    R1.*4 %182
+    r2 g g
+    as as1
+    r2 des des %185
+    c c1
+    r2 b b
+    b1.
+    c2 b2. b4
+    b2 r r %190
+    R1.*4
+    r2 b f %195
+    g1 g2
+    g2. g4 g2
+    r c c
+    h1 c2~
+    c c2. c4 %200
+    h2 r r
+    r es1~
+    es2 d4 es d( c)
+    h1 c2~
+    c c( h4) h %205
+    c2 r r
+    R1.*6 %212
+    r2 c c
+    c1.
+    c\fermata \bar "|." %215 finis
+  }
+}
+
+LacrymosaTenoreLyrics = \lyricmode {
+  La -- cry -- %168
+  mo -- sa
+  di -- es %170
+  il -- la,
+  qua re --
+  sur -- get ex fa --
+  vil -- la
+  iu -- di -- %175
+  can -- dus ho --
+  mo re --
+  us:
+
+  Hu -- ic %183
+  er -- go
+  par -- ce %185
+  De -- us,
+  pi -- e
+  Ie --
+  su Do -- mi --
+  ne. %190
+
+  Pi -- e %195
+  Ie -- su
+  Do -- mi -- ne,
+  do -- na
+  e -- is __
+  re -- qui -- %200
+  em,
+  do --
+  _ _ na __
+  e -- is __
+  re -- qui -- %205
+  em.
+
+  A -- men, %213
+  a --
+  men. %215 finis
+}
+
 % TenoreNotes = {
 %   \relative c' {
 %     \clef "treble_8"
