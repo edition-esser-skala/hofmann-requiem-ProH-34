@@ -693,6 +693,11 @@ tempoDiesIrae = \tempoMarkup "Adagio non molto"
   tempoRecordare = \tempoMarkup "Adagio un poco andante"
   tempoConfutatis = \tempoMarkup "Adagio"
   tempoLacrymosa = \tempoMarkup "Largo"
+tempoDomine = \tempoMarkup "Adagio"
+  tempoSed = \tempoMarkup "Andante"
+  tempoQuam = \tempoMarkup "Moderato"
+tempoHostias = \tempoMarkup "Poco adagio"
+  tempoQuamB = \tempoMarkup "Moderato"
 
 
 \include "notes/clno1.ly"

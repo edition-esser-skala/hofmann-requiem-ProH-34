@@ -478,27 +478,178 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     subtitle = "L A C R Y M O S A"
+  %   }
+  %   \tocSubsection "3.5" "Lacrymosa"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff \with { \smallStaffDistance } <<
+  %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+  %           \partCombine \LacrymosaClarinoI \LacrymosaClarinoII
+  %         >>
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "trb"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \LacrymosaTromboneI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \LacrymosaTromboneII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \LacrymosaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \LacrymosaViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \LacrymosaSopranoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \LacrymosaSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \LacrymosaAltoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Alto \LacrymosaAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \LacrymosaTenoreNotes }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \LacrymosaTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \LacrymosaBassoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Basso \LacrymosaBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \LacrymosaOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \LacrymosaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 90 }
+  %   }
+  % }
+  % \bookpart {
+  %   \header {
+  %     number = "4"
+  %     title = "O F F E R T O R I U M"
+  %   }
+  %   \tocSection "4" "Offertorium"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff \with { \smallStaffDistance } <<
+  %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+  %           \partCombine \DomineClarinoI \DomineClarinoII
+  %         >>
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "trb"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DomineTromboneI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DomineTromboneII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DomineViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DomineViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \DomineSopranoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \DomineSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \DomineAltoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Alto \DomineAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \DomineTenoreNotes }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \DomineTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \DomineBassoNotes }
+  %         }
+  %         \new Lyrics \lyricsto Basso \DomineBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \DomineOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \DomineBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 110 }
+  %   }
+  % }
   \bookpart {
     \header {
-      subtitle = "L A C R Y M O S A"
+      subtitle = "V E R S U S"
     }
-    \tocSubsection "3.5" "Lacrymosa"
+    \tocSubsection "4.2" "Versus"
     \score {
       <<
         \new StaffGroup <<
           \new Staff \with { \smallStaffDistance } <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \partCombine \LacrymosaClarinoI \LacrymosaClarinoII
+            \partCombine \HostiasClarinoI \HostiasClarinoII
           >>
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "trb"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \LacrymosaTromboneI
+              \HostiasTromboneI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \LacrymosaTromboneII
+              \HostiasTromboneII
             }
           >>
         >>
@@ -507,50 +658,50 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \LacrymosaViolinoI
+              \HostiasViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \LacrymosaViolinoII
+              \HostiasViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \LacrymosaSopranoNotes }
+            \new Voice = "Soprano" { \dynamicUp \HostiasSopranoNotes }
           }
-          \new Lyrics \lyricsto Soprano \LacrymosaSopranoLyrics
+          \new Lyrics \lyricsto Soprano \HostiasSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \LacrymosaAltoNotes }
+            \new Voice = "Alto" { \dynamicUp \HostiasAltoNotes }
           }
-          \new Lyrics \lyricsto Alto \LacrymosaAltoLyrics
+          \new Lyrics \lyricsto Alto \HostiasAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \LacrymosaTenoreNotes }
+            \new Voice = "Tenore" { \dynamicUp \HostiasTenoreNotes }
           }
-          \new Lyrics \lyricsto Tenore \LacrymosaTenoreLyrics
+          \new Lyrics \lyricsto Tenore \HostiasTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \LacrymosaBassoNotes }
+            \new Voice = "Basso" { \dynamicUp \HostiasBassoNotes }
           }
-          \new Lyrics \lyricsto Basso \LacrymosaBassoLyrics
+          \new Lyrics \lyricsto Basso \HostiasBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \LacrymosaOrgano
+            \HostiasOrgano
           }
         >>
-        \new FiguredBass { \LacrymosaBassFigures }
+        \new FiguredBass { \HostiasBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 90 }
+      \midi { \tempo 2 = 110 }
     }
   }
 }

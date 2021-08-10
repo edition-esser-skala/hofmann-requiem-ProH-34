@@ -393,6 +393,157 @@ LacrymosaViolinoI = {
   }
 }
 
+DomineViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoDomine
+    c'8.\fE g16 g4 c,8 es16. g32 c16-! g'( h, c)
+    c8. f,16 f4 f'8 f16 es d8 c
+    h4 c8 c c8. h16 h4
+    g8 h16. d32 g16-! d'( fis, g) es4 r
+    e8 g16. b32 des16-! des( e, f) f4 r %5
+    c,8 es16. c32 c'16-! es( fis, g) g4 r
+    h8 h16. d32 g16-! d'( fis, g) g4 r
+    f,8 c'16. f32 as16-! c( e, f) f4 r
+    b,,8 f''16. as,32 g16-! b'( d, es) es8 g,16. es'32 f,8 d'
+    es, g16.\p b32 es16-! b'( d, es) c'2 %10
+    d, r16 g( d es) r as( g f)
+    r b( d, es) r c'( b as) r32 g(\cresc f g as g d es) g,8\f f\trill
+    es g16. b32 es16-! b'( d, es) b4 r
+    d8 f16. h32 d16-! g,( h, c) c4 r
+    c,8 es16. g32 c16-! g'( h, c) des4 r %15
+    g,8 c16. es32 g16-! d( fis, g) es'8. d16 c16. b32 as!16. g32
+    fis8 fis r fis d'8. c16 b16. a32 g16. f32
+    e8 e r e c'8. b16 as16. g32 f16. es32
+    d8 d es d es g16. c32 g,8 h'
+    c,4 r f8\p as16. c32 f16-! c'( e, f) %20
+    h2 r16 es,( h c) r f( es d)
+    r g( h, c) r as'( g f) r32 es(\cresc d es f es h c) es,8\f d\trillE \noBreak
+    c4 r r2\fermata \bar "||"
+    \time 3/4 \tempoSed <es g,>8 q4 q q8~
+    q q4 q \once \tieDashed q8~ %25
+    q[ g] b( es) g( es)
+    \once \slurDashed b2( as4)\trill
+    g r r
+    R2.*5 %33
+    r4 b b
+    b8( a) a16( b a b) c( d c d) %35
+    es4. f16 g f8 es
+    es4 d8 c d16 b'( a b)
+    b( g) g( es) d( f) f( b) c,8 a'
+    b,4 r r
+    R2.*4 %43
+    <b d,>8 q4 q q8~
+    q q4 q q8~ %45
+    q[ d] f( b) d( b)
+    f2( es4)\trill
+    d r r
+    R2.
+    r4 b b %50
+    b2 c8 d
+    es4 es, es
+    es2 es'4~
+    es8 b b4 as
+    g r r %55
+    R2.
+    r4 es es
+    es'4. d8 c[ b]
+    b a a2
+    r4 as as %60
+    f'4. d8 b[ as]
+    as4 g8 f g16( b) b( es)
+    es( c) c( as) g( b) b( es) f,8 d'
+    es,4 r r
+    R2.*4 \noBreak %68
+    R2.\fermata \bar "||"
+    \time 2/3 \tempoQuam R1*19 %88
+    r4 g g g
+    c2. c4 %90
+    b g2 g4
+    es'1
+    d2. g,4
+    c es d c
+    b4. a8 g2 %95
+    r4 a e? fis8 fis
+    g4 b8 a g f es d
+    c2 c'~
+    c b
+    a1 %100
+    g4 g2 g4
+    es'1
+    f,4 f2 f4
+    d'1
+    es,4 es2 es4 %105
+    c'2 c4 c
+    h2 c4 c
+    c2 h
+    c r
+    r4 as'8 g f es d c %110
+    h2 c4 c
+    c2 h
+    c4 es8 d c b! as! g
+    f1~
+    f2 es4 es %115
+    d1
+    c2 g'
+    as b4 b
+    as1\fermata
+    g\fermata \bar "||" %120 finis
+  }
+}
+
+HostiasViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \tempoHostias
+      \set Score.currentBarNumber = #121
+    g'8.\fE g16 g8 g es es es es
+    es8. d16 d4 d d8 d
+    g8. c,16 c4 r c'
+    es8. fis,16 fis8 fis16 g a8 a16 b \appoggiatura d c8 b16 a
+    b8. a16 g4 r as8 as %125
+    as8. g16 g8 g g4 g8 g
+    g8. fis16 fis4 r8 d' d d
+    d8. g,16 g8 g d' d16 es f8 es16 d
+    es8. d16 c4 r c
+    des des8 c h4 c8 c \noBreak %130
+    c4 h8 a h2\fermata \bar "||"
+    \key c \minor \time 2/2 \tempoQuamB R1*19 %150
+    r4 g g g
+    c2. c4
+    b g2 g4
+    es'1
+    d2. g,4 %155
+    c es d c
+    b4. a8 g2
+    r4 a e fis8 fis
+    g4 b8 a g f es d
+    c2 c'~ %160
+    c b
+    a1
+    g4 g2 g4
+    es'1
+    f,4 f2 f4 %165
+    d'1
+    es,4 es2 es4
+    c'2 c4 c
+    h2 c4 c
+    c2 h %170
+    c r
+    r4 as'8 g f es d c
+    h2 c4 c
+    c2 h
+    c4 es8 d c b as! g %175
+    f1~
+    f2 es4 es
+    d1
+    c2 g'
+    as b4 b %180
+    as1\fermata
+    g\fermata \bar "|." %182 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

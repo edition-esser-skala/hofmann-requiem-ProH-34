@@ -655,6 +655,357 @@ LacrymosaBassoLyrics = \lyricmode {
   men. %215 finis
 }
 
+DomineBassoNotes = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \autoBeamOff \tempoDomine
+    \mvTr c8.\fE^\tuttiE c16 c4 r2
+    f8. f16 f4 f8 f16 f f8 f
+    f4 fis8 fis g8. g16 g4
+    g g8 g c,8. c16 c4
+    b!8. b16 b8 b as8. as16 as8 as %5
+    as as16 as as8 as g4 g
+    r g' e e8 e
+    f4 f r8 f f f
+    d4 es! b2
+    es4 r r2 %10
+    R1*2
+    es8. es16 es4 d d8 d
+    g,4 g8 g c4 c
+    r c8 c f f16 f f8 fis %15
+    g8. g16 g4 r r8 c,
+    c c c c b! b r b
+    b b b b as as r as'
+    as g16([ f)] es8 f g2
+    c,4 r r2 %20
+    R1*2 \noBreak
+    R1\fermata \bar "||"
+    \time 3/4 \tempoSed es2. \noBreak
+    c4. c8 c4 %25
+    g2 es'4
+    f2 b,4
+    es r r
+    R2.*5 %33
+    r4 b b
+    c c2 %35
+    a4 a a
+    b2( g'4)
+    es f2
+    b,4 r r
+    R2.*4 %43
+    b'2.
+    g4. g8 g4 %45
+    d2 b4
+    c2 f4
+    b, r r
+    R2.
+    r4 b' b %50
+    as!2 as4
+    g g g
+    as2( g4)
+    es f( b,)
+    es r r %55
+    R2.
+    r4 es es
+    es2 es4
+    es es2
+    r4 d d %60
+    d2 d4
+    es es8 es es4
+    as, b2
+    es4 r r
+    R2.*4 \noBreak %68
+    R2.\fermata \bar "||"
+    \time 2/2 \tempoQuam r4 c c c \noBreak %70
+    f2. f4
+    es4 c2 c4
+    as'1
+    g2. c,4
+    f( as) g f %75
+    es4.( d8) c2
+    r4 a' e fis8 fis
+    g4 b8[ a] g[ f es d]
+    c2 c'~
+    c b %80
+    a1
+    g4 g2 f8 g
+    es4. d8 c2
+    d1
+    c %85
+    r4 as'8([ g] f[ es d c)]
+    h2 c4 c
+    c2 h
+    c2. b4
+    a1 %90
+    g
+    R1*3
+    r4 g g g %95
+    c2. c4
+    b g2 g4
+    es'1
+    d2. g,4
+    c( es) d c %100
+    b4.( a8) g2
+    r4 c2 c4
+    as'!1
+    b,4 b2 b4
+    g'1 %105
+    as,2 as
+    g g4 g
+    g1
+    c4 es'8([ d] c[ b! as g)]
+    f2 f4 f %110
+    g1~
+    g
+    c,2 r
+    r4 as'8([ g] f[ es d c)]
+    h2 c4 c %115
+    g1
+    c2 c
+    f e4 e
+    f1\fermata
+    c\fermata \bar "||" %120 finis
+  }
+}
+
+DomineBassoLyrics = \lyricmode {
+  Do -- mi -- ne,
+  Do -- mi -- ne, Do -- mi -- ne Ie -- su
+  Chri -- ste, Rex glo -- ri -- ae,
+  li -- be -- ra a -- ni -- mas
+  o -- mni -- um fi -- de -- li -- um, fi -- %5
+  de -- li -- um de -- fun -- cto -- rum
+  de poe -- nis in --
+  fer -- ni, et de pro --
+  fun -- do la --
+  cu. %10
+
+  Li -- be -- ra e -- as de %13
+  o -- re le -- o -- nis,
+  ne ab -- sor -- be -- at e -- as %15
+  tar -- ta -- rus, ne
+  ca -- dant in ob -- scu -- rum, ne
+  ca -- dant in ob -- scu -- rum, ne
+  ca -- dant in ob -- scu --
+  rum. %20
+
+  Sed %24
+  si -- gni -- fer %25
+  san -- ctus
+  Mi -- cha --
+  el
+
+  re -- prae -- %34
+  sen -- tet %35
+  e -- as in
+  lu --
+  cem san --
+  ctam.
+
+  Sed %44
+  si -- gni -- fer %45
+  san -- ctus
+  Mi -- cha --
+  el
+
+  re -- prae -- %50
+  sen -- tet
+  e -- as in
+  lu --
+  cem san --
+  ctam, %55
+
+  re -- prae --
+  sen -- tet
+  e -- as,
+  re -- prae -- %60
+  sen -- tet
+  e -- as in lu --
+  cem san --
+  ctam.
+
+  Quam o -- lim %70
+  A -- bra --
+  hae pro -- mi --
+  si --
+  sti, et
+  se -- mi -- ni %75
+  e -- ius,
+  et se -- mi -- ni
+  e -- _ _
+  _ _
+  _ %80
+  _
+  ius, se -- mi -- ni
+  e -- _ _
+  _
+  ius, %85
+  et __
+  se -- mi -- ni
+  e -- _
+  _ _
+  _ %90
+  ius,
+
+  quam o -- lim %95
+  A -- bra --
+  hae pro -- mi --
+  si --
+  sti, et
+  se -- mi -- ni %100
+  e -- ius,
+  pro -- mi --
+  si --
+  sti, pro -- mi --
+  si -- %105
+  sti, et
+  se -- mi -- ni
+  e --
+  ius, et __
+  se -- mi -- ni %110
+  e --
+
+  ius,
+  et __
+  se -- mi -- ni %115
+  e --
+  ius, et
+  se -- mi -- ni
+  e --
+  ius. %120 finis
+}
+
+HostiasBassoNotes = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \autoBeamOff \tempoHostias
+      \set Score.currentBarNumber = #121
+    \mvTr g'8.\fE^\tuttiE g16 g8 g g g fis fis
+    g8. g16 g4 f f8 f
+    es8. es16 es4 r c
+    a8. a16 a8 a fis fis fis fis
+    g4 g r h8 h %125
+    c8. c16 c8 c cis4 cis8 cis
+    d8. d16 d4 r8 d d d
+    h8. h16 h8 h g g16 g g8 g16 g
+    c4 c r c
+    f f8 f f4 fis8 fis \noBreak %130
+    g2 g,\fermata \bar "||"
+    \key c \minor \time 2/2 \tempoQuamB r4 c c c \noBreak
+    f2. f4
+    es4 c2 c4
+    as'1 %135
+    g2. c,4
+    f( as) g f
+    es4.( d8) c2
+    r4 a' e fis8 fis
+    g4 b8[ a] g[ f es d] %140
+    c2 c'~
+    c b
+    a1
+    g4 g2 f8 g
+    es4. d8 c2 %145
+    d1
+    c
+    r4 as'8([ g] f[ es d c)]
+    h2 c4 c
+    c2 h %150
+    c2. b4
+    a1
+    g
+    R1*3 %156
+    r4 g g g
+    c2. c4
+    b g2 g4
+    es'1 %160
+    d2. g,4
+    c( es) d c
+    b4.( a8) g2
+    r4 c2 c4
+    as'!1 %165
+    b,4 b2 b4
+    g'1
+    as,2 as
+    g g4 g
+    g1 %170
+    c4 es'8([ d] c[ b! as g)]
+    f2 f4 f
+    g1~
+    g
+    c,2 r %175
+    r4 as'8([ g] f[ es d c)]
+    h2 c4 c
+    g1
+    c2 c
+    f e4 e %180
+    f1\fermata
+    c\fermata \bar "|." %182 finis
+  }
+}
+
+HostiasBassoLyrics = \lyricmode {
+  Ho -- sti -- as et pre -- ces ti -- bi, %121
+  Do -- mi -- ne, lau -- dis of --
+  fe -- ri -- mus: Tu
+  su -- sci -- pe pro a -- ni -- ma -- bus
+  il -- lis, qua -- rum %125
+  ho -- di -- e me -- mo -- ri -- am
+  fa -- ci -- mus. Fac e -- as,
+  Do -- mi -- ne, de mor -- te tran -- si -- re ad
+  vi -- tam, de
+  mor -- te tran -- si -- re ad %130
+  vi -- tam.
+  Quam o -- lim
+  A -- bra --
+  hae pro -- mi --
+  si -- %135
+  sti, et
+  se -- mi -- ni
+  e -- ius,
+  et se -- mi -- ni
+  e -- _ _ %140
+  _ _
+  _
+  _
+  ius, se -- mi -- ni
+  e -- _ _ %145
+  _
+  ius,
+  et __
+  se -- mi -- ni
+  e -- _ %150
+  _ _
+  _
+  ius,
+
+  quam o -- lim %157
+  A -- bra --
+  hae pro -- mi --
+  si -- %160
+  sti, et
+  se -- mi -- ni
+  e -- ius,
+  pro -- mi --
+  si -- %165
+  sti, pro -- mi --
+  si --
+  sti, et
+  se -- mi -- ni
+  e -- %170
+  ius, et __
+  se -- mi -- ni
+  e --
+
+  ius, %175
+  et __
+  se -- mi -- ni
+  e --
+  ius, et
+  se -- mi -- ni %180
+  e --
+  ius. %182 finis
+}
+
 % BassoNotes = {
 %   \relative c {
 %     \clef bass

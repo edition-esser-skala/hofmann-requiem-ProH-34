@@ -669,6 +669,292 @@ LacrymosaSopranoLyrics = \lyricmode {
   men. %215 finis
 }
 
+DomineSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoDomine
+    \mvTr c'8.\fE^\tuttiE g16 g4 r2
+    c8. f,16 f4 f'8 f16 es d8 c
+    h4 c8 c c8. h16 h4
+    d d8 d es8. es16 es4
+    e8. e16 e8 e f8. f,16 f8 f %5
+    fis fis16 fis fis8 fis g4 g
+    r h b b8 b
+    b4 as r8 as as as
+    as4 g g( f)
+    es4 r r2 %10
+    R1*2
+    b'8. b16 b4 b b8 b
+    h4 h8 h c4 g
+    r es'8 es des des16 des des8 c %15
+    c8. h16 h8 g es'8.([ d16] c16.[ b32 as!16. g32]
+    fis8) fis r fis d'8.([ c16] b16.[ a32 g16. f32]
+    e8) e r e c'8.([ b16] as16.[ g32 f16. es32]
+    d8) d es d es4( d)
+    c r r2 %20
+    R1*2 \noBreak
+    R1\fermata \bar "||"
+    \time 3/4 \tempoSed es2. \noBreak
+    es4. es8 es4 %25
+    es( g) b
+    b2 as4
+    g r r
+    R2.*5 %33
+    r4 b b
+    b8([ a)] a2 %35
+    c4.( d16[ es)] d8 c
+    c4 b8[ a] b4~
+    b8 c b4( a)
+    b r r
+    R2.*4 %43
+    b2.
+    b4. b8 b4 %45
+    b( d) f
+    f2 es4
+    d r r
+    R2.
+    r4 b b %50
+    b2 c8([ d)]
+    es4 es, es
+    es2 es'4~
+    es8[ b] b4( as)
+    g r r %55
+    R2.
+    r4 es es
+    es'4.( d8) c([ b)]
+    b([ a)] a2
+    r4 as as %60
+    f'4.( d8) b([ as)]
+    as4 g8 f g4~
+    g8 as g4( f)
+    es r r
+    R2.*4 \noBreak %68
+    R2.\fermata \bar "||"
+    \time 2/2 \tempoQuam R1*19 %88
+    r4 g g g
+    c2. c4 %90
+    b g2 g4
+    es'1
+    d2. g,4
+    c( es) d c
+    b4.( a8) g2 %95
+    r4 a e fis8 fis
+    g4 b8[ a] g[ f es d]
+    c2 c'~
+    c b
+    a1 %100
+    g4 g2 g4
+    es'1
+    f,4 f2 f4
+    d'1
+    es,4 es2 es4 %105
+    c'2 c4 c
+    h2 c4 c
+    c2( h)
+    c r
+    r4 as'8([ g] f[ es d c)] %110
+    h2 c4 c
+    c2( h)
+    c4 es8([ d] c[ b as! g])
+    f1~
+    f2 es4 es %115
+    d1
+    c2 g'
+    as b4 b
+    as1\fermata
+    g\fermata \bar "||" %120 finis
+  }
+}
+
+DomineSopranoLyrics = \lyricmode {
+  Do -- mi -- ne,
+  Do -- mi -- ne, Do -- mi -- ne Ie -- su
+  Chri -- ste, Rex glo -- ri -- ae,
+  li -- be -- ra a -- ni -- mas
+  o -- mni -- um fi -- de -- li -- um, fi -- %5
+  de -- li -- um de -- fun -- cto -- rum
+  de poe -- nis in --
+  fer -- ni, et de pro --
+  fun -- do la --
+  cu. %10
+
+  Li -- be -- ra e -- as de %13
+  o -- re le -- o -- nis,
+  ne ab -- sor -- be -- at e -- as %15
+  tar -- ta -- rus, ne ca --
+  dant, ne ca --
+  dant, ne ca --
+  dant in ob -- scu --
+  rum. %20
+
+  Sed %24
+  si -- gni -- fer %25
+  san -- ctus
+  Mi -- cha --
+  el
+
+  re -- prae -- %34
+  sen -- tet %35
+  e -- as in
+  lu -- _ _
+  cem san --
+  ctam.
+
+  Sed %44
+  si -- gni -- fer %45
+  san -- ctus
+  Mi -- cha --
+  el
+
+  re -- prae -- %50
+  sen -- tet
+  e -- as in
+  lu -- cem __
+  san --
+  ctam, %55
+
+  re -- prae --
+  sen -- tet
+  e -- as,
+  re -- prae -- %60
+  sen -- tet
+  e -- as in lu --
+  cem san --
+  ctam.
+
+  Quam o -- lim %89
+  A -- bra -- %90
+  hae pro -- mi --
+  si --
+  sti, et
+  se -- mi -- ni
+  e -- ius, %95
+  et se -- mi -- ni
+  e -- _ _
+  _ _
+  _
+  _ %100
+  ius, pro -- mi --
+  si --
+  sti, pro -- mi --
+  si --
+  sti, pro -- mi -- %105
+  si -- sti, et
+  se -- mi -- ni
+  e --
+  ius,
+  et __ %110
+  se -- mi -- ni
+  e --
+  ius, et __
+  se --
+  mi -- ni %115
+  e --
+  ius, et
+  se -- mi -- ni
+  e --
+  ius. %120 finis
+}
+
+HostiasSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \autoBeamOff \tempoHostias
+      \set Score.currentBarNumber = #121
+    \mvTr g'8.\fE^\tuttiE g16 g8 g es es es es
+    es8. d16 d4 d d8 d
+    g8. c,16 c4 r c'
+    es8. fis,16 fis8 fis16([ g)] a8 a16([ b)] \appoggiatura d c8 b16([ a)]
+    b8.([ a16)] g4 r as8 as %125
+    as8. g16 g8 g g4 g8 g
+    g8. fis16 fis4 r8 d' d d
+    d8. g,16 g8 g d' d16 es f8 es16 d
+    es8.([ d16)] c4 r c
+    des des8 c h4 c8 c \noBreak %130
+    c4( h8[ a]) h2\fermata \bar "||"
+    \key c \minor \time 2/2 \tempoQuamB R1*19 %150
+    r4 g g g
+    c2. c4
+    b g2 g4
+    es'1
+    d2. g,4 %155
+    c( es) d c
+    b4.( a8) g2
+    r4 a e fis8 fis
+    g4 b8[ a] g[ f es d]
+    c2 c'~ %160
+    c b
+    a1
+    g4 g2 g4
+    es'1
+    f,4 f2 f4 %165
+    d'1
+    es,4 es2 es4
+    c'2 c4 c
+    h2 c4 c
+    c2( h) %170
+    c r
+    r4 as'8([ g] f[ es d c)]
+    h2 c4 c
+    c2( h)
+    c4 es8([ d] c[ b as! g]) %175
+    f1~
+    f2 es4 es
+    d1
+    c2 g'
+    as b4 b %180
+    as1\fermata
+    g\fermata \bar "|." %182 finis
+  }
+}
+
+HostiasSopranoLyrics = \lyricmode {
+  Ho -- sti -- as et pre -- ces ti -- bi, %121
+  Do -- mi -- ne, lau -- dis of --
+  fe -- ri -- mus: Tu
+  su -- sci -- pe pro a -- ni -- ma -- bus
+  il -- lis, qua -- rum %125
+  ho -- di -- e me -- mo -- ri -- am
+  fa -- ci -- mus. Fac e -- as,
+  Do -- mi -- ne, de mor -- te tran -- si -- re ad
+  vi -- tam, de
+  mor -- te tran -- si -- re ad %130
+  vi -- tam.
+
+  Quam o -- lim %151
+  A -- bra --
+  hae pro -- mi --
+  si --
+  sti, et %155
+  se -- mi -- ni
+  e -- ius,
+  et se -- mi -- ni
+  e -- _ _
+  _ _ %160
+  _
+  _
+  ius, pro -- mi --
+  si --
+  sti, pro -- mi -- %165
+  si --
+  sti, pro -- mi --
+  si -- sti, et
+  se -- mi -- ni
+  e -- %170
+  ius,
+  et __
+  se -- mi -- ni
+  e --
+  ius, et __ %175
+  se --
+  mi -- ni
+  e --
+  ius, et
+  se -- mi -- ni %180
+  e --
+  ius. %182 finis
+}
+
 % SopranoNotes = {
 %   \relative c' {
 %     \clef treble

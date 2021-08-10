@@ -389,3 +389,172 @@ LacrymosaTromboneI = {
     e\fermata \bar "|." %215 finis
   }
 }
+
+DomineTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \minor \time 4/4 \tempoDomine
+    g'8.\fE es16 es4 r2
+    as8. as16 as4 as8 as16 g f8 es
+    d4 es8 es es8. d16 d4
+    g g8 g g8. g16 g4
+    g8. g16 g8 g as8. as16 as8 f %5
+    es! es16 es es8 es es4 d
+    r g g g8 g
+    g4 f r8 f f f
+    f4 es es( d)
+    es r r2 %10
+    R1*2
+    g8. g16 g4 f f8 f
+    f as g f es4 es
+    r g8 g f f16 f f8 es %15
+    es8. d16 d4 r r8 es
+    es es es es d d r d
+    des des des des c c r c
+    h h c c c4 h
+    c r r2 %20
+    R1*2 \noBreak
+    R1\fermata \bar "||"
+    \time 3/4 \tempoSed b2.-\tuttiE \noBreak
+    c4. c8 c4 %25
+    b2 g'4
+    g2 f4
+    es es2~-\solo
+    es8 d16 es f8( es) es( d)
+    es8.\trill f16 g2~ %30
+    g8 f16 g as8( g) g( f)
+    g8.\trill as16 b2~
+    b8 as16 b c8 b as g
+    g4\trill f f-\tutti
+    es es2 %35
+    es4. f16 g f8 es
+    es4 d8 c d4~
+    d8 es d4 c
+    b d2~-\solo
+    d8 c16 d es8( d) d( c) %40
+    d8.\trill es16 f2~
+    f8 es16( f) g8( f) f( es)
+    d8. es16 d4 c\trill
+    b f'2-\tutti
+    g4. g8 g4 %45
+    f2 b4
+    g2 f4
+    f d2~-\solo
+    d8 c16 d es8( d) d( c)
+    d4 f-\tutti f %50
+    f2 f4
+    g g es
+    es2.
+    g4 g f
+    es g2~-\solo %55
+    g8 f16 g as8( g) g( f)
+    g4 g-\tutti g
+    g2 g4
+    ges ges2
+    r4 f f %60
+    as2 f4
+    f es8 d es4~
+    es8 f es4 d
+    es g2~-\solo
+    g8 f16 g as8( g) g( f) %65
+    g8.\trill as16 b2~
+    b8 as16 b \slurDashed c8( b) b( as) \slurSolid
+    g8. as16 g4 f\trill \noBreak %68
+    es r r\fermata \bar "||"
+    \time 2/2 \tempoQuam R1*13 %82
+    r4 c-\tuttiE c c
+    f2. f4
+    es c2 c4 %85
+    as'1
+    g2. c,4
+    f as g f
+    es4. d8 c2
+    r4 a' e fis8 fis %90
+    g4 b8 a g f es d
+    c2 c'~
+    c b
+    a1
+    g %95
+    R1*2
+    r4 es'8 d c b a g
+    fis2 g4 g
+    g2 fis %100
+    g1
+    r4 g2 c4
+    c2 f,
+    r4 f2 b4
+    b2 es, %105
+    r4 es2 f4
+    g2 g4 g
+    g1
+    g2 r
+    r4 c8 b as g f es %110
+    d2 es4 g
+    g1
+    g4 g8 f es d c b!
+    as4 c2 h8 c
+    d2 c4 c %115
+    c2 h
+    c e
+    f g4 g
+    f1\fermata
+    e\fermata \bar "||" %120 finis
+  }
+}
+
+HostiasTromboneI = {
+  \relative c' {
+    \clef alto
+    \key g \minor \time 4/4 \tempoHostias
+      \set Score.currentBarNumber = #121
+    d8.\fE d16 d8 d c c c c
+    c8. b16 b4 h h8 h
+    c8. c16 c4 r es
+    es8. es16 es8 es d d d d
+    d4 d r f!8 f %125
+    f8. es16 es8 es e4 e8 e
+    d8. d16 d4 r8 fis fis fis
+    g8. g16 g8 g g g16 g g8 g16 g
+    g4 g r g
+    f f8 es d!4 es8 es \noBreak %130
+    es4 d8 c d2\fermata \bar "||"
+    \key c \minor \time 2/2 \tempoQuamB R1*13 %144
+    r4 c c c %145
+    f2. f4
+    es c2 c4
+    as'1
+    g2. c,4
+    f as g f %150
+    es4. d8 c2
+    r4 a' e fis8 fis
+    g4 b8 a g f es d
+    c2 c'~
+    c b %155
+    a1
+    g
+    R1*2
+    r4 es'8 d c b a g %160
+    fis2 g4 g
+    g2 fis
+    g1
+    r4 g2 c4
+    c2 f, %165
+    r4 f2 b4
+    b2 es,
+    r4 es2 f4
+    g2 g4 g
+    g1 %170
+    g2 r
+    r4 c8 b as g f es
+    d2 es4 g
+    g1
+    g4 g8 f es d c b! %175
+    as4 c2 h8 c
+    d2 c4 c
+    c2 h
+    c e
+    f g4 g %180
+    f1\fermata
+    e\fermata \bar "|." %182 finis
+  }
+}

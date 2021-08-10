@@ -128,3 +128,69 @@ LacrymosaClarinoII = {
     c\fermata \bar "|." %215 finis
   }
 }
+
+DomineClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoDomine
+    c8.\fE c16 c4 r2
+    c8. c16 c4 r2
+    r r4 g'8. g16
+    g4 r r2
+    R1 %5
+    r2 g
+    R1*7 %13
+    r2 c,4 c8. c16
+    c4 r r2 %15
+    g'8. g16 g4 r2
+    R1*2
+    r2 g4 g8. g16
+    g4 r r2 %20
+    R1*2 \noBreak
+    R1\fermata \bar "||"
+    \time 3/4 \tempoSed R2.*45 \noBreak %68
+    R2.\fermata \bar "||"
+    \time 2/2 \tempoQuam R1*32 %101
+    r4 c,2 c4
+    c1
+    R1*3 %106
+    d'2 c4 c
+    d1
+    c2 r
+    R1 %110
+    d2 c4 c
+    d1
+    c2 r
+    R1*3 %116
+    r2 c,
+    c c4 c
+    c1\fermata
+    c\fermata \bar "||" %120 finis
+  }
+}
+
+HostiasClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoHostias
+      \set Score.currentBarNumber = #121
+    R1*10 \noBreak %130
+    R1\fermata \bar "||"
+    \time 2/2 \tempoQuamB R1*32 %163
+    r4 c2\fE c4
+    c1 %165
+    R1*3
+    d'2 c4 c
+    d1 %170
+    c2 r
+    R1
+    d2 c4 c
+    d1
+    c2 r %175
+    R1*3
+    r2 c,
+    c c4 c %180
+    c1\fermata
+    c\fermata \bar "|." %182 finis
+  }
+}
