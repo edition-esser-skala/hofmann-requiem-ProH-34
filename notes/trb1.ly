@@ -558,3 +558,25 @@ HostiasTromboneI = {
     e\fermata \bar "|." %182 finis
   }
 }
+
+SanctusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \minor \time 4/4 \tempoSanctus
+    g'4\fE g r2
+    as4 as r2
+    d,4 g g8 g16 g a8 a \noBreak
+    g4. g8 g2\fermata \bar "|"
+    \tempoPleni g4 g8 g g g r4 \noBreak %5
+    g g8 g g g r4
+    g g8 g as g r4
+    g g8 g as g r4
+    r8 c b4 as g
+    as8 as16 as g4 g r8 g %10
+    g8. f16 es8 es es d r g
+    as8. g16 f8 f f es r g
+    g8. g16 as8 b as8. g16 f8 f
+    f4 es d2
+    c4 r r2\fermata \bar "|." %15 finis
+  }
+}

@@ -986,6 +986,46 @@ HostiasAltoLyrics = \lyricmode {
   ius. %182 finis
 }
 
+SanctusAltoNotes = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr g'4\fE^\tuttiE g r2
+    as4 as r2
+    d,4 g g8 g16 g a8 a \noBreak
+    g4. g8 g2\fermata \bar "|"
+    \tempoPleni g4 g8 g g g r4 \noBreak %5
+    g g8 g g g r4
+    g g8 g as g r4
+    g g8 g as g r4
+    r8 c b4 as g
+    as8 as16 as g4 g r8 g %10
+    g8. f16 es8 es es d r g
+    as8. g16 f8 f f es r g
+    g8. g16 as8 b as8. g16 f8 f
+    f4( es d2)
+    c4 r r2\fermata \bar "|." %15 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus Do -- mi -- nus De -- us
+  Sa -- ba -- oth.
+  Ple -- ni sunt coe -- li, %5
+  coe -- li et ter -- ra,
+  ple -- ni sunt coe -- li,
+  coe -- li et ter -- ra,
+  glo -- _ _ _
+  _ ri -- a tu -- a. O -- %10
+  san -- na in ex -- cel -- sis, o --
+  san -- na in ex -- cel -- sis, o --
+  san -- na in ex -- cel -- sis, in ex --
+  cel --
+  sis. %15 finis
+}
+
 % AltoNotes = {
 %   \relative c' {
 %     \clef treble

@@ -194,3 +194,23 @@ HostiasClarinoI = {
     c\fermata \bar "|." %182 finis
   }
 }
+
+SanctusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    c'4\fE c r2
+    c4 c r2
+    R1 \noBreak
+    g'\fermata \bar "|"
+    \tempoPleni g4 g8 g g4 r \noBreak %5
+    g g8 g g4 r
+    c, c8 c c4 r
+    c c8 c c4 r
+    R1
+    r4 g'8. g16 g4 r %10
+    R1*3
+    g2~ g4 g8. g16
+    g4 r r2\fermata \bar "|." %15 finis
+  }
+}

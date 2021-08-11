@@ -544,6 +544,28 @@ HostiasViolinoI = {
   }
 }
 
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoSanctus
+    <es c'>4\f q g'8.(\p as32 g) h,8( c)
+    <c as'>4\f q c'8.(\p des32 c) e,8( f)
+    f16(\f d) d( h) d'( h) h( f) es c'8 c es, es16 \noBreak
+    es4 d8 c d2\fermata \bar "|"
+    \tempoPleni <g h, d, g,>8 h32([ a h c)] d16. h32 g16. d32 es8\trill d r4 \noBreak %5
+    <g h, d, g,>8 h32([ a h c)] d16. h32 g16. d32 es8\trill d r4
+    <c e, c>8 e32([ d e f)] g16. c,32 c'16. g32 as8\trill g r4
+    <c, e, c>8 e32([ d e f)] g16. c,32 c'16. g32 as8\trill g r16 c, d e
+    f g as8~ as16 b, g'8~ g16 as, f'8~ f16 g, es' c'~
+    c d,8 c'16 g,8 h' c,4 r8 g %10
+    es'8. d16 c8 c c h r g
+    f'8. es16 d8 d d c r c
+    c8. d16 es8 e f8. g16 as8 as,
+    g16 g'8 g c c d, c'16 g,8 h'
+    c,4 r r2\fermata \bar "|." %15 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

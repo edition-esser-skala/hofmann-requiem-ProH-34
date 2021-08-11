@@ -1000,6 +1000,46 @@ HostiasTenoreLyrics = \lyricmode {
   ius. %182 finis
 }
 
+SanctusTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \minor \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr es4\fE^\tuttiE es r2
+    c4 c r2
+    h4 h c8 c16 c c8 c \noBreak
+    c4 h8([ a)] h2\fermata \bar "|"
+    \tempoPleni h4 h8 h c h r4 \noBreak %5
+    h h8 h c h r4
+    e e8 e f e r4
+    e e8 e f e r4
+    r8 f4 es d c8~
+    c c16 c c8([ h)] c4 r %10
+    r r8 g g g r4
+    r r8 g g g r c
+    c8. c16 c8 des c8. c16 d8 d
+    d4( c2 h4)
+    c r r2\fermata \bar "|." %15 finis
+  }
+}
+
+SanctusTenoreLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus Do -- mi -- nus De -- us
+  Sa -- ba -- oth.
+  Ple -- ni sunt coe -- li, %5
+  coe -- li et ter -- ra,
+  ple -- ni sunt coe -- li,
+  coe -- li et ter -- ra,
+  glo -- _ _ _
+  ri -- a tu -- a. %10
+  O -- san -- na,
+  o -- san -- na, o --
+  san -- na in ex -- cel -- sis, in ex --
+  cel --
+  sis. %15 finis
+}
+
 % TenoreNotes = {
 %   \relative c' {
 %     \clef "treble_8"

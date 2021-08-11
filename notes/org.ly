@@ -1189,6 +1189,46 @@ HostiasBassFigures = \figuremode {
   <_!> %182 finis
 }
 
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \tempoSanctus
+    \mvTr c4\fE-\tutti c r8 \mvTr c(\p-\senzaOrg d es)
+    \mvTr f4\f-\colOrg f r8 \mvTr f(\p-\senzaOrg g as)
+    \mvTr g\f-\colOrg g g g c c fis, fis \noBreak
+    g g g g g2\fermata \bar "|"
+    \tempoPleni g4 g8 g c, g' g16. d32 h16. d32 \noBreak %5
+    g4 g8 g c, g' g,16. g'32 h16. g32
+    c4 c8 c f, c' c16. g32 e16. g32
+    c4 c8 c f, c r4
+    r8 f d es! c d h c
+    f f g g, c c' c,4 %10
+    r r8 c g' g, g' r
+    r4 r8 g c, c c' c,
+    c'8. b16 as8 g f8. es!16 d!8 c
+    h g c es g g g, g
+    c4 r r2\fermata \bar "|." %15 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r1
+  r
+  <7 _!>2. <7 [_!]>4
+  <6 4> <5 _!>8 <4 2!> <[5] _!>2
+  <_!>2 r8 <[_!]>4. %5
+  r2 r8 <[_!]>4.
+  <_!>2 r8 <[_!]>4.
+  <_!>2 r8 <[_!]>4.
+  r4 <6 5> q q
+  q \bo <[6] 4>8 \bc <[5] _!> r2 %10
+  r <6 4>8 <5 _!>4.
+  r4. <_!>8 <9 4> <8 3>4.
+  r4 <5>8 <6! [5-]> r8. \bo <[6 \l]>16 <5 3>8 \bc <[\t \t]>
+  <6 5>2 <4>4 <_!>
+  r1 %15 finis
+}
+
 % Organo = {
 %   \relative c {
 %     \clef bass

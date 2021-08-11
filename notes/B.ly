@@ -1006,6 +1006,46 @@ HostiasBassoLyrics = \lyricmode {
   ius. %182 finis
 }
 
+SanctusBassoNotes = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr c4\fE^\tuttiE c r2
+    f4 f r2
+    g4 g c8 c16 c fis,8 fis \noBreak
+    g4. g8 g2\fermata \bar "||"
+    \tempoPleni g4 g8 g c, g' r4 \noBreak %5
+    g g8 g c, g' r4
+    c c8 c f, c' r4
+    c c8 c f, c r4
+    r8 f[ d es!] c[ d h c]
+    f f16 f g4 c, r %10
+    r r8 c g' g, r4
+    r r8 g' c, c r c
+    c'8. b!16 as8 g f8. es!16 d!8 c
+    h4( c g2)
+    c4 r r2\fermata \bar "|." %15 finis
+  }
+}
+
+SanctusBassoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus Do -- mi -- nus De -- us
+  Sa -- ba -- oth.
+  Ple -- ni sunt coe -- li, %5
+  coe -- li et ter -- ra,
+  ple -- ni sunt coe -- li,
+  coe -- li et ter -- ra,
+  glo -- _
+  _ ri -- a tu -- a. %10
+  O -- san -- na,
+  o -- san -- na, o --
+  san -- na in ex -- cel -- sis, in ex --
+  cel --
+  sis. %15 finis
+}
+
 % BassoNotes = {
 %   \relative c {
 %     \clef bass

@@ -955,6 +955,46 @@ HostiasSopranoLyrics = \lyricmode {
   ius. %182 finis
 }
 
+SanctusSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr c'4\fE^\tuttiE c r2
+    c4 c r2
+    f4 f es8 es16 es es8 es \noBreak
+    es4 d8([ c)] d2\fermata \bar "|"
+    \tempoPleni g4 d8 d es d r4 \noBreak %5
+    g d8 d es d r4
+    c c8 c c c r4
+    c c8 c c c r16 c[ d e]
+    f[ g] as4 g f es8
+    d d16 d es8([ d)] c4 r8 g %10
+    es'8. d16 c8 c c h r g
+    f'8. es16 d8 d d c r c
+    c8. d16 es8 e f8. g16 as8 as,
+    g1
+    g4\fermata r r2\fermata \bar "|." %15 finis
+  }
+}
+
+SanctusSopranoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus Do -- mi -- nus De -- us
+  Sa -- ba -- oth.
+  Ple -- ni sunt coe -- li, %5
+  coe -- li et ter -- ra,
+  ple -- ni sunt coe -- li,
+  coe -- li et ter -- ra, glo --
+  _ _ _ _ _
+  _ ri -- a tu -- a. O -- %10
+  san -- na in ex -- cel -- sis, o --
+  san -- na in ex -- cel -- sis, o --
+  san -- na in ex -- cel -- sis, in ex --
+  cel --
+  sis. %15 finis
+}
+
 % SopranoNotes = {
 %   \relative c' {
 %     \clef treble

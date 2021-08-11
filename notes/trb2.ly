@@ -565,3 +565,25 @@ HostiasTromboneII = {
     c\fermata \bar "|." %182 finis
   }
 }
+
+SanctusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \minor \time 4/4 \tempoSanctus
+    es4\fE es r2
+    c4 c r2
+    h4 h c8 c16 c c8 c \noBreak
+    c4 h8 a h2\fermata \bar "|"
+    \tempoPleni h4 h8 h c h r4 \noBreak %5
+    h h8 h c h r4
+    e e8 e f e r4
+    e e8 e f e r4
+    r8 f4 es d c8~
+    c c16 c c8 h c4 r %10
+    r r8 g g g r4
+    r r8 g g g r c
+    c8. c16 c8 des c8. c16 d8 d
+    d4 c2 h4
+    c r r2\fermata \bar "|." %15 finis
+  }
+}

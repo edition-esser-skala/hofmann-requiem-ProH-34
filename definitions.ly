@@ -698,6 +698,8 @@ tempoDomine = \tempoMarkup "Adagio"
   tempoQuam = \tempoMarkup "Moderato"
 tempoHostias = \tempoMarkup "Poco adagio"
   tempoQuamB = \tempoMarkup "Moderato"
+tempoSanctus = \tempoMarkup "Poco adagio"
+  tempoPleni = \tempoMarkup "Poco allegro"
 
 
 \include "notes/clno1.ly"
