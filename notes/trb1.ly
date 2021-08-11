@@ -580,3 +580,30 @@ SanctusTromboneI = {
     c4 r r2\fermata \bar "|." %15 finis
   }
 }
+
+BenedictusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key es \major \time 4/4 \tempoBenedictus
+    R1*6 %6
+    es2\fE f
+    g4 g8 a b2~
+    b4 a b r8 f
+    g4 g8 g f4 f8 f %10
+    f8. f16 f8 d^\critnote f f16 f f8. f16
+    f4 r r2
+    R1*3 %15
+    es2 f
+    g4 g8 a b4 b8 b
+    g4 g8 g as8. b16 c8 f,
+    f4 f8 f g8. as16 b8 g
+    f es16 es \appoggiatura es8 d8. d16 es4 r %20
+    R1*2
+    r2 r4 r8 g
+    g8. g16 f8 es es d r d
+    f8. f16 es8 d d c r g' %25
+    g8. g16 as8 b as8. g16 f8 f
+    f4 es d2
+    c4 r r2 \fermata \bar "|." %28 finis
+  }
+}

@@ -580,3 +580,38 @@ SanctusViolinoII = {
     c,4 r r2\fermata \bar "|." %15 finis
   }
 }
+
+BenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoBenedictus
+    es8.\fE \tuplet 3/2 16 { f32( es d } es16.) f32 g16. as32 f8. \tuplet 3/2 16 { g32( f es } f16.) g32 as16. b32
+    g8. \tuplet 3/2 16 { as32( g f } g16.) es32 es'16. a,32 b8 b, b'4~
+    b a b r
+    r16. es,32 es'16. b32 c8 c, r16. f32 f'16. c32 d8 d,
+    r16. g32 g'16. d32 es16. es,32 es'16. g32 as16. f32 c16. as32 f16. as32 c,16. f32 %5
+    as,8.(\trill g32 as) as8.(\trill g32 as) g16. b'32 es16. es,32 es8 d\trill
+    es8. \tuplet 3/2 16 { f32( es d } es16.) f32 g16. as32 f8. \tuplet 3/2 16 { g32( f es } f16.) g32 as16. b32
+    g8. \tuplet 3/2 16 { as32( g f } g16.) es32 es'16. a,32 b8 b, b'4~
+    b a b8. \tuplet 3/2 16 { c32( b a } b16.) b32 b'16. d,32
+    es8 es, es' es es8. \tuplet 3/2 16 { f32( es d } es16.) a32 c16. es,32 %10
+    \appoggiatura es8 d8. es16 f8 b, es d16. b'32 c,8 a'
+    b, b, b'2 a4
+    b8. \tuplet 3/2 16 { c32( b a } b16.) c32 d16. es32 c8. \tuplet 3/2 16 { d32( c b } c16.) d32 es16. f32
+    d16. d32 es16. c32 b8 a\trill b4 r
+    R1 %15
+    es,8. \tuplet 3/2 16 { f32( es d } es16.) f32 g16. as32 f8. \tuplet 3/2 16 { g32( f es } f16.) g32 as16. b32
+    g8. \tuplet 3/2 16 { \once \slurDashed as32( g f } g16.) es32 es'16. a,32 b4 b8 b
+    g4 g8 g as8. b16 c8 f,
+    f4 f8 f g8. as16 b8 g
+    f es16. es'32 f,8 d' es,16. es32 es'16. b32 c8 c, %20
+    r16. f32 f'16. c32 d8 d, r16. g32 g'16. d32 es16. es,32 es'16. g32
+    as16. f32 c16. as32 f16. as32 c,16. f32 as,8.(\trill g32 as) as8.(\trill g32 as)
+    g16. b'32 es16. es,32 es8 d\trill es b <es g,>[ g]
+    g8. g16 f8 es es d r d
+    f8. f16 es8 d d c r g' %25
+    g8. g16 as8 b as8. g16 f8 as
+    g16 g'8 g c c d, c'16 g,8 h'
+    c,4 r r2\fermata \bar "|." %28 finis
+  }
+}

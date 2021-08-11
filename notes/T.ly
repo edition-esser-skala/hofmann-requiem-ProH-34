@@ -1040,6 +1040,57 @@ SanctusTenoreLyrics = \lyricmode {
   sis. %15 finis
 }
 
+BenedictusTenoreNotes = {
+  \relative c' {
+    \clef "treble_8"
+    \key es \major \time 4/4 \autoBeamOff \tempoBenedictus
+    R1*6 %6
+    r4 \mvTr es2\fE^\tuttiE d4
+    es es8 es d2(
+    g,4 f) f r8 b
+    b4 b8 b c4 c8 c %10
+    b8. c16 d8 d c b16 b b8 a
+    b4 r r2
+    R1
+    r2 r4 b~
+    b a b b8 b %15
+    b4 c8 c c c16 c b8. b16
+    b4 b8 c d4 b8 b
+    c4 c8 c c8. c16 c8 c
+    d4 b8 b b8. b16 b8 b
+    b b16 b b8. b16 b4 r %20
+    R1*3
+    r4 r8 b b b r4
+    r r8 g g g r c %25
+    c8. c16 c8 des c8. c16 d8 d
+    d4( c2 h4)
+    c r r2\fermata \bar "|." %28 finis
+  }
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+  Be -- ne -- %7
+  di -- ctus, qui ve --
+  nit, qui
+  ve -- nit in no -- mi -- ne %10
+  Do -- mi -- ni, in no -- mi -- ne Do -- mi --
+  ni.
+
+  Be -- %14
+  ne -- di -- ctus, qui %15
+  ve -- nit in no -- mi -- ne Do -- mi --
+  ni, be -- ne -- di -- ctus, qui
+  ve -- nit in no -- mi -- ne, qui
+  ve -- nit in no -- mi -- ne, in
+  no -- mi -- ne Do -- mi -- ni. %20
+
+  O -- san -- na %24
+  o -- san -- na, o -- %25
+  san -- na in ex -- cel -- sis, in ex --
+  cel --
+  sis. %28 finis
+}
+
 % TenoreNotes = {
 %   \relative c' {
 %     \clef "treble_8"

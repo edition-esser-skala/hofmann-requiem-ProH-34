@@ -214,3 +214,13 @@ SanctusClarinoII = {
     g4 r r2\fermata \bar "|." %15 finis
   }
 }
+
+BenedictusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoBenedictus
+    R1*26 %26
+    g'2~\fE g4 g8. g16
+    g4 r r2\fermata \bar "|." %28 finis
+  }
+}

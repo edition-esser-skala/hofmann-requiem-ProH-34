@@ -700,6 +700,7 @@ tempoHostias = \tempoMarkup "Poco adagio"
   tempoQuamB = \tempoMarkup "Moderato"
 tempoSanctus = \tempoMarkup "Poco adagio"
   tempoPleni = \tempoMarkup "Poco allegro"
+tempoBenedictus = \tempoMarkup "Spiritoso"
 
 
 \include "notes/clno1.ly"

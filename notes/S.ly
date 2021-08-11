@@ -995,6 +995,57 @@ SanctusSopranoLyrics = \lyricmode {
   sis. %15 finis
 }
 
+BenedictusSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \autoBeamOff \tempoBenedictus
+    R1*7 %7
+    r2 \mvTr b'\fE^\tuttiE
+    c d4 d8 d
+    es4 es8 es es4 es8 es %10
+    \appoggiatura es d8. es16 f8 b, es d16 d \appoggiatura d8 c8. c16
+    b4 r r2
+    R1
+    r2 b
+    c d4 d8 d %15
+    es b es2 d4
+    es es8 es d4 d8 des
+    c4 c8 c f8. g16 as8 c,
+    b4 b8 b es!8. f16 g8 b,
+    as g16 g \appoggiatura g8 f8. f16 es4 r %20
+    R1*2
+    r2 r4 r8 b'
+    es8. b16 as8 g g f r f
+    d'8. as16 g8 f f es r c' %25
+    c8. d16 es8 e f8. g16 as8 as,
+    g1
+    g4 r r2\fermata \bar "|." %28 finis
+  }
+}
+
+BenedictusSopranoLyrics = \lyricmode {
+  Be -- %8
+  ne -- di -- ctus, qui
+  ve -- nit in no -- mi -- ne %10
+  Do -- mi -- ni, in no -- mi -- ne Do -- mi --
+  ni.
+
+  Be --
+  ne -- di -- ctus, qui %15
+  ve -- nit, be -- ne --
+  di -- ctus, qui ve -- nit in
+  no -- mi -- ne Do -- mi -- ni, qui
+  ve -- nit in no -- mi -- ne, in
+  no -- mi -- ne Do -- mi -- ni. %20
+
+  O -- %23
+  san -- na in ex -- cel -- sis, o --
+  san -- na in ex -- cel -- sis, o -- %25
+  san -- na in ex -- cel -- sis, in ex --
+  cel --
+  sis. %28 finis
+}
+
 % SopranoNotes = {
 %   \relative c' {
 %     \clef treble

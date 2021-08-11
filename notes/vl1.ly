@@ -566,6 +566,41 @@ SanctusViolinoI = {
   }
 }
 
+BenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoBenedictus
+    R1
+    r2 b'8.\fE \tuplet 3/2 16 { c32( b a } b16.) c32 d16. es32
+    c8. \tuplet 3/2 16 { d32( c h } c16.) d32 es16. f32 d8. \tuplet 3/2 16 { es32( d c } d16.) b32 b'16. d,32
+    es8 es r16. as,32 as'16. es32 f8 f, r16. b32 b'16. f32
+    g8 g, r16. c32 c'16. g32 as16. f32 c16. as32 f16. as32 c,16. f32 %5
+    as,8.(\trill g32 as) as8.(\trill g32 as) g16. b'32 es16. es,32 g8 f\trill
+    es4 r r2
+    r b'8. \tuplet 3/2 16 { c32( b a } b16.) c32 d16. es32
+    c8. \tuplet 3/2 16 { d32( c h } c16.) d32 es16. f32 d8. \tuplet 3/2 16 { es32( d c } d16.) b32 b'16. d,32
+    es8 es, es' es es8. \tuplet 3/2 16 { f32( es d } es16.) a32 c16. es,32 %10
+    \appoggiatura es8 d8. es16 f8 b, es d16. b'32 c,8 a'
+    b,8. \tuplet 3/2 16 { c32( b a } b16.) c32 d16. es32 c8. \tuplet 3/2 16 { d32( c h } c16.) d32 es16. f32
+    d8 b b'2 a4
+    b16. f32 g16. es32 d8 c\trill b8. \tuplet 3/2 16 { c32( b a } b16.) c32 d16. es32
+    c8. \tuplet 3/2 16 { d32( c h } c16.) d32 es16. f32 d8. \tuplet 3/2 16 { es32( d c } d16.) b32 b'16. d,32 %15
+    es8 b es2 d4
+    es es8 es d4 d8 des
+    c8. \tuplet 3/2 16 { d32( c h } c16.) c32 e16. c32 f8. g16 as8 c,
+    b8. \tuplet 3/2 16 { c32( b a } b16.) b32 d16. b32 es8. f16 g8 b,
+    as g16. es'32 f,8 d' es,4 r16. as32 as'16. es32 %20
+    f8 f, r16. b32 b'16. f32 g8 g, r16. c32 c'16. g32
+    as16. f32 c16. as32 f16. as32 c,16. f32 as,8.(\trill g32 as) as8.(\trill g32 as)
+    g16. b'32 es16. es,32 g8 f\trill es b <es g,>[ b']
+    es8. b16 as8 g g f r f
+    d'8. as16 g8 f f es r c' %25
+    c8. d16 es8 e f8. g16 as8 as,
+    g16 g'8 g c c d, c'16 g,8 h'
+    c,4 r r2\fermata \bar "|." %28 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

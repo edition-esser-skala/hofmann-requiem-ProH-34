@@ -1026,6 +1026,55 @@ SanctusAltoLyrics = \lyricmode {
   sis. %15 finis
 }
 
+BenedictusAltoNotes = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \autoBeamOff \tempoBenedictus
+    R1*6 %6
+    \mvTr es2\fE^\tuttiE f
+    g4 g8 a b2~
+    b4 a b r8 f
+    g4 g8 g f4 f8 f %10
+    f8. f16 f8 d f f16 f f8. f16
+    f4 r r2
+    R1*3 %15
+    es2 f
+    g4 g8 a b4 b8 b
+    g4 g8 g as8. b16 c8 f,
+    f4 f8 f g8. as16 b8 g
+    f es16 es \appoggiatura es8 d8. d16 es4 r %20
+    R1*2
+    r2 r4 r8 g
+    g8. g16 f8 es es d r d
+    f8. f16 es8 d d c r g' %25
+    g8. g16 as8 b as8. g16 f8 f
+    f4( es d2)
+    c4 r r2 \fermata \bar "|." %28 finis
+  }
+}
+
+BenedictusAltoLyrics = \lyricmode {
+  Be -- ne -- %7
+  di -- ctus, qui ve --
+  _ nit, qui
+  ve -- nit in no -- mi -- ne %10
+  Do -- mi -- ni, in no -- mi -- ne Do -- mi --
+  ni.
+
+  Be -- ne -- %16
+  di -- ctus, qui ve -- nit in
+  no -- mi -- ne Do -- mi -- ni, qui
+  ve -- nit in no -- mi -- ne, in
+  no -- mi -- ne Do -- mi -- ni. %20
+
+  O -- %23
+  san -- na in ex -- cel -- sis, o --
+  san -- na in ex -- cel -- sis, o -- %25
+  san -- na in ex -- cel -- sis, in ex --
+  cel --
+  sis. %28 finis
+}
+
 % AltoNotes = {
 %   \relative c' {
 %     \clef treble
