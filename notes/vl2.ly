@@ -615,3 +615,65 @@ BenedictusViolinoII = {
     c,4 r r2\fermata \bar "|." %28 finis
   }
 }
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoAgnus
+    c16(\fE es g c) es( c g' es) d( c es c) h( c d es)
+    f( d as' g) f( d es c) g( es' d h) g( d h g)
+    c( e g c) e( g) g,( b) as( c f as) g( b,) as( f')
+    f( c as c) g( c e c) f, c'(\p d e f g as) c,~
+    c h( c d e f g) b,~ b as( g as) as(\f c f as) %5
+    as( f d f) f( d as f) es b'(\p c d es f g) b,~
+    b a( b c d es f) as,~ as g( f g) g(\f b es g,)
+    fis( a c es) fis( a c fis,) g( d) d( b) d( b) b( g)
+    es d'( c d es c a g) fis( a b g) a( g') a,( fis')
+    g, d'(\p e fis g a b) d,~ d cis( d e fis g a) c,~ %10
+    c b( a b) b(\f d g b) b( g es b) g( b es g)
+    as!( f) f( d) d( h) h( c) c g(\p a h c d es) g,~
+    g fis( g a h c d) f,~ f es( d es) es(\f g c es)
+    es( c h c) es,( as c es) d( f as f) es( c h c)
+    g, g'( c g) g, g'( h g) c,2\fermata \bar "||" %15 finis
+  }
+}
+
+LuxViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoLux
+      \set Score.currentBarNumber = #16
+    as'4.\fE as8 as4 g
+    g g8 g ges4 f
+    e8 e16 e f8 f \once \slurDashed f4( e8) d \noBreak
+    e1\fermata \bar "||"
+    \tempoCumSanctis c8 <es c'> q q q c'16 d es8 es, \noBreak %20
+    es\trill d g d16. h32 g8 <h' g'> q q
+    q4 r r8 c c c
+    <c e,> e16 f g8 b, b\trill a r4
+    r2 r8 b b b
+    b d16 es f8 as,! as\trill g g4~\p %25
+    g f2 es4~
+    es d8 c d4 r
+    d es d4. d8
+    c2\fermata \tempoQuia c4\f e \noBreak
+    f4. f8 e2\fermata \bar "||" %30
+    \tempoRequiemB es8. es16 es8 es f4 f \noBreak
+    es8 g f es es8. d16 d4
+    r2 r8 d d d
+    c8. c16 c4 as' as8 as
+    g1 \noBreak %35
+    g\fermata \bar "||"
+    \tempoCumSanctisB c,8 <es c'> q q q c'16 d es8 es, \noBreak
+    es\trill d g d16. h32 g8 <h' g'> q q
+    q4 r r8 c c c
+    <c e,> e16 f g8 b, b\trill a r4 %40
+    r2 r8 b b b
+    b d16 es f8 as,! as\trill g g4~\p
+    g f2 es4~
+    es d8 c d4 r
+    d es d4. d8 %45
+    c2\fermata \tempoQuiaB c4\f e
+    f4. f8 e2\fermata \bar "|." %47 FINIS
+  }
+}

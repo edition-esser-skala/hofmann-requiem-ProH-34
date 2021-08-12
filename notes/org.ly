@@ -1295,13 +1295,117 @@ BenedictusBassFigures = \figuremode {
   r1 %28 finis
 }
 
-% Organo = {
-%   \relative c {
-%     \clef bass
-%
-%   }
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+AgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \tempoAgnus
+    \mvTr c'8\fE-\tutti c c c as as as as
+    f f f fis g g g g
+    e e e e f f b, h
+    c c c c f,4 r8 \mvTr f'\p-\senzaOrg-\soloE
+    g4 c,8 e f4 \mvTr f8\f-\colOrg-\tutti f %5
+    d d d d es es r \mvTr es\p-\senzaOrg-\soloE
+    f4 b,8 d es4 \mvTr es8\f-\colOrg-\tutti es
+    es es d c b b r4
+    es4. c8 d g d d
+    g,4 r8 \mvTr g'\p-\senzaOrg-\soloE a4 d,8 fis %10
+    g4 \mvTr g8\f-\colOrg-\tutti g es! es es es
+    d d d d c4 r8 \mvTr c\p-\senzaOrg-\soloE
+    d4 g,8 h c4 \mvTr c'8\f-\colOrg-\tutti c
+    as as as as f f fis fis
+    g g g g c,2\fermata \bar "||" %15
+  }
+}
+
+AgnusBassFigures = \figuremode {
+  r1
+  <6>4 <8 6>8 <7 5 [_!]> <6 4> <[5] _!>4.
+  <6>2. <8 6 _->8 <[7] 5 _!>
+  <6 4>4 <[5] _!>2.
+  r1 %5
+  <6 5>2 <9 4>8 <8 3>4.
+  r1
+  <4! 2+>4 \bo <[5! _+ \l]>8 \bc <[6! 4+ 3]> <6>2
+  <7>4 <6> <[7 5!] _+> \bo <[5!] 4>8 \bc <[\t] _+>
+  r1 %10
+  r2 <5>
+  <6! 5->1
+  r
+  r2 <[6] 5>4 <7 5 [_!]>
+  <4> <_!>2. %15 finis
+}
+
+LuxOrgano = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \tempoLux
+      \set Score.currentBarNumber = #16
+    \mvTr as'8\fE-\tutti as as as es es es es
+    e e e e es es des des
+    c c c h c c c c \noBreak
+    c1\fermata \bar "||"
+    \tempoCumSanctis c8 c es g c c, c c \noBreak %20
+    g' g, g' d16. h32 g8 g h d
+    g g, g g c c' g es
+    c4 c8 e f f, a c
+    f4 f8 a b b, d f
+    b4 b,8 d es es r4 %25
+    \mvTr b\p-\senzaOrg h c2
+    as g4 r
+    g' c, g4. g8
+    c2\fermata \tempoQuia \mvTr f4\f-\colOrg c \noBreak
+    f,4. f8 c'2\fermata \bar "||" %30
+    \tempoRequiemB c4 c8 c h4 h \noBreak
+    c8 c f fis g4 g,
+    r2 r8 h h h
+    c4 c f f
+    g1 \noBreak %35
+    c,\fermata \bar "||"
+    \tempoCumSanctisB c8 c es g c c, c c \noBreak
+    g' g, g' d16. h32 g8 g h d
+    g g, g g c c' g es
+    c4 c8 e f f, a c %40
+    f4 f8 a b b, d f
+    b4 b,8 d es es r4
+    \mvTr b\p-\senzaOrg h c2
+    as g4 r
+    g' c, g4. g8 %45
+    c2\fermata \tempoQuiaB \mvTr f4\f-\colOrg c
+    f,4. f8 c'2\fermata \bar "|." %47 FINIS
+  }
+}
+
+LuxBassFigures = \figuremode {
+  r2 <6 4>4 <5 3> %16
+  <7->2 <4! _->4 <6>
+  <7 _!> <6! 4>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <5 _!>8 <4 2>
+  <[5] _!>1
+  <_-> %20
+  <6 4>8 <[5] _!>2..
+  r2 <9 4>8 <8 3>4.
+  <_!>2 <4>8 <_!>4.
+  <\t>2 <4>8 <3>4.
+  r <5->8 <9 4> <8 3>4. %25
+  r1
+  r
+  r
+  r2. <_!>4
+  r2 <_!> %30
+  <_-> <7->
+  r4 <8 6>8 <7 5 [_!]> <6 4>4 <[5] _!>
+  r2 r8 <6 5>4.
+  r2 <7>4 <6->8 <5>
+  <5 _!>4 <6 4> <\t 4> <\t _!> %35
+  r1
+  r
+  <6 4>8 <[5] _!>2..
+  r2 <9 4>8 <8 3>4.
+  <_!>2 <4>8 <_!>4. %40
+  r2 <4>8 <3>4.
+  r <5->8 <9 4> <8 3>4.
+  r1
+  r
+  r %45
+  r2. <_!>4
+  r2 <_!> %47 FINIS
+}

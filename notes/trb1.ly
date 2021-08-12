@@ -607,3 +607,65 @@ BenedictusTromboneI = {
     c4 r r2 \fermata \bar "|." %28 finis
   }
 }
+
+AgnusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \minor \time 4/4 \tempoAgnus
+    \mvTr g'4.\fE-\tuttiE g8 as as r as
+    as as16 g f8 es es d r4
+    g g as8 as g f
+    f4( e8) e f4 as~-\solo
+    as g~ g16 f( e f) f4-\tutti %5
+    f f8 f \appoggiatura f16 es8 es g4~-\solo
+    g f~ f16 es( d es) es4-\tutti
+    c8 c16 c d8 es d d r4
+    g4. a16 g fis8 g g fis
+    g4 b2-\solo a4~ %10
+    a16 g( fis g) g8-\tutti g g4 g8 g
+    as! as16 as as8 as g g es4~-\solo
+    es d~ d16 c( h c) c8-\tutti g'
+    as4. as8 as as16 as a8 a
+    g2 g\fermata \bar "||" %15
+  }
+}
+
+LuxTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \minor \time 4/4 \tempoLux
+      \set Score.currentBarNumber = #16
+    as'4.\fE as8 as4 g
+    g g8 g ges4 f
+    e8 e16 e f8 f f4( e8) d \noBreak
+    e1\fermata \bar "||"
+    \tempoCumSanctis r8 g g g g g g g \noBreak %20
+    g g r4 r8 g g g
+    g h16 c d8 f, f es r4
+    r2 r8 f f f
+    f a16 b c8 es,! es d r4
+    r f8 f f es g4~\p %25
+    g g2 g4~
+    g fis g r
+    d es d4. d8
+    c2\fermata \tempoQuia c4\f e \noBreak
+    f4. f8 e2\fermata \bar "||" %30
+    \tempoRequiemB es8. es16 es8 es f4 f \noBreak
+    es8 g f es es8. d16 d4
+    r2 r8 d d d
+    c8. c16 c4 as' as8 as
+    g1 \noBreak %35
+    g\fermata \bar "||"
+    \tempoCumSanctisB r8 g g g g g g g \noBreak
+    g g r4 r8 g g g
+    g h16 c d8 f, f es r4
+    r2 r8 f f f %40
+    f a16 b c8 es,! es d r4
+    r f8 f f es g4~\p
+    g g2 g4~
+    g fis g r
+    d es d4. d8 %45
+    c2\fermata \tempoQuiaB c4\f e
+    f4. f8 e2\fermata \bar "|." %47 FINIS
+  }
+}

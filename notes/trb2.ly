@@ -615,3 +615,65 @@ BenedictusTromboneII = {
     c r r2\fermata \bar "|." %28 finis
   }
 }
+
+AgnusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \minor \time 4/4 \tempoAgnus
+    \mvTr es4.\fE-\tuttiE es8 es es r es
+    d f,16 g as8 a g g r4
+    c c c8 c des d
+    c4. c8 c4 r8 f-\solo
+    f4 r8 c c4 c8-\tutti c %5
+    b4 b8 b b b r es-\solo
+    c4 r8 b b4 b-\tutti
+    a8 a16 a a8 a b b r4
+    r8 g4 c16 b a8 b16 c d8. d16
+    d4 r8 g-\solo e4 r8 d %10
+    d4 d8-\tutti d es4 es8 es
+    f f16 f f8 f es es r c-\solo
+    a4 r8 g g4 es'8-\tutti es
+    es4. es8 d d16 d es8 es
+    d2 c\fermata \bar "||" %15
+  }
+}
+
+LuxTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \minor \time 4/4 \tempoLux
+      \set Score.currentBarNumber = #16
+    es4.\fE es8 es4 es
+    b4. c16 des c4 b
+    c8 c16 c c8 d c4. c8 \noBreak
+    c1\fermata \bar "||"
+    \tempoCumSanctis r8 es es es es es es es \noBreak %20
+    es d r4 r8 h h h
+    h d16 c h8 d d c r4
+    r c8 c c c r4
+    r a8 c c b r4
+    r b8 b b b r4 %25
+    r f'2\p es4
+    es d8 c d4 r
+    h c c h8 h
+    c2\fermata \tempoQuia c4\f c \noBreak
+    c4. c8 c2\fermata \bar "||" %30
+    \tempoRequiemB c8. c16 c8 c d4 d \noBreak
+    c8 c as a g8. g16 g4
+    r2 r8 g g g
+    g8. g16 g4 r f'~
+    f es8 es d2 \noBreak %35
+    c1\fermata \bar "||"
+    \tempoCumSanctisB r8 es es es es es es es \noBreak
+    es d r4 r8 h h h
+    h d16 c h8 d d c r4
+    r c8 c c c r4 %40
+    r a8 c c b r4
+    r b8 b b b r4
+    r f'2\p es4
+    es d8 c d4 r
+    h c c h8 h %45
+    c2\fermata \tempoQuiaB c4\f c
+    c4. c8 c2\fermata \bar "|." %47 FINIS
+  }
+}

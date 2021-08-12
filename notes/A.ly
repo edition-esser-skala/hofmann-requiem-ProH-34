@@ -1075,13 +1075,117 @@ BenedictusAltoLyrics = \lyricmode {
   sis. %28 finis
 }
 
-% AltoNotes = {
-%   \relative c' {
-%     \clef treble
-%
-%   }
-% }
-%
-% AltoLyrics = \lyricmode {
-%
-% }
+AgnusAltoNotes = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoAgnus
+    \mvTr g'4.\fE^\tuttiE g8 as as r as
+    as as16 g f8 es es d r4
+    g g as8 as g f
+    f4( e8) e f4 r
+    r2 r4 f8 f %5
+    f4 f8 f \appoggiatura f16 es!8 es r4
+    r2 r4 es
+    c8 c16 c d8 es d d r4
+    g4. a16([ g)] fis8 g g fis
+    g4 r r2 %10
+    r4 g8 g g4 g8 g
+    as!8 as16 as as8 as g g r4
+    r2 r4 g8 g
+    as4. as8 as as16 as a8 a
+    g2 g\fermata \bar "||" %15 finis
+  }
+}
+
+AgnusAltoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta mun -- di:
+  Do -- na, do -- na e -- is
+  re -- qui -- em.
+  A -- gnus %5
+  De -- i, qui tol -- lis,
+  qui
+  tol -- lis pec -- ca -- ta mun -- di:
+  Do -- na e -- is re -- qui --
+  em. %10
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta mun -- di:
+  Do -- na
+  e -- is re -- qui -- em sem -- pi --
+  ter -- nam. %15 finis
+}
+
+LuxAltoNotes = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \autoBeamOff \tempoLux
+      \set Score.currentBarNumber = #16
+    \mvTr as'4.\fE^\tuttiE as8 as4 g
+    g g8 g ges4 f
+    e8 e16 e f8 f f4( e8) d \noBreak
+    e1\fermata \bar "||"
+    \tempoCumSanctis r8 g g g g g g g \noBreak %20
+    g g r4 r8 g g g
+    g h16([ c)] d8 f, f es r4
+    r2 r8 f f f
+    f a16([ b)] c8 es,! es d r4
+    r f8 f f es g4~\p %25
+    g g2 g4~
+    g fis g r
+    d es d4. d8
+    c2\fermata \tempoQuia c4\f e \noBreak
+    f4. f8 e2\fermata \bar "||" %30
+    \tempoRequiemB es8. es16 es8 es f4 f \noBreak
+    es8 g f es es8. d16 d4
+    r2 r8 d d d
+    c8. c16 c4 as' as8 as
+    g1 \noBreak %35
+    g\fermata \bar "||"
+    \tempoCumSanctisB r8 g g g g g g g \noBreak
+    g g r4 r8 g g g
+    g h16([ c)] d8 f, f es r4
+    r2 r8 f f f %40
+    f a16([ b)] c8 es,! es d r4
+    r f8 f f es g4~\p
+    g g2 g4~
+    g fis g r
+    d es d4. d8 %45
+    c2\fermata \tempoQuiaB c4\f e
+    f4. f8 e2\fermata \bar "|." %47 FINIS
+  }
+}
+
+LuxAltoLyrics = \lyricmode {
+  Lux ae -- ter -- na %16
+  lu -- ce -- at e -- is,
+  lu -- ce -- at e -- is, Do -- mi --
+  ne.
+  Cum San -- ctis tu -- is in ae -- %20
+  ter -- num, cum San -- ctis
+  tu -- is in ae -- ter -- num,
+  cum San -- ctis
+  tu -- is in ae -- ter -- num,
+  in ae -- ter -- num, qui -- %25
+  a pi --
+  us es, qui --
+  a pi -- us
+  es, qui -- a
+  pi -- us es. %30
+  Re -- qui -- em ae -- ter -- nam
+  do -- na e -- is, Do -- mi -- ne:
+  Et lux per --
+  pe -- tu -- a lu -- ce -- at
+  e -- %35
+  is.
+  Cum San -- ctis tu -- is in ae --
+  ter -- num, cum San -- ctis
+  tu -- is in ae -- ter -- num,
+  cum San -- ctis %40
+  tu -- is in ae -- ter -- num,
+  in ae -- ter -- num, qui --
+  a pi --
+  us es, qui --
+  a pi -- us %45
+  es, qui -- a
+  pi -- us es. %47 FINIS
+}

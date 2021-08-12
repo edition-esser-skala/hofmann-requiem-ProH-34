@@ -224,3 +224,43 @@ BenedictusClarinoI = {
     g4 r r2\fermata \bar "|." %28 finis
   }
 }
+
+AgnusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    R1*14 %14
+    R1\fermata \bar "||" %15 finis
+  }
+}
+
+LuxClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoLux
+      \set Score.currentBarNumber = #16
+    R1*3 \noBreak %18
+    R1\fermata \bar "||"
+    \tempoCumSanctis r8 c'\fE c c c4 r \noBreak %20
+    r2 r8 d d d
+    d4 r r8 c c c
+    c4 r r2
+    R1*5 %28
+    r2\fermata \tempoQuia c4\f c8. c16 \noBreak
+    c4. c8 c2\fermata \bar "||" %30
+    \tempoRequiemB g'4 r r2 \noBreak
+    g4 r g8. g16 g4
+    R1
+    g4 r r2
+    g4 g g4. g8 \noBreak %35
+    g1\fermata \bar "||"
+    \tempoCumSanctisB r8 c, c c c4 r \noBreak
+    r2 r8 d d d
+    d4 r r8 c c c
+    c4 r r2 %40
+    R1*5 %45
+    r2\fermata \tempoQuiaB c4\f c8. c16
+    c4. c8 c2\fermata \bar "|." %47 FINIS
+
+  }
+}
