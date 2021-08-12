@@ -29,14 +29,14 @@
        (stretchability . 0))
 
   top-system-spacing =
-    #'((basic-distance . 20)
-       (minimum-distance . 20)
+    #'((basic-distance . 30)
+       (minimum-distance . 30)
        (padding . -100)
        (stretchability . 0))
 
   top-markup-spacing =
-    #'((basic-distance . 5)
-       (minimum-distance . 5)
+    #'((basic-distance . 15)
+       (minimum-distance . 15)
        (padding . -100)
        (stretchability . 0))
 
@@ -474,7 +474,7 @@ bc =
   \context {
     \Score
     \compressEmptyMeasures
-    \override BarNumber.break-visibility = #'#(#f #t #t)
+    % \override BarNumber.break-visibility = #'#(#f #t #t)
   }
   \context {
     \StaffGroup
