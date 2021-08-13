@@ -38,7 +38,7 @@
 \layout {
   \context {
     \Staff
-    instrumentName = "vl 1"
+    instrumentName = "trb 2"
   }
 }
 
@@ -48,12 +48,12 @@
       number = "1"
       title = "I N T R O I T U S"
     }
-    \paper { indent = 2\cm }
+    \paper { indent = 2.5\cm }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \IntroitusViolinoI
+          \set Staff.instrumentName = "Trombone II"
+          \IntroitusTromboneII
         }
       >>
     }
@@ -65,7 +65,7 @@
     }
     \score {
       <<
-        \new Staff { \KyrieViolinoI }
+        \new Staff { \KyrieTromboneII }
       >>
     }
   }
@@ -76,7 +76,7 @@
     }
     \score {
       <<
-        \new Staff { \DiesIraeViolinoI }
+        \new Staff { \DiesIraeTromboneII }
       >>
     }
   }
@@ -86,7 +86,7 @@
     }
     \score {
       <<
-        \new Staff { \LiberViolinoI }
+        \new Staff { \LiberTromboneII }
       >>
     }
   }
@@ -96,7 +96,7 @@
     }
     \score {
       <<
-        \new Staff { \RecordareViolinoI }
+        \new Staff { \RecordareTromboneII }
       >>
     }
   }
@@ -104,10 +104,10 @@
     \header {
       subtitle = "C O N F U T A T I S"
     }
-    \paper { systems-per-page = #4 }
+    \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \ConfutatisViolinoI }
+        \new Staff { \ConfutatisTromboneII }
       >>
     }
   }
@@ -115,10 +115,9 @@
     \header {
       subtitle = "L A C R Y M O S A"
     }
-    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \LacrymosaViolinoI }
+        \new Staff { \LacrymosaTromboneII }
       >>
     }
   }
@@ -129,7 +128,7 @@
     }
     \score {
       <<
-        \new Staff { \DomineViolinoI }
+        \new Staff { \DomineTromboneII }
       >>
     }
   }
@@ -139,7 +138,7 @@
     }
     \score {
       <<
-        \new Staff { \HostiasViolinoI }
+        \new Staff { \HostiasTromboneII }
       >>
     }
   }
@@ -148,10 +147,10 @@
       number = "5"
       title = "S A N C T U S"
     }
-    \paper { systems-per-page = #6 }
+    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \SanctusViolinoI }
+        \new Staff { \SanctusTromboneII }
       >>
     }
   }
@@ -160,10 +159,10 @@
       number = "6"
       title = "B E N E D I C T U S"
     }
-    \paper { page-count = #1 }
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \BenedictusViolinoI }
+        \new Staff { \BenedictusTromboneII }
       >>
     }
   }
@@ -172,10 +171,10 @@
       number = "7"
       title = "A G N U S  D E I"
     }
-    \paper { systems-per-page = #7 }
+    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \AgnusViolinoI }
+        \new Staff { \AgnusTromboneII }
       >>
     }
   }
@@ -185,7 +184,7 @@
     }
     \score {
       <<
-        \new Staff { \LuxViolinoI }
+        \new Staff { \LuxTromboneII }
       >>
     }
   }

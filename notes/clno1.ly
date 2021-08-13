@@ -225,15 +225,6 @@ BenedictusClarinoI = {
   }
 }
 
-AgnusClarinoI = {
-  \relative c' {
-    \clef treble
-    \key c \major \time 4/4 \tempoAgnus
-    R1*14 %14
-    R1\fermata \bar "||" %15 finis
-  }
-}
-
 LuxClarinoI = {
   \relative c' {
     \clef treble

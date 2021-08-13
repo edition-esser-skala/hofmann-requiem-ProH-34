@@ -456,7 +456,7 @@ DomineViolinoI = {
     es,4 r r
     R2.*4 \noBreak %68
     R2.\fermata \bar "||"
-    \time 2/3 \tempoQuam R1*19 %88
+    \time 2/2 \tempoQuam R1*19 %88
     r4 g g g
     c2. c4 %90
     b g2 g4

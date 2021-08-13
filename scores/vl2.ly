@@ -38,7 +38,7 @@
 \layout {
   \context {
     \Staff
-    instrumentName = "vl 1"
+    instrumentName = "vl 2"
   }
 }
 
@@ -52,8 +52,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \IntroitusViolinoI
+          \set Staff.instrumentName = "Violino II"
+          \IntroitusViolinoII
         }
       >>
     }
@@ -65,7 +65,7 @@
     }
     \score {
       <<
-        \new Staff { \KyrieViolinoI }
+        \new Staff { \KyrieViolinoII }
       >>
     }
   }
@@ -76,7 +76,7 @@
     }
     \score {
       <<
-        \new Staff { \DiesIraeViolinoI }
+        \new Staff { \DiesIraeViolinoII }
       >>
     }
   }
@@ -86,7 +86,7 @@
     }
     \score {
       <<
-        \new Staff { \LiberViolinoI }
+        \new Staff { \LiberViolinoII }
       >>
     }
   }
@@ -96,7 +96,7 @@
     }
     \score {
       <<
-        \new Staff { \RecordareViolinoI }
+        \new Staff { \RecordareViolinoII }
       >>
     }
   }
@@ -107,7 +107,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \ConfutatisViolinoI }
+        \new Staff { \ConfutatisViolinoII }
       >>
     }
   }
@@ -118,7 +118,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \LacrymosaViolinoI }
+        \new Staff { \LacrymosaViolinoII }
       >>
     }
   }
@@ -129,7 +129,7 @@
     }
     \score {
       <<
-        \new Staff { \DomineViolinoI }
+        \new Staff { \DomineViolinoII }
       >>
     }
   }
@@ -139,7 +139,7 @@
     }
     \score {
       <<
-        \new Staff { \HostiasViolinoI }
+        \new Staff { \HostiasViolinoII }
       >>
     }
   }
@@ -151,7 +151,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \SanctusViolinoI }
+        \new Staff { \SanctusViolinoII }
       >>
     }
   }
@@ -163,7 +163,7 @@
     \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \BenedictusViolinoI }
+        \new Staff { \BenedictusViolinoII }
       >>
     }
   }
@@ -175,7 +175,7 @@
     \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \AgnusViolinoI }
+        \new Staff { \AgnusViolinoII }
       >>
     }
   }
@@ -185,7 +185,7 @@
     }
     \score {
       <<
-        \new Staff { \LuxViolinoI }
+        \new Staff { \LuxViolinoII }
       >>
     }
   }

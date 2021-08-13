@@ -20,7 +20,7 @@
       <<
         \new StaffGroup <<
           \new Staff \with { \smallStaffDistance } <<
-            \set Staff.instrumentName = \markup \center-column { "Clarino I, II" "in C" "con sordino" }
+            \set Staff.instrumentName = \markup \center-column { "Clarino I, II" "con sordino" "in C" }
             \partCombine \IntroitusClarinoI \IntroitusClarinoII
           >>
           \new GrandStaff <<
@@ -859,10 +859,6 @@
     \score {
       <<
         \new StaffGroup <<
-          \new Staff \with { \smallStaffDistance } <<
-            \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \partCombine \AgnusClarinoI \AgnusClarinoII
-          >>
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "trb"
             \new Staff {
