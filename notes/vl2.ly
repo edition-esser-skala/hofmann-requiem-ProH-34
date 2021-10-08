@@ -268,6 +268,46 @@ LiberViolinoII = {
   }
 }
 
+LiberAltViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \tempoLiber
+      \set Score.currentBarNumber = #71
+    g'4\fE g g8 g g fis
+    g g r4 \tiny r8 a,\pE a4
+    r8 b b4 r8 c4 b8
+    b a \normalsize fis'[\fE fis] g8. g16 g8 g
+    g g g g f8. f16 f8 f %75
+    f f f b b es, d g
+    \tuplet 6/4 4 { f16( b d f d b) } c8 a' b,4 r
+    \tiny r8 c,\pE c4 r8 d d4
+    r8 es4 d8 c d16. es32 d8 c \normalsize
+    d4\fE d es8 es d c %80
+    c b r4 f' f
+    f8 f g g f f a as
+    as g16 f es8 f16 d \tuplet 6/4 4 { es( g c g es c) } d8 h'
+    c,4 r \tiny r8 d\pE d4
+    r8 es \normalsize g[\fE g] g4. f16 es %85
+    es4. es8 es es es'16( fis,) fis( g)
+    g( b) b( d) g,8 g g4. g8
+    des4. des8 des des des'16( e,) e( f)
+    f( c as c) f( as c as) \appoggiatura g8 f8. f16 g8 f
+    \tuplet 6/4 4 { g16( b es b g es) } f8 d' es,4 r %90
+    \tiny r8 d\pE d4 r8 b b4
+    r8 f'4 es8 d es16. f32 es8 d \normalsize
+    b4\fE b b8 b c des
+    c4 c as'4. as8
+    f f g as g4 g %95
+    g4.\p g8 g4. g8
+    g16\cresc g g g g b b b b\f b b b a a a a
+    g8 b'16( g) g( d) d( b) c( b) a( b) a( g) fis( g)
+    g b b b a a a a g4 r
+    \tiny r8 fis\pE fis4 r8 d d4 %100
+    r8 c4 b8 a b16. c32 b8 a
+    g4 r \normalsize r2\fermata \bar "||" %102 finis
+  }
+}
+
 RecordareViolinoII = {
   \relative c' {
     \clef treble

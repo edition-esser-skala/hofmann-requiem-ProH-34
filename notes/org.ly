@@ -58,7 +58,7 @@ IntroitusOrgano = {
     c2 h4
     c c c'8. h16
     c4 c, c
-    f f, f'8. es16 %55
+    f f, f'8. es!16 %55
     d4 b es8. es16
     g8. es16 b4 b
     es r r
@@ -262,7 +262,7 @@ KyrieBassFigures = \figuremode {
   r1 <6>
   r <[5!] _+>
   <_!> q
-  <_!>2. <_->4 <6 5>2 <_!> %20
+  <_!>2. <_->4 <6 5 [_-]>2 <_!> %20
   <6>\breve
   r1 <[6]>
   r <7 3>2 <6 4>
@@ -303,7 +303,7 @@ KyrieBassFigures = \figuremode {
   <[6]>
   <6>1 <[7] _!>
   <4>2 \bo <[_!]>4 \bc <[2]> <_!>1 %60
-  <_!>\breve
+  r\breve
   r
   r
   r2 \bo <[7 _!]> <6 5> \bassFigureExtendersOn <6 4>4 \bc <[6 _!]> \bassFigureExtendersOff
@@ -684,7 +684,7 @@ ConfutatisBassFigures = \figuremode {
   r1 %156
   <6! [5-]>4. <[6- 4]>8 <7- 5>2
   r4 <6> <6\\>2
-  <6 2+>4 <_!>2.
+  <6 4>4 <[5] _!>2.
   q8 <6> <6!>4 <6 5>2 %160
   <9 4>4 <8 3>2 <6>4
   <6-> <6>2.
@@ -719,7 +719,7 @@ LacrymosaOrgano = {
     d! d1
     r2 e e %185
     f f1
-    r2 d d
+    r2 d! d
     es!1 es2
     as, b1
     es2 es4-\solo f g f8 es %190

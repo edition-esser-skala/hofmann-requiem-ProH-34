@@ -11,4 +11,5 @@
 % \include "scores/vla2.ly"
 % \include "scores/coro.ly"
 % \include "scores/org.ly"
+% \include "scores/org_realized.ly"
 % \include "scores/b.ly"
