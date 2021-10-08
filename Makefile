@@ -1,7 +1,7 @@
 # change the following variables according to the current project
 project = Hofmann_Requiem_ProH_34
-notes = clno1 clno2 trb1 trb2 vl1 vl2 vla1 vla2 S A T B org
-scores = full_score clno12 trb1 trb2 vl1 vl2 vla1 vla2 coro b org
+notes = clno1 clno2 trb1 trb2 vl1 vl2 vla1 vla2 S A T B org chords
+scores = full_score clno12 trb1 trb2 vl1 vl2 vla1 vla2 coro b org org_realized
 
 # general definitions
 zipname = $(project:%=%_engraving_files)
