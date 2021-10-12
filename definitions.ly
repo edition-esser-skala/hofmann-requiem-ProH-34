@@ -682,6 +682,11 @@ tocLabelLong = #(define-music-function
   )
 )
 
+timpStaffSize = {
+  \set Staff.fontSize = #-2
+  \override Staff.StaffSymbol.staff-space = #(magstep -2)
+  \override Staff.StaffSymbol.thickness = #(magstep -2)
+}
 
 
 tempoIntroitus = \tempoMarkup "Adagio"
@@ -712,6 +717,7 @@ tempoAgnus = \tempoMarkup "Adagio"
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
+\include "notes/timp.ly"
 \include "notes/trb1.ly"
 \include "notes/trb2.ly"
 \include "notes/vl1.ly"

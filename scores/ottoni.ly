@@ -7,8 +7,8 @@
   top-margin = 1.5\cm
   system-separator-markup = ##f
   system-system-spacing =
-    #'((basic-distance . 16)
-       (minimum-distance . 16)
+    #'((basic-distance . 17)
+       (minimum-distance . 17)
        (padding . -100)
        (stretchability . 0))
 
@@ -30,7 +30,13 @@
        (padding . -100)
        (stretchability . 0))
 
-  systems-per-page = #6
+  last-bottom-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . 0)
+       (stretchability . 1.0e7))
+
+  systems-per-page = #4
 }
 
 #(set-global-staff-size 17.82)
@@ -51,17 +57,20 @@
         (stretchability . 0))
 
   }
+  \context {
+    \Staff
+    instrumentName = "timp"
+  }
 }
+
+
 \book {
   \bookpart {
     \header {
       number = "1"
       title = "I N T R O I T U S"
     }
-    \paper {
-      systems-per-page = #2
-      indent = 2\cm
-    }
+    \paper { indent = 2\cm systems-per-page = #3 }
     \score {
       <<
         \new StaffGroup <<
@@ -77,6 +86,10 @@
             }
           >>
         >>
+        \new Staff {
+          \set Staff.instrumentName = \markup \center-column { "Timpani" "in C–G" }
+          \IntroitusTimpani
+        }
       >>
     }
   }
@@ -100,6 +113,7 @@
             }
           >>
         >>
+        \new Staff { \KyrieTimpani }
       >>
     }
   }
@@ -122,6 +136,7 @@
             }
           >>
         >>
+        \new Staff { \DiesIraeTimpani }
       >>
     }
   }
@@ -144,6 +159,7 @@
             }
           >>
         >>
+        \new Staff { \ConfutatisTimpani }
       >>
     }
   }
@@ -166,6 +182,7 @@
             }
           >>
         >>
+        \new Staff { \LacrymosaTimpani }
       >>
     }
   }
@@ -188,6 +205,7 @@
             }
           >>
         >>
+        \new Staff { \DomineTimpani }
       >>
     }
   }
@@ -210,6 +228,7 @@
             }
           >>
         >>
+        \new Staff { \HostiasTimpani }
       >>
     }
   }
@@ -233,6 +252,7 @@
             }
           >>
         >>
+        \new Staff { \SanctusTimpani }
       >>
     }
   }
@@ -241,7 +261,7 @@
       number = "6"
       title = "B E N E D I C T U S"
     }
-    \paper { systems-per-page = #1 ragged-last-bottom = ##f }
+    \paper { systems-per-page = #1 ragged-last = ##f }
     \score {
       <<
         \new StaffGroup <<
@@ -256,6 +276,7 @@
             }
           >>
         >>
+        \new Staff { \BenedictusTimpani }
       >>
     }
   }
@@ -277,6 +298,7 @@
             }
           >>
         >>
+        \new Staff { \LuxTimpani }
       >>
     }
   }
