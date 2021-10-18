@@ -664,142 +664,142 @@ ConfutatisOrgano = {
   \relative c {
     \clef bass
     \key c \minor \time 4/4 \tempoConfutatis
-      \set Score.currentBarNumber = #156
+      \set Score.currentBarNumber = #160
     r4 \mvTr as'8\fE-\tutti as as4 as
     g4. f8 e4 f
     r as8 as, as8. as16 as8 as
     g4 g r2
-    g'8 es d c h h h h %160
-    c4 c r es8 es
+    g'8 es d c h h h h
+    c4 c r es8 es %165
     f4 es r es8 es
     f4 es e4. f8
     g4 g ges4. ges8
-    f4 f r8 b,4 b8 %165
-    h8 h h h c2
-    f,1\fermata \bar "||" %167 finis
+    f4 f r8 b,4 b8
+    h8 h h h c2 %170
+    f,1\fermata \bar "||" %171 finis
   }
 }
 
 ConfutatisBassFigures = \figuremode {
-  r1 %156
+  r1 %160
   <6! [5-]>4. <[6- 4]>8 <7- 5>2
   r4 <6> <6\\>2
   <6 4>4 <[5] _!>2.
-  q8 <6> <6!>4 <6 5>2 %160
-  <9 4>4 <8 3>2 <6>4
+  q8 <6> <6!>4 <6 5>2
+  <9 4>4 <8 3>2 <6>4 %165
   <6-> <6>2.
   <6->4 <6> <7->4. <[6- 4]>8
   <6! 5->2 <\t \t>
-  <6- 4>4 <[5] _!> r8 <_->4. %165
-  <7- [_!]>2 <6 4>4 <[5] _!>
-  r1 %167 finis
+  <6- 4>4 <[5] _!> r8 <_->4.
+  <7- [_!]>2 <6 4>4 <[5] _!> %170
+  r1 %171 finis
 }
 
 LacrymosaOrgano = {
   \relative c {
     \clef bass
     \key c \minor \time 3/2 \tempoLacrymosa
-      \set Score.currentBarNumber = #168
+      \set Score.currentBarNumber = #172
     r2 \mvTr c\fE-\tuttiE c
     d d r
-    r h h %170
-    c c r
+    r h h
+    c c r %175
     r c' c
     b!2. b4 g f
     e2 e1
-    r2 f f %175
-    b,1 b2
+    r2 f f
+    b,1 b2 %180
     h c c
     f, f'4-\solo g as g8 f
     g2 c, e
-    f f, f'4. es8 %180
-    d!2 e c
+    f f, f'4. es8
+    d!2 e c %185
     f des b4 h
     c2 c-\tutti c
     d! d1
-    r2 e e %185
-    f f1
+    r2 e e
+    f f1 %190
     r2 d! d
     es!1 es2
     as, b1
-    es2 es4-\solo f g f8 es %190
-    f2 b, d
+    es2 es4-\solo f g f8 es
+    f2 b, d %195
     es es, es'4. d8
     c2 d b
     es c as4 a
-    b2 b-\tutti b %195
-    h h h
+    b2 b-\tutti b
+    h h h %200
     c2. c4 c2
     r f f
     f1 es2
-    c as as %200
-    g g-\tasto g'
+    c as as
+    g g-\tasto g' %205
     g1.~
     g~
     g1 c,2
-    f g2. g4 %205
-    c,2 c4-\senzaOrg d es d8 c
+    f g2. g4
+    c,2 c4-\senzaOrg d es d8 c %210
     d2 g, h
     c c, c'4. b8
     a2 h g
-    c as'! f4 fis %210
-    g2 g g
+    c as'! f4 fis
+    g2 g g %215
     c,4. f8 g2 g,
     c c-\tutti c
     f,1.
-    c'\fermata \bar "|." %215 finis
+    c'\fermata \bar "|." %219 finis
   }
 }
 
 LacrymosaBassFigures = \figuremode {
-  r1. %168
+  r1. %172
   <7>2 <6!>1
-  r2 <7>1 %170
-  <9 4>2 <8 3>1
+  r2 <7>1
+  <9 4>2 <8 3>1 %175
   r1.
   <4! _->1 \bo <[6! 5- \l]>4 \bc <[6- 4 3]>
   <6 5>1.
-  r %175
-  \bo <[5] _->1 \bc <[6] \t>2
+  r
+  \bo <[5] _->1 \bc <[6] \t>2 %180
   <7 [_!]> <6 4> <[5] _!>
   r1.
   r
-  r %180
   r
+  r %185
   r
   r2 <_!>1
   <7>2 <6!>1
-  r2 <[7-] 5->1 %185
-  <9 4>2 <[8] _!>1
+  r2 <[7-] 5->1
+  <9 4>2 <[8] _!>1 %190
   r2 <5->1
   <9 4>2 <8 3>1
   \bo <[7 5]>4 \bc <[8 6]> <6 4>2 <5 3>
-  r1. %190
-  r
-  r
-  r
-  r
+  r1.
   r %195
-  <[6 5]>
+  r
+  r
+  r
+  r
+  <[6 5]> %200
   <9 4>2. <8 3>
   r1.
   <4! 3>1 <[6]>2
-  r <7> <6> %200
-  <_!>1.
+  r <7> <6>
+  <_!>1. %205
   r
   r
   r
-  <6 5>2 <6 4> <[5] _!> %205
-  r1.
+  <6 5>2 <6 4> <[5] _!>
+  r1. %210
   r
   r
   r
-  r %210
   r
+  r %215
   r
   r2 <_!>1
   r1.
-  <_!> %215 finis
+  <_!> %219 finis
 }
 
 DomineOrgano = {

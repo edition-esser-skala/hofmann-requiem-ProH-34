@@ -98,16 +98,16 @@ ConfutatisClarinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoConfutatis
-      \set Score.currentBarNumber = #156
+      \set Score.currentBarNumber = #160
     r4 c8\fE c c4 c
     R1*2
     g'2 r
-    r g4. g8 %160
-    g2 c,8. c16 c4
+    r g4. g8
+    g2 c,8. c16 c4 %165
     r2 c8. c16 c4
-    R1*3 %165
-    r2 c4 c8. c16
-    c1\fermata \bar "||" %167 finis
+    R1*3
+    r2 c4 c8. c16 %170
+    c1\fermata \bar "||" %171 finis
   }
 }
 
@@ -115,17 +115,17 @@ LacrymosaClarinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 3/2 \tempoLacrymosa
-      \set Score.currentBarNumber = #168
-    R1.*33 %200
-    g'2\fE r r
+      \set Score.currentBarNumber = #172
+    R1.*33 %204
+    g'2\fE r r %205
     g r r
     R1.*2
-    r2 g2. g4 %205
-    g2 r r
-    R1.*6 %212
+    r2 g2. g4
+    g2 r r %210
+    R1.*6 %216
     r2 c, c4. c8
     c1.
-    c\fermata \bar "|." %215 finis
+    c\fermata \bar "|." %219 finis
   }
 }
 

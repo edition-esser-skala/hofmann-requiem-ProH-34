@@ -318,19 +318,19 @@ ConfutatisTromboneI = {
   \relative c' {
     \clef alto
     \key c \minor \time 4/4 \tempoConfutatis
-      \set Score.currentBarNumber = #156
+      \set Score.currentBarNumber = #160
     r4 as'8\fE as as4 as
     b4. b8 b4 as
     r c,8 d! es8. es16 es8 es
     es4 d r2
-    g4 f8 g g g g g %160
-    g4 g r g8 g
+    g4 f8 g g g g g
+    g4 g r g8 g %165
     as4 g r g8 g
     as4 g g4. f8
     e4 e e4. e8
-    f4 f r8 f4 f8 %165
-    f f f f f4 e
-    f1\fermata \bar "||" %167 finis
+    f4 f r8 f4 f8
+    f f f f f4 e %170
+    f1\fermata \bar "||" %171 finis
   }
 }
 
@@ -338,55 +338,55 @@ LacrymosaTromboneI = {
   \relative c' {
     \clef alto
     \key c \minor \time 3/2 \tempoLacrymosa
-      \set Score.currentBarNumber = #168
+      \set Score.currentBarNumber = #172
     r2 \mvTr es\fE-\tuttiE es
     f f4(-\solo g) g( as)
-    as2 f-\tutti f %170
-    f es4(-\solo f) f( g)
+    as2 f-\tutti f
+    f es4(-\solo f) f( g) %175
     g2 g-\tutti g
     g2. g4 g as
     b2 b b4(-\solo as)
-    as2 as-\tutti as %175
-    b2. as4 g2
+    as2 as-\tutti as
+    b2. as4 g2 %180
     f f e
     f f1~-\solo
     f2 e4 f g f8 g
-    as1.~ %180
-    as2 g4 f g2~
+    as1.~
+    as2 g4 f g2~ %185
     g4 f f4.(\trill e16 f) g4 f
     e2 e-\tutti e
     f f as4(-\solo g)
-    g2 g-\tutti g %185
-    g f f4.-\solo g8
+    g2 g-\tutti g
+    g f f4.-\solo g8 %190
     as!2 f-\tutti f
     f es4 d es2~
     es4 f es2 d
-    es r r %190
-    r f1~-\solo
+    es r r
+    r f1~-\solo %195
     f2 es4 f g f8 g
     as1.~
     as4 g g4.(\trill f16 g) as4 g
-    f2 f-\tutti f %195
-    f1 d2
+    f2 f-\tutti f
+    f1 d2 %200
     d2. c4 g'(-\solo as)
     as2 f-\tutti f
     d1 es2~
-    es es d4 c %200
-    d2 h4 d g f
+    es es d4 c
+    d2 h4 d g f %205
     es2 g1
     as as2
     g1.
-    as2 g2. g4 %205
-    g2 r r
+    as2 g2. g4
+    g2 r r %210
     d1.~-\solo
     d2 c4 d es d8 es
     f1.~
-    f4 es es4.(\trill d16 es) f4 es %210
-    d f f4.(\trill es16 f) g4 f
+    f4 es es4.(\trill d16 es) f4 es
+    d f f4.(\trill es16 f) g4 f %215
     es4. f8 es2 d\trill
     c e-\tutti e
     f1.
-    e\fermata \bar "|." %215 finis
+    e\fermata \bar "|." %219 finis
   }
 }
 

@@ -564,120 +564,120 @@ ConfutatisAltoNotes = {
   \relative c' {
     \clef treble
     \key c \minor \time 4/4 \autoBeamOff \tempoConfutatis
-      \set Score.currentBarNumber = #156
+      \set Score.currentBarNumber = #160
     r4 \mvTr as'8\fE^\tuttiE as as4 as
     b4. b8 b4 as
     r c,8 d! es8. es16 es8 es
     es4 d r2
-    g4 f8([ g)] g g g g %160
-    g4 g r g8 g
+    g4 f8([ g)] g g g g
+    g4 g r g8 g %165
     as4 g r g8 g
     as4 g g4. f8
     e4 e e4. e8
-    f4 f r8 f4 f8 %165
-    f f f f f4( e)
-    f1\fermata \bar "||" %167 finis
+    f4 f r8 f4 f8
+    f f f f f4( e) %170
+    f1\fermata \bar "||" %171 finis
   }
 }
 
 ConfutatisAltoLyrics = \lyricmode {
-  Con -- fu -- ta -- tis %156
+  Con -- fu -- ta -- tis %160
   ma -- le -- di -- ctis,
   flam -- mis a -- cri -- bus ad --
   di -- ctis,
-  vo -- ca me cum be -- ne -- %160
-  di -- ctis. O -- ro
+  vo -- ca me cum be -- ne --
+  di -- ctis. O -- ro %165
   sup -- plex et ac --
   cli -- nis, cor con --
   tri -- tum qua -- si
-  ci -- nis: Ge -- re %165
-  cu -- ram me -- i fi --
-  nis. %167 finis
+  ci -- nis: Ge -- re
+  cu -- ram me -- i fi -- %170
+  nis. %171 finis
 }
 
 LacrymosaAltoNotes = {
   \relative c' {
     \clef treble
     \key c \minor \time 3/2 \autoBeamOff \tempoLacrymosa
-      \set Score.currentBarNumber = #168
+      \set Score.currentBarNumber = #172
     r2 \mvTr es\fE^\tuttiE es
     f f r
-    r f f %170
-    f es r
+    r f f
+    f es r %175
     r g g
     g2. g4 g as
     b2 b1
-    r2 as as %175
-    b2. as4 g2
+    r2 as as
+    b2. as4 g2 %180
     f f( e)
     f r r
-    R1.*4 %182
+    R1.*4 %186
     r2 e e
     f f1
-    r2 g g %185
-    g f1
+    r2 g g
+    g f1 %190
     r2 f f
     f es4 d es2~
     es4 f es2( d4) d
-    es2 r r %190
-    R1.*4
-    r2 f f %195
-    f1 d2
+    es2 r r
+    R1.*4 %198
+    r2 f f
+    f1 d2 %200
     d2. c4 c2
     r f f
     d1 es2~
-    es es( d4) c %200
-    d2 h4( d) g( f)
+    es es( d4) c
+    d2 h4( d) g( f) %205
     es2 g1
     as as2
     g1.
-    as2 g2. g4 %205
-    g2 r r
-    R1.*6 %212
+    as2 g2. g4
+    g2 r r %210
+    R1.*6 %216
     r2 e e
     f1.
-    e\fermata \bar "|." %215 finis
+    e\fermata \bar "|." %219 finis
   }
 }
 
 LacrymosaAltoLyrics = \lyricmode {
-  La -- cry -- %168
+  La -- cry -- %172
   mo -- sa
-  di -- es %170
-  il -- la,
+  di -- es
+  il -- la, %175
   qua re --
   sur -- get ex fa --
   vil -- la
-  iu -- di -- %175
-  can -- dus ho --
+  iu -- di --
+  can -- dus ho -- %180
   mo re --
   us:
 
-  Hu -- ic %183
+  Hu -- ic %187
   er -- go
-  par -- ce %185
-  De -- us,
+  par -- ce
+  De -- us, %190
   pi -- e
   Ie -- _ _ _
   su Do -- mi --
-  ne. %190
+  ne.
 
-  Pi -- e %195
-  Ie -- su
+  Pi -- e %199
+  Ie -- su %200
   Do -- mi -- ne,
   do -- na
   e -- is __
-  re -- qui -- %200
-  em, do -- na __
+  re -- qui --
+  em, do -- na __ %205
   e -- is,
   do -- na
   e --
-  is re -- qui -- %205
-  em.
+  is re -- qui --
+  em. %210
 
-  A -- men, %213
+  A -- men, %217
   a --
-  men. %215 finis
+  men. %219 finis
 }
 
 DomineAltoNotes = {

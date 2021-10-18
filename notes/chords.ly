@@ -538,114 +538,114 @@ RecordareChords = {
 ConfutatisChords = {
   \clef treble
   \key c \minor \time 4/4 \tempoConfutatis
-    \set Score.currentBarNumber = #156
+    \set Score.currentBarNumber = #160
   << \relative c' {
     r4 <as' c> q2
     <e b'>4. <f b>8 <g b>4 <f as>
     r <c f> <es fis>2
     g g'8 es d c
-    <g h> <g c> <f h> <g c> <g d'>2 %160
-    <f h d>4 <es c'> r <g c>
+    <g h> <g c> <f h> <g c> <g d'>2
+    <f h d>4 <es c'> r <g c> %165
     <as des> <g c> r q
     <as des> <g c> <des b'>2
     <e b'>1
-    <des b'>4 <c a'> r8 <f b>4 q8 %165
-    <f as>2 q4 <e g>
-    <c f>1\fermata \bar "||" %167 finis
+    <des b'>4 <c a'> r8 <f b>4 q8
+    <f as>2 q4 <e g> %170
+    <c f>1\fermata \bar "||" %171 finis
   } \\ \relative c' {
-    r4 es es2 %156
+    r4 es es2 %160
     des4. des8 des4 c
     r as c2
     <c es>4 <h d> r2
-    d8 c d es f2 %160
-    g r4 es
+    d8 c d es f2
+    g r4 es %165
     des es r es
     des es g4. f8
     des1
-    f2 r8 des4 des8 %165
-    d2 c
-    as1\fermata %167 finis
+    f2 r8 des4 des8
+    d2 c %170
+    as1\fermata %171 finis
   } >>
 }
 
 LacrymosaChords = {
   \clef treble
   \key c \minor \time 3/2 \tempoLacrymosa
-    \set Score.currentBarNumber = #168
+    \set Score.currentBarNumber = #172
   << \relative c' {
     r2 <g' c>1
     c2 h r
-    r <as d>1 %170
-    <f h d>2 <es c'> r
+    r <as d>1
+    <f h d>2 <es c'> r %175
     r <es g>1
     <e g> b'2
     b1.
-    r2 <f as>1 %175
-    <des b'>1.
+    r2 <f as>1
+    <des b'>1. %180
     <f as>2 q <e g>
     <c f> \oneVoice r r
-    R1.*4 %182
+    R1.*4 %186
     r2 \voiceOne <g' c>1
     c2 h1
-    r2 <g b>1 %185
-    <e g b>2 <f a>1
+    r2 <g b>1
+    <e g b>2 <f a>1 %190
     r2 <f as>1
     <d f as>2 <es g> q~
     q4 <f as> <es g>2 <d f>
-    <b es> \oneVoice r r %190
-    R1.*4
-    r2 \voiceOne <d f>1 %195
-    <f g>1.
+    <b es> \oneVoice r r
+    R1.*4 %198
+    r2 \voiceOne <d f>1
+    <f g>1. %200
     g1 g2
     r <f as>1
     <d as'> <c g'>2
-    <es g> g f %200
-    g \oneVoice r r
+    <es g> g f
+    g \oneVoice r r %205
     R1.*2 \voiceOne
     <f h>1 <g c>2
-    <d as'>2 g1 %205
-    g2 \oneVoice r r
-    R1.*6
+    <d as'>2 g1
+    g2 \oneVoice r r %210
+    R1.*6 %216
     r2 \voiceOne <e g>1
     <c f>1.
-    <c e>\fermata \bar "|."
+    <c e>\fermata \bar "|." %219 finis
   } \\ \relative c' {
-    r2 es1 %168
+    r2 es1 %172
     <d f> r2
-    r f1 %170
-    g r2
+    r f1
+    g r2 %175
     r c,1
     des <des e>4 <d as'>
     <c g'>1.
-    r2 c1 %175
-    f1 g2
+    r2 c1
+    f1 g2 %180
     d c1
     as2 s1
-    s1.*4 %182
+    s1.*4 %186
     s2 e'1
     <d! f>1.
-    r2 des1 %185
-    c1.
+    r2 des1
+    c1. %190
     r2 b1
     b b2
     c b1
-    g2 s1 %190
-    s1.*4
-    s2 b1 %195
-    d1.
+    g2 s1
+    s1.*4 %198
+    s2 b1
+    d1. %200
     <h d f>2. <c es>4 q2
     r c1
     h g2
-    c <c es>1 %200
-    <h d>2 s1
+    c <c es>1
+    <h d>2 s1 %205
     s1.*2
     d1 es2
-    c <c es> <h d> %205
-    <c es> s1
-    s1.*6 %212
+    c <c es> <h d>
+    <c es> s1 %210
+    s1.*6 %216
     s2 c1
     as1.
-    g\fermata %215 finis
+    g\fermata %219 finis
   } >>
 }
 

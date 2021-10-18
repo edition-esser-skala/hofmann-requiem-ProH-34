@@ -540,119 +540,119 @@ ConfutatisBassoNotes = {
   \relative c {
     \clef bass
     \key c \minor \time 4/4 \autoBeamOff \tempoConfutatis
-      \set Score.currentBarNumber = #156
+      \set Score.currentBarNumber = #160
     r4 \mvTr as'8\fE^\tuttiE as as4 as
     g4. f8 e4 f
     r as8 as, as8. as16 as8 as
     g4 g r2
-    g'8([ es)] d([ c)] h h h h %160
-    c4 c r es8 es
+    g'8([ es)] d([ c)] h h h h
+    c4 c r es8 es %165
     f4 es r es8 es
     f4 es e4. f8
     g4 g ges4. ges8
-    f4 f r8 b,4 b8 %165
-    h h h h c2
-    f,1\fermata \bar "||" %167 finis
+    f4 f r8 b,4 b8
+    h h h h c2 %170
+    f,1\fermata \bar "||" %171 finis
   }
 }
 
 ConfutatisBassoLyrics = \lyricmode {
-  Con -- fu -- ta -- tis %156
+  Con -- fu -- ta -- tis %160
   ma -- le -- di -- ctis,
   flam -- mis a -- cri -- bus ad --
   di -- ctis,
-  vo -- ca me cum be -- ne -- %160
-  di -- ctis. O -- ro
+  vo -- ca me cum be -- ne --
+  di -- ctis. O -- ro %165
   sup -- plex et ac --
   cli -- nis, cor con --
   tri -- tum qua -- si
-  ci -- nis: Ge -- re %165
-  cu -- ram me -- i fi --
-  nis. %167 finis
+  ci -- nis: Ge -- re
+  cu -- ram me -- i fi -- %170
+  nis. %171 finis
 }
 
 LacrymosaBassoNotes = {
   \relative c {
     \clef bass
     \key c \minor \time 3/2 \autoBeamOff \tempoLacrymosa
-      \set Score.currentBarNumber = #168
+      \set Score.currentBarNumber = #172
     r2 \mvTr c\fE^\tuttiE c
     d d r
-    r h h %170
-    c c r
+    r h h
+    c c r %175
     r c' c
     b!2. b4 g f
     e2 e1
-    r2 f f %175
-    b,2. b4 b2
+    r2 f f
+    b,2. b4 b2 %180
     h c1
     f,2 r r
-    R1.*4 %182
+    R1.*4 %186
     r2 c' c
     d! d1
-    r2 e e %185
-    f f1
+    r2 e e
+    f f1 %190
     r2 d d
     es!1.
     as,2 b2. b4
-    es2 r r %190
-    R1.*4
-    r2 b b %195
-    h1 h2
+    es2 r r
+    R1.*4 %198
+    r2 b b
+    h1 h2 %200
     c2. c4 c2
     r f f
     f1 es2(
-    c) as2. as4 %200
-    g2 g g'
+    c) as2. as4
+    g2 g g' %205
     g1.~
     g~
     g1 c,2
-    f g2. g4 %205
-    c,2 r r
-    R1.*6 %212
+    f g2. g4
+    c,2 r r %210
+    R1.*6 %216
     r2 c c
     f,1.
-    c'\fermata \bar "|." %215 finis
+    c'\fermata \bar "|." %219 finis
   }
 }
 
 LacrymosaBassoLyrics = \lyricmode {
-  La -- cry -- %168
+  La -- cry -- %172
   mo -- sa
-  di -- es %170
-  il -- la,
+  di -- es
+  il -- la, %175
   qua re --
   sur -- get ex fa --
   vil -- la
-  iu -- di -- %175
-  can -- dus ho --
+  iu -- di --
+  can -- dus ho -- %180
   mo re --
   us:
 
-  Hu -- ic %183
+  Hu -- ic %187
   er -- go
-  par -- ce %185
-  De -- us,
+  par -- ce
+  De -- us, %190
   pi -- e
   Ie --
   su Do -- mi --
-  ne. %190
+  ne.
 
-  Pi -- e %195
-  Ie -- su
+  Pi -- e %199
+  Ie -- su %200
   Do -- mi -- ne,
   do -- na
   e -- is __
-  re -- qui -- %200
-  em, do -- na
+  re -- qui --
+  em, do -- na %205
   e --
 
-  _ is re -- qui -- %205
+  _ is re -- qui --
   em.
 
-  A -- men, %213
+  A -- men, %217
   a --
-  men. %215 finis
+  men. %219 finis
 }
 
 DomineBassoNotes = {

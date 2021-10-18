@@ -372,19 +372,19 @@ ConfutatisViolinoI = {
   \relative c' {
     \clef treble
     \key c \minor \time 4/4 \tempoConfutatis
-      \set Score.currentBarNumber = #156
+      \set Score.currentBarNumber = #160
     r4 c'8\fE c c4 c
     des4. des8 des4 c
     f f, fis8. fis16 fis8 fis
     g4 g g'8 es d c
-    h c d es f4. f8 %160
-    f4 es r c8 c
+    h c d es f4. f8
+    f4 es r c8 c %165
     des4 c r g'8 c,
     des4 c b!4. b8
     b4 b b4. b8
-    b4 a r8 b4 b8 %165
-    as as as as as4 g
-    f1\fermata \bar "||" %167 finis
+    b4 a r8 b4 b8
+    as as as as as4 g %170
+    f1\fermata \bar "||" %171 finis
   }
 }
 
@@ -392,44 +392,44 @@ LacrymosaViolinoI = {
   \relative c' {
     \clef treble
     \key c \minor \time 3/2 \tempoLacrymosa
-      \set Score.currentBarNumber = #168
+      \set Score.currentBarNumber = #172
     r2 c'\fE c
     c h r
-    r d d %170
-    d c r
+    r d d
+    d c r %175
     r es es
     e2. e4 e f
     g( c,) c1
-    r2 c c %175
-    des2. c4 b2
+    r2 c c
+    des2. c4 b2 %180
     as as( g)
     f r r
-    R1.*4 %182
+    R1.*4 %186
     r2 c' c
     c h1
-    r2 b b %185
-    b a1
+    r2 b b
+    b a1 %190
     r2 as as
     as g4 f g2~
     g4 as g2 f4 f
-    es2 r r %190
-    R1.*4
-    r2 d' d %195
-    d1 f,2
+    es2 r r
+    R1.*4 %198
+    r2 d' d
+    d1 f,2 %200
     f2. es4 es2
     r as as
     as1 g2~
-    g g f4. f8 %200
-    g2 d'1~
+    g g f4. f8
+    g2 d'1~ %205
     d2 c es
     f1.~
     f2 es4 d es2
-    d es d4 d %205
-    c2 r r
-    R1.*6 %212
+    d es d4 d
+    c2 r r %210
+    R1.*6 %216
     r2 g g
     as1.
-    g\fermata \bar "|." %215 finis
+    g\fermata \bar "|." %219 finis
   }
 }
 

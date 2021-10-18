@@ -546,120 +546,120 @@ ConfutatisTenoreNotes = {
   \relative c' {
     \clef "treble_8"
     \key c \minor \time 4/4 \autoBeamOff \tempoConfutatis
-      \set Score.currentBarNumber = #156
+      \set Score.currentBarNumber = #160
     r4 \mvTr es8\fE^\tuttiE es es4 es
     e4. f8 g4 f
     r c8 c c8. c16 c8 c
     c4 h r2
-    d8([ c)] h([ c)] d d d d %160
-    d4 c r g8 g
+    d8([ c)] h([ c)] d d d d
+    d4 c r g8 g %165
     f4 g r g8 g
     f4 g des'4. des8
     des4 des des4. des8
-    des4 c r8 des4 des8 %165
-    d d d d c2
-    c1\fermata \bar "||" %167 finis
+    des4 c r8 des4 des8
+    d d d d c2 %170
+    c1\fermata \bar "||" %171 finis
   }
 }
 
 ConfutatisTenoreLyrics = \lyricmode {
-  Con -- fu -- ta -- tis %156
+  Con -- fu -- ta -- tis %160
   ma -- le -- di -- ctis,
   flam -- mis a -- cri -- bus ad --
   di -- ctis,
-  vo -- ca me cum be -- ne -- %160
-  di -- ctis. O -- ro
+  vo -- ca me cum be -- ne --
+  di -- ctis. O -- ro %165
   sup -- plex et ac --
   cli -- nis, cor con --
   tri -- tum qua -- si
-  ci -- nis: Ge -- re %165
-  cu -- ram me -- i fi --
-  nis. %167 finis
+  ci -- nis: Ge -- re
+  cu -- ram me -- i fi -- %170
+  nis. %171 finis
 }
 
 LacrymosaTenoreNotes = {
   \relative c' {
     \clef "treble_8"
     \key c \minor \time 3/2 \autoBeamOff \tempoLacrymosa
-      \set Score.currentBarNumber = #168
+      \set Score.currentBarNumber = #172
     r2 \mvTr g\fE^\tuttiE g
     as as r
-    r as as %170
-    g g r
+    r as as
+    g g r %175
     r c c
     des2. des4 des des
     c2 c1
-    r2 c c %175
-    b2. c4 des2
+    r2 c c
+    b2. c4 des2 %180
     d c1
     c2 r r
-    R1.*4 %182
+    R1.*4 %186
     r2 g g
     as as1
-    r2 des des %185
-    c c1
+    r2 des des
+    c c1 %190
     r2 b b
     b1.
     c2 b2. b4
-    b2 r r %190
-    R1.*4
-    r2 b f %195
-    g1 g2
+    b2 r r
+    R1.*4 %198
+    r2 b f
+    g1 g2 %200
     g2. g4 g2
     r c c
     h1 c2~
-    c c2. c4 %200
-    h2 r r
+    c c2. c4
+    h2 r r %205
     r es1~
     es2 d4 es d( c)
     h1 c2~
-    c c( h4) h %205
-    c2 r r
-    R1.*6 %212
+    c c( h4) h
+    c2 r r %210
+    R1.*6 %216
     r2 c c
     c1.
-    c\fermata \bar "|." %215 finis
+    c\fermata \bar "|." %219 finis
   }
 }
 
 LacrymosaTenoreLyrics = \lyricmode {
-  La -- cry -- %168
+  La -- cry -- %172
   mo -- sa
-  di -- es %170
-  il -- la,
+  di -- es
+  il -- la, %175
   qua re --
   sur -- get ex fa --
   vil -- la
-  iu -- di -- %175
-  can -- dus ho --
+  iu -- di --
+  can -- dus ho -- %180
   mo re --
   us:
 
-  Hu -- ic %183
+  Hu -- ic %187
   er -- go
-  par -- ce %185
-  De -- us,
+  par -- ce
+  De -- us, %190
   pi -- e
   Ie --
   su Do -- mi --
-  ne. %190
+  ne.
 
-  Pi -- e %195
-  Ie -- su
+  Pi -- e %199
+  Ie -- su %200
   Do -- mi -- ne,
   do -- na
   e -- is __
-  re -- qui -- %200
-  em,
+  re -- qui --
+  em, %205
   do --
   _ _ na __
   e -- is __
-  re -- qui -- %205
-  em.
+  re -- qui --
+  em. %210
 
-  A -- men, %213
+  A -- men, %217
   a --
-  men. %215 finis
+  men. %219 finis
 }
 
 DomineTenoreNotes = {
