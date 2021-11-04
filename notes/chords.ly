@@ -1002,7 +1002,7 @@ SanctusChords = {
     c <c es>8 <h d> c2 %10
     r4 r8 es g4 d8 r
     r4 r8 g g4 es8 r
-    es4 f8 e f8. c16 d4
+    es4 es8 e f8. c16 d4
     <d f> <c es> c h
     c r r2\fermata %15 finis
   } >>
@@ -1054,7 +1054,7 @@ BenedictusChords = {
     s1*3
     s4. es'8 <es g>[ <d f>] q r
     r4 r8 f g4 es8 r %25
-    es4 f8 e f8. c16 d4
+    es4 es8 e f8. c16 d4
     <d f> <c es> c h
     c r r2\fermata %28 finis
   } >>

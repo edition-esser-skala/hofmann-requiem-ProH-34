@@ -373,7 +373,7 @@ LacrymosaTromboneII = {
     es1.~
     es2 d4 c d2~
     d4 c c4.( h16 c) d4 c
-    h d d4.(\trill c16 d) es4 f %215
+    h d d4.(\trill c16 d) es4 d %215
     c4. d8 c2 h\trill
     c c-\tutti c
     c1.

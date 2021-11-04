@@ -42,7 +42,7 @@ $(scores:%=final/%.pdf): final/%.pdf: front_matter/critical_report.tex tmp/%.pdf
 final/scores: $(scores:%=final/%)
 
 archive:
-	zip $(zipname).zip LICENSE.txt README.md Makefile *.ly \
+	zip $(zipname).zip Makefile *.ly *.md *.txt *.yaml \
 	notes/*.ly scores/*.ly \
 	front_matter/byncsaeu.pdf front_matter/ees_logo.pdf front_matter/*.tex
 

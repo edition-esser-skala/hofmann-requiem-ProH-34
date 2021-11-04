@@ -60,7 +60,7 @@ DiesIraeTimpani = {
     r c c
     R1.*5 %9
     r2 g g4. g8 %10
-    g2 r r
+    c2 r r
     r c c4. c8
     c2 r r
     R1.
