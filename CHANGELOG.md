@@ -1,11 +1,16 @@
 # Changelog
 
 
-## 1.4.0 – 2021-11-04
+## 1.4.0 – 2021-11-05
 
 ### Added
 
 - CHANGELOG.md and code to include changelog in front matter
+- automatic engraving and release via GitHub Actions
+
+### Changed
+
+- adjust to editorial principles of Edition Esser-Skala
 
 
 ### Changed
