@@ -11,10 +11,6 @@
 ### Changed
 
 - adjust to editorial principles of Edition Esser-Skala
-
-
-### Changed
-
 - use semantic versioning
 - adjust front matter to v2021.11.0
 
