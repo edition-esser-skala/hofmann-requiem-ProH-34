@@ -1,70 +1,11 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-  indent = 1\cm
-  top-margin = 1\cm
-  system-separator-markup = ##f
-  system-system-spacing =
-    #'((basic-distance . 17)
-       (minimum-distance . 17)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 10)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-  markup-system-spacing =
-    #'((basic-distance . 10)
-       (minimum-distance . 10)
-       (padding . -100)
-       (stretchability . 0))
-
-  systems-per-page = #3
-}
-
-\layout {
-  \context {
-    \Lyrics
-    \override LyricText.font-size = #-.5
-  }
-  \context {
-    \ChoirStaff
-    \override StaffGrouper.staff-staff-spacing =
-      #'((basic-distance . 12)
-         (minimum-distance . 12)
-         (padding . -100)
-         (stretchability . 0))
-    \override StaffGrouper.staffgroup-staff-spacing =
-      #'((basic-distance . 13)
-         (minimum-distance . 13)
-         (padding . -100)
-         (stretchability . 0))
-  }
-  \context {
-    \Staff
-    instrumentName = "org"
-  }
-}
-
-#(set-global-staff-size 15.87)
+\include "score_settings/coro.ly"
 
 \book {
   \bookpart {
-    \header {
-      number = "1"
-      title = "I N T R O I T U S"
-    }
+    \section "1" "Introitus"
     \paper { indent = 2\cm }
     \score {
       <<
@@ -102,10 +43,7 @@
     }
   }
   \bookpart {
-    \header {
-      number = "2"
-      title = "K Y R I E"
-    }
+    \section "2" "Kyrie"
     \score {
       <<
         \new ChoirStaff <<
@@ -139,10 +77,7 @@
     }
   }
   \bookpart {
-    \header {
-      number = "3"
-      title = "S E Q U E N T I A"
-    }
+    \section "3" "Sequentia"
     \score {
       <<
         \new ChoirStaff <<
@@ -176,9 +111,7 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "L I B E R   S C R I P T U S"
-    }
+    \subsection "Liber scriptus"
     \score {
       <<
         \new ChoirStaff <<
@@ -212,9 +145,7 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "R E C O R D A R E"
-    }
+    \subsection "Recordare"
     \score {
       <<
         \new ChoirStaff <<
@@ -248,9 +179,7 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "C O N F U T A T I S"
-    }
+    \subsection "Confutatis"
     \score {
       <<
         \new ChoirStaff <<
@@ -284,9 +213,7 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "L A C R Y M O S A"
-    }
+    \subsection "Lacrymosa"
     \score {
       <<
         \new ChoirStaff <<
@@ -320,10 +247,7 @@
     }
   }
   \bookpart {
-    \header {
-      number = "4"
-      title = "O F F E R T O R I U M"
-    }
+    \section "4" "Offertorium"
     \score {
       <<
         \new ChoirStaff <<
@@ -357,9 +281,7 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "V E R S U S"
-    }
+    \subsection "Versus"
     \score {
       <<
         \new ChoirStaff <<
@@ -393,10 +315,7 @@
     }
   }
   \bookpart {
-    \header {
-      number = "5"
-      title = "S A N C T U S"
-    }
+    \section "5" "Sanctus"
     \score {
       <<
         \new ChoirStaff <<
@@ -430,10 +349,7 @@
     }
   }
   \bookpart {
-    \header {
-      number = "6"
-      title = "B E N E D I C T U S"
-    }
+    \section "6" "Benedictus"
     \score {
       <<
         \new ChoirStaff <<
@@ -467,10 +383,7 @@
     }
   }
   \bookpart {
-    \header {
-      number = "7"
-      title = "A G N U S  D E I"
-    }
+    \section "7" "Agnus Dei"
     \score {
       <<
         \new ChoirStaff <<
@@ -504,9 +417,7 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "C O M M U N I O"
-    }
+    \subsection "Communio"
     \score {
       <<
         \new ChoirStaff <<

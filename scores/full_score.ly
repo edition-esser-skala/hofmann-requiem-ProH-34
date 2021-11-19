@@ -1,21 +1,13 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-  #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
-}
-
-#(set-global-staff-size 15.87)
+\include "score_settings/full-score.ly"
 
 \book {
   \bookpart {
-    \header {
-      number = "1"
-      title = "I N T R O I T U S"
-    }
+    \section "1" "Introitus"
+    \addTocEntry
     \paper { indent = 3\cm }
-    \tocSection "1" "Introitus"
     \score {
       <<
         \new StaffGroup <<
@@ -98,11 +90,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "2"
-      title = "K Y R I E"
-    }
-    \tocSection "2" "Kyrie"
+    \section "2" "Kyrie"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -179,11 +168,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "3"
-      title = "S E Q U E N T I A"
-    }
-    \tocSection "3" "Sequentia"
+    \section "3" "Sequentia"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -260,10 +246,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "L I B E R   S C R I P T U S"
-    }
-    \tocSubsection "3.2" "Liber scriptus"
+    \subsection "Liber scriptus"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -342,10 +326,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "R E C O R D A R E"
-    }
-    \tocSubsection "3.3" "Recordare"
+    \subsection "Recordare"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -413,10 +395,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "C O N F U T A T I S"
-    }
-    \tocSubsection "3.4" "Confutatis"
+    \subsection "Confutatis"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -493,10 +473,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "L A C R Y M O S A"
-    }
-    \tocSubsection "3.5" "Lacrymosa"
+    \subsection "Lacrymosa"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -573,11 +551,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "4"
-      title = "O F F E R T O R I U M"
-    }
-    \tocSection "4" "Offertorium"
+    \section "4" "Offertorium"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -654,10 +629,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "V E R S U S"
-    }
-    \tocSubsection "4.2" "Versus"
+    \subsection "Versus"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -734,11 +707,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "5"
-      title = "S A N C T U S"
-    }
-    \tocSection "5" "Sanctus"
+    \section "5" "Sanctus"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -815,11 +785,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "6"
-      title = "B E N E D I C T U S"
-    }
-    \tocSection "6" "Benedictus"
+    \section "6" "Benedictus"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -896,11 +863,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "7"
-      title = "A G N U S  D E I"
-    }
-    \tocSection "7" "Agnus Dei"
+    \section "7" "Agnus Dei"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -968,10 +932,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "C O M M U N I O"
-    }
-    \tocSubsection "7.2" "Communio"
+    \subsection "Communio"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
