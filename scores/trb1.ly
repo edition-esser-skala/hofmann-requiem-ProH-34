@@ -7,6 +7,7 @@
 \book {
   \bookpart {
     \section "1" "Introitus"
+    \addTocEntry
     \paper { indent = 2.5\cm }
     \score {
       <<
@@ -19,6 +20,7 @@
   }
   \bookpart {
     \section "2" "Kyrie"
+    \addTocEntry
     \score {
       <<
         \new Staff { \KyrieTromboneI }
@@ -27,6 +29,7 @@
   }
   \bookpart {
     \section "3" "Sequentia"
+    \addTocEntry
     \score {
       <<
         \new Staff { \DiesIraeTromboneI }
@@ -35,6 +38,7 @@
   }
   \bookpart {
     \subsection "Liber scriptus"
+    \addTocEntry
     \score {
       <<
         \new Staff { \LiberTromboneI }
@@ -43,6 +47,7 @@
   }
   \bookpart {
     \subsection "Recordare"
+    \addTocEntry
     \score {
       <<
         \new Staff { \RecordareTromboneI }
@@ -51,6 +56,7 @@
   }
   \bookpart {
     \subsection "Confutatis"
+    \addTocEntry
     \paper { systems-per-page = #3 }
     \score {
       <<
@@ -60,6 +66,7 @@
   }
   \bookpart {
     \subsection "Lacrymosa"
+    \addTocEntry
     \score {
       <<
         \new Staff { \LacrymosaTromboneI }
@@ -68,6 +75,7 @@
   }
   \bookpart {
     \section "4" "Offertorium"
+    \addTocEntry
     \score {
       <<
         \new Staff { \DomineTromboneI }
@@ -76,6 +84,7 @@
   }
   \bookpart {
     \subsection "Versus"
+    \addTocEntry
     \score {
       <<
         \new Staff { \HostiasTromboneI }
@@ -84,6 +93,7 @@
   }
   \bookpart {
     \section "5" "Sanctus"
+    \addTocEntry
     \paper { systems-per-page = #5 }
     \score {
       <<
@@ -93,6 +103,7 @@
   }
   \bookpart {
     \section "6" "Benedictus"
+    \addTocEntry
     \paper { systems-per-page = #6 }
     \score {
       <<
@@ -102,6 +113,7 @@
   }
   \bookpart {
     \section "7" "Agnus Dei"
+    \addTocEntry
     \paper { systems-per-page = #5 }
     \score {
       <<
@@ -111,6 +123,7 @@
   }
   \bookpart {
     \subsection "Communio"
+    \addTocEntry
     \score {
       <<
         \new Staff { \LuxTromboneI }

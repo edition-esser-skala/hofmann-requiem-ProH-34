@@ -8,6 +8,7 @@
 \book {
   \bookpart {
     \section "1" "Introitus"
+    \addTocEntry
     \paper { indent = 2\cm systems-per-page = #3 }
     \score {
       <<
@@ -33,6 +34,7 @@
   }
   \bookpart {
     \section "2" "Kyrie"
+    \addTocEntry
     \paper { systems-per-page = #3 }
     \score {
       <<
@@ -54,6 +56,7 @@
   }
   \bookpart {
     \section "3" "Sequentia"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -74,6 +77,7 @@
   }
   \bookpart {
     \subsection "Confutatis"
+    \addTocEntry
     \paper { systems-per-page = #2 }
     \score {
       <<
@@ -95,6 +99,7 @@
   }
   \bookpart {
     \subsection "Lacrymosa"
+    \addTocEntry
     \paper { systems-per-page = #2 }
     \score {
       <<
@@ -116,6 +121,7 @@
   }
   \bookpart {
     \section "4" "Offertorium"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -136,6 +142,7 @@
   }
   \bookpart {
     \subsection "Versus"
+    \addTocEntry
     \paper { systems-per-page = #3 }
     \score {
       <<
@@ -157,6 +164,7 @@
   }
   \bookpart {
     \section "5" "Sanctus"
+    \addTocEntry
     \paper { systems-per-page = #3 }
     \score {
       <<
@@ -178,6 +186,7 @@
   }
   \bookpart {
     \section "6" "Benedictus"
+    \addTocEntry
     \paper { systems-per-page = #1 ragged-last = ##f }
     \score {
       <<
@@ -199,6 +208,7 @@
   }
   \bookpart {
     \subsection "Communio"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<

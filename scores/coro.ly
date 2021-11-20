@@ -6,6 +6,7 @@
 \book {
   \bookpart {
     \section "1" "Introitus"
+    \addTocEntry
     \paper { indent = 2\cm }
     \score {
       <<
@@ -44,6 +45,7 @@
   }
   \bookpart {
     \section "2" "Kyrie"
+    \addTocEntry
     \score {
       <<
         \new ChoirStaff <<
@@ -78,6 +80,7 @@
   }
   \bookpart {
     \section "3" "Sequentia"
+    \addTocEntry
     \score {
       <<
         \new ChoirStaff <<
@@ -112,6 +115,7 @@
   }
   \bookpart {
     \subsection "Liber scriptus"
+    \addTocEntry
     \score {
       <<
         \new ChoirStaff <<
@@ -146,6 +150,7 @@
   }
   \bookpart {
     \subsection "Recordare"
+    \addTocEntry
     \score {
       <<
         \new ChoirStaff <<
@@ -180,6 +185,7 @@
   }
   \bookpart {
     \subsection "Confutatis"
+    \addTocEntry
     \score {
       <<
         \new ChoirStaff <<
@@ -214,6 +220,7 @@
   }
   \bookpart {
     \subsection "Lacrymosa"
+    \addTocEntry
     \score {
       <<
         \new ChoirStaff <<
@@ -248,6 +255,7 @@
   }
   \bookpart {
     \section "4" "Offertorium"
+    \addTocEntry
     \score {
       <<
         \new ChoirStaff <<
@@ -282,6 +290,7 @@
   }
   \bookpart {
     \subsection "Versus"
+    \addTocEntry
     \score {
       <<
         \new ChoirStaff <<
@@ -316,6 +325,7 @@
   }
   \bookpart {
     \section "5" "Sanctus"
+    \addTocEntry
     \score {
       <<
         \new ChoirStaff <<
@@ -350,6 +360,7 @@
   }
   \bookpart {
     \section "6" "Benedictus"
+    \addTocEntry
     \score {
       <<
         \new ChoirStaff <<
@@ -384,6 +395,7 @@
   }
   \bookpart {
     \section "7" "Agnus Dei"
+    \addTocEntry
     \score {
       <<
         \new ChoirStaff <<
@@ -418,6 +430,7 @@
   }
   \bookpart {
     \subsection "Communio"
+    \addTocEntry
     \score {
       <<
         \new ChoirStaff <<

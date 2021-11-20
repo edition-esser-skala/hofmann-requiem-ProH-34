@@ -7,6 +7,7 @@
 \book {
   \bookpart {
     \subsection "Liber scriptus"
+    \addTocEntry
     \paper {
       indent = 2\cm
       systems-per-page = #6

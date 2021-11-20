@@ -6,6 +6,7 @@
 \book {
   \bookpart {
     \section "1" "Introitus"
+    \addTocEntry
     \paper { indent = 2\cm }
     \score {
       <<
@@ -22,6 +23,7 @@
   }
   \bookpart {
     \section "2" "Kyrie"
+    \addTocEntry
     \score {
       <<
         \new PianoStaff <<
@@ -36,6 +38,7 @@
   }
   \bookpart {
     \section "3" "Sequentia"
+    \addTocEntry
     \score {
       <<
         \new PianoStaff <<
@@ -50,6 +53,7 @@
   }
   \bookpart {
     \subsection "Liber scriptus"
+    \addTocEntry
     \score {
       <<
         \new PianoStaff <<
@@ -64,6 +68,7 @@
   }
   \bookpart {
     \subsection "Recordare"
+    \addTocEntry
     \score {
       <<
         \new PianoStaff <<
@@ -78,6 +83,7 @@
   }
   \bookpart {
     \subsection "Confutatis"
+    \addTocEntry
     \paper { systems-per-page = #3 }
     \score {
       <<
@@ -93,6 +99,7 @@
   }
   \bookpart {
     \subsection "Lacrymosa"
+    \addTocEntry
     \paper { page-count = #1 }
     \score {
       <<
@@ -108,6 +115,7 @@
   }
   \bookpart {
     \section "4" "Offertorium"
+    \addTocEntry
     \score {
       <<
         \new PianoStaff <<
@@ -122,6 +130,7 @@
   }
   \bookpart {
     \subsection "Versus"
+    \addTocEntry
     \score {
       <<
         \new PianoStaff <<
@@ -136,6 +145,7 @@
   }
   \bookpart {
     \section "5" "Sanctus"
+    \addTocEntry
     \paper { systems-per-page = #4 }
     \score {
       <<
@@ -151,6 +161,7 @@
   }
   \bookpart {
     \section "6" "Benedictus"
+    \addTocEntry
     \score {
       <<
         \new PianoStaff <<
@@ -165,6 +176,7 @@
   }
   \bookpart {
     \section "7" "Agnus Dei"
+    \addTocEntry
     \paper { systems-per-page = #4 }
     \score {
       <<
@@ -180,6 +192,7 @@
   }
   \bookpart {
     \subsection "Communio"
+    \addTocEntry
     \score {
       <<
         \new PianoStaff <<

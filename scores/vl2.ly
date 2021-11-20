@@ -7,6 +7,7 @@
 \book {
   \bookpart {
     \section "1" "Introitus"
+    \addTocEntry
     \paper { indent = 2\cm }
     \score {
       <<
@@ -19,6 +20,7 @@
   }
   \bookpart {
     \section "2" "Kyrie"
+    \addTocEntry
     \score {
       <<
         \new Staff { \KyrieViolinoII }
@@ -27,6 +29,7 @@
   }
   \bookpart {
     \section "3" "Sequentia"
+    \addTocEntry
     \score {
       <<
         \new Staff { \DiesIraeViolinoII }
@@ -35,6 +38,7 @@
   }
   \bookpart {
     \subsection "Liber scriptus"
+    \addTocEntry
     \score {
       <<
         \new Staff { \LiberViolinoII }
@@ -43,6 +47,7 @@
   }
   \bookpart {
     \subsection "Recordare"
+    \addTocEntry
     \score {
       <<
         \new Staff { \RecordareViolinoII }
@@ -51,6 +56,7 @@
   }
   \bookpart {
     \subsection "Confutatis"
+    \addTocEntry
     \paper { systems-per-page = #4 }
     \score {
       <<
@@ -60,6 +66,7 @@
   }
   \bookpart {
     \subsection "Lacrymosa"
+    \addTocEntry
     \paper { systems-per-page = #6 }
     \score {
       <<
@@ -69,6 +76,7 @@
   }
   \bookpart {
     \section "4" "Offertorium"
+    \addTocEntry
     \score {
       <<
         \new Staff { \DomineViolinoII }
@@ -77,6 +85,7 @@
   }
   \bookpart {
     \subsection "Versus"
+    \addTocEntry
     \score {
       <<
         \new Staff { \HostiasViolinoII }
@@ -85,6 +94,7 @@
   }
   \bookpart {
     \section "5" "Sanctus"
+    \addTocEntry
     \paper { systems-per-page = #6 }
     \score {
       <<
@@ -94,6 +104,7 @@
   }
   \bookpart {
     \section "6" "Benedictus"
+    \addTocEntry
     \paper { page-count = #1 }
     \score {
       <<
@@ -103,6 +114,7 @@
   }
   \bookpart {
     \section "7" "Agnus Dei"
+    \addTocEntry
     \paper { systems-per-page = #7 }
     \score {
       <<
@@ -112,6 +124,7 @@
   }
   \bookpart {
     \subsection "Communio"
+    \addTocEntry
     \score {
       <<
         \new Staff { \LuxViolinoII }
