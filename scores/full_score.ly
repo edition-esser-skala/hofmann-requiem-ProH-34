@@ -47,25 +47,19 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \SopranoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipitSoprano
             \new Voice = "Soprano" { \dynamicUp \IntroitusSopranoNotes }
           }
           \new Lyrics \lyricsto Soprano \IntroitusSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \AltoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipitAlto
             \new Voice = "Alto" { \dynamicUp \IntroitusAltoNotes }
           }
           \new Lyrics \lyricsto Alto \IntroitusAltoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \TenoreIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipitTenore
             \new Voice = "Tenore" { \dynamicUp \IntroitusTenoreNotes }
           }
           \new Lyrics \lyricsto Tenore \IntroitusTenoreLyrics
