@@ -1,13 +1,17 @@
-composer: Hofmann, Leopold
+composer:
+  last: Hofmann
+  first: Leopold
 title: Requiem
 id: ProH 34
 genre: requiem
 scoring: S, A, T, B (coro), 2 clno (C), [timp (C–G)], 2 trb, 2 vl, 2 vla, b, org
+license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Wn
     shelfmark: F.24.St.Peter.A420
     url: https://data.onb.ac.at/rec/AC14273847
+    license: public domain
     principal: true
 imslp: Requiem_ProH_34_(Hofmann,_Leopold)
 parts:
